@@ -1,0 +1,12 @@
+.event {
+  padding: var(--themeSpaceM);
+  box-sizing: border-box;
+  min-height: 333px;
+  display: flex;
+  flex-direction: column;
+  .avatar {
+    margin-right: var(--themeSpaceXS);
+  }
+}
+@import "./elements/content.scss";
+@import "./elements/footer.scss";

@@ -1,0 +1,10 @@
+.informer {
+  background-color: var(--themeBackgroundColorDefault);
+  display: flex;
+  flex-direction: column;
+  border: 3px solid var(--themeBackgroundColorDefault);
+  box-sizing: border-box;
+}
+
+@import "./elements/action.scss";
+@import "./elements/content.scss";

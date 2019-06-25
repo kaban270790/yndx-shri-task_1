@@ -1,0 +1,19 @@
+.informer__action {
+  display: flex;
+  &_distribute {
+    &_center {
+      justify-content: center;
+    }
+    &_between {
+      justify-content: space-between;
+    }
+  }
+  &_space-a {
+    &_xl {
+      padding: var(--themeSpaceXL);
+    }
+    &_xxl {
+      padding: var(--themeSpaceXXL);
+    }
+  }
+}

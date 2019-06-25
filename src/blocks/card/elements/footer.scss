@@ -1,0 +1,42 @@
+
+.card__footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  &_distribute {
+    &_center {
+      justify-content: center;
+    }
+    &_between {
+      justify-content: space-between;
+    }
+    &_right {
+      justify-content: right;
+    }
+  }
+  &_vertical-align {
+    &_top {
+      align-items: start;
+    }
+    &_center {
+      align-items: center;
+    }
+    &_bottom {
+      align-items: end;
+    }
+  }
+  &_space-a {
+    &_m {
+      padding: var(--themeSpaceM);
+    }
+    &_l {
+      padding: var(--themeSpaceL);
+    }
+    &_xl {
+      padding: var(--themeSpaceXL);
+    }
+    &_XXL {
+      padding: var(--themeSpaceXXL);
+    }
+  }
+}

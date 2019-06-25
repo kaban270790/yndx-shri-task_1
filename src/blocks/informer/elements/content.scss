@@ -1,0 +1,26 @@
+.informer__content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  &_distribute {
+
+    &_center {
+      align-items: center;
+    }
+
+    &_between {
+      justify-content: space-between;
+    }
+  }
+
+  &_space-a {
+    &_xl {
+      padding: var(--themeSpaceXL);
+    }
+
+    &_xxl {
+      padding: var(--themeSpaceXXL);
+    }
+  }
+}

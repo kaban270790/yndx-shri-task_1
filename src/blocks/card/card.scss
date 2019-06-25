@@ -1,0 +1,15 @@
+
+.card {
+  &_border {
+    &_all {
+      border: 3px solid var(--themeColorBorder);
+    }
+  }
+  &_view {
+    &_default {
+      background-color: var(--themeBackgroundColorDefault);
+    }
+  }
+}
+@import "./elements/content.scss";
+@import "./elements/footer.scss";

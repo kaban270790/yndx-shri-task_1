@@ -1,0 +1,47 @@
+.list {
+  &_border {
+    &_all {
+      border: 3px solid var(--themeColorBorder);
+    }
+  }
+  &_distribute {
+    &_between {
+      justify-content: space-between;
+    }
+  }
+  &_vertical-align {
+    &_center {
+      vertical-align: center;
+    }
+  }
+  &_indent-t{
+    &_m {
+      margin-top: var(--themeSpaceM);
+    }
+  }
+  &_indent-b{
+    &_s {
+      margin-bottom: var(--themeSpaceS);
+    }
+    &_m {
+      margin-bottom: var(--themeSpaceM);
+    }
+    &_l {
+      margin-bottom: var(--themeSpaceL);
+    }
+    &_xl {
+      margin-bottom: var(--themeSpaceXL);
+    }
+  }
+  &_space-b {
+    &_s {
+      padding-bottom: var(--themeSpaceS);
+    }
+  }
+  &_space-a {
+    &_l {
+      padding: var(--themeSpaceL);
+    }
+  }
+}
+@import "./elements/item.scss";

@@ -1,0 +1,2037 @@
+{
+  "tag": "html",
+  "content": [
+    {
+      "tag": "head",
+      "content": [
+        {
+          "tag": "link",
+          "attrs": {
+            "href": "./style.css",
+            "rel": "stylesheet"
+          }
+        }
+      ]
+    },
+    {
+      "tag": "body",
+      "content": [
+        {
+          "block": "theme",
+          "mods": {
+            "color": "project-default",
+            "size": "default",
+            "space": "default",
+            "breakpoint": "default",
+            "gap": "small"
+          },
+          "mix": [
+            {
+              "block": "layout"
+            }
+          ],
+          "content": [
+            {
+              "block": "layout",
+              "elem": "container",
+              "elemMods": {
+                "align": "center",
+                "size": "m"
+              },
+              "content": [
+                {
+                  "block": "header",
+                  "mods": {
+                    "space-v": "xxxl"
+                  },
+                  "content": [
+                    {
+                      "block": "header",
+                      "elem": "logo"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block": "theme",
+          "mods": {
+            "color": "project-default",
+            "size": "default",
+            "space": "default",
+            "breakpoint": "default",
+            "gap": "small"
+          },
+          "mix": [
+            {
+              "block": "layout"
+            }
+          ],
+          "content": [
+            {
+              "block": "layout",
+              "elem": "container",
+              "elemMods": {
+                "align": "center",
+                "size": "s"
+              },
+              "content": [
+                {
+                  "block": "section",
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "type": "h1",
+                        "size": "xxl"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "type": "p",
+                        "size": "l"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "type": "p",
+                        "size": "l"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block": "theme",
+          "mods": {
+            "color": "project-default",
+            "size": "default",
+            "space": "default",
+            "breakpoint": "default",
+            "gap": "small"
+          },
+          "mix": [
+            {
+              "block": "layout"
+            }
+          ],
+          "content": [
+            {
+              "block": "layout",
+              "elem": "container",
+              "elemMods": {
+                "align": "center",
+                "size": "m"
+              },
+              "content": [
+                {
+                  "block": "section",
+                  "mix": [
+                    {
+                      "block": "grid",
+                      "mods": {
+                        "col-gap": "full",
+                        "row-gap": "full",
+                        "m-columns": "10"
+                      }
+                    }
+                  ],
+                  "content": [
+                    {
+                      "block": "grid",
+                      "elem": "fraction",
+                      "elemMods": {
+                        "m-col": "5"
+                      },
+                      "content": [
+                        {
+                          "block": "event",
+                          "mix": [
+                            {
+                              "block": "card",
+                              "mods": {
+                                "view": "default"
+                              }
+                            },
+                            {
+                              "block": "theme",
+                              "mods": {
+                                "color": "project-inverse"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "event",
+                              "elem": "content",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "content",
+                                  "elemMods": {
+                                    "vertical-align": "center",
+                                    "distribute": "center",
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "card",
+                                  "elem": "content",
+                                  "content": [
+                                    {
+                                      "block": "avatar",
+                                      "mods": {
+                                        "size": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "brand-logo",
+                                      "mods": {
+                                        "name": "mts",
+                                        "size": "m"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "xxl",
+                                    "align": "center"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "l",
+                                    "align": "center"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "block": "event",
+                              "elem": "footer",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "footer",
+                                  "elemMods": {
+                                    "vertical-align": "center",
+                                    "distribute": "center",
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "link",
+                                    "size": "xl",
+                                    "align": "center"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "s"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "s"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "grid",
+                      "elem": "fraction",
+                      "elemMods": {
+                        "m-col": "5"
+                      },
+                      "content": [
+                        {
+                          "block": "event",
+                          "mix": [
+                            {
+                              "block": "card",
+                              "mods": {
+                                "view": "default"
+                              }
+                            },
+                            {
+                              "block": "theme",
+                              "mods": {
+                                "color": "project-inverse"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "event",
+                              "elem": "content",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "content",
+                                  "elemMods": {
+                                    "vertical-align": "center",
+                                    "distribute": "center",
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "card",
+                                  "elem": "content",
+                                  "content": [
+                                    {
+                                      "block": "avatar",
+                                      "mods": {
+                                        "size": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "brand-logo",
+                                      "mods": {
+                                        "name": "yota",
+                                        "size": "m"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "xxl",
+                                    "align": "center"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "l",
+                                    "align": "center"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "block": "event",
+                              "elem": "footer",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "footer",
+                                  "elemMods": {
+                                    "vertical-align": "center",
+                                    "distribute": "center",
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "link",
+                                    "size": "xl",
+                                    "align": "center"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "s"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "s"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block": "theme",
+          "mods": {
+            "color": "project-default",
+            "size": "default",
+            "space": "default",
+            "breakpoint": "default",
+            "gap": "small"
+          },
+          "mix": [
+            {
+              "block": "layout"
+            }
+          ],
+          "content": [
+            {
+              "block": "layout",
+              "elem": "container",
+              "elemMods": {
+                "align": "center",
+                "size": "s"
+              },
+              "content": [
+                {
+                  "block": "section",
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "type": "h2",
+                        "size": "xxl"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "type": "p",
+                        "size": "l"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "type": "h3",
+                        "size": "xxl"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "type": "p",
+                        "size": "l"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block": "theme",
+          "mods": {
+            "color": "project-default",
+            "size": "default",
+            "space": "default",
+            "breakpoint": "default",
+            "gap": "small"
+          },
+          "mix": [
+            {
+              "block": "layout"
+            }
+          ],
+          "content": [
+            {
+              "block": "layout",
+              "elem": "container",
+              "elemMods": {
+                "align": "center",
+                "size": "m"
+              },
+              "content": [
+                {
+                  "block": "footer",
+                  "mods": {
+                    "space-v": "xxxl"
+                  },
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "l"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "l"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "script",
+          "attrs": {
+            "src": "./script.js"
+          }
+        }
+      ]
+    }
+  ]
+}

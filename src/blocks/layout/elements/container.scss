@@ -1,0 +1,26 @@
+@import "../../../tools.scss";
+
+.layout__container {
+  display: grid;
+
+  &_align {
+    &_center {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &_size {
+    &_s {
+      max-width: $widthS;
+    }
+
+    &_m {
+      max-width: $widthM;
+      @media (max-width: ($widthM - 1)) {
+        max-width: $widthS;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,9 @@
+.cover__preview {
+  margin-bottom: var(--themeSpaceM);
+
+  .image {
+    height: 180px;
+    background-color: var(--themeBackgroundColorDefault);
+    border: 3px solid var(--themeColorBorder);
+  }
+}

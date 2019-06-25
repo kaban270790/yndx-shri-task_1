@@ -1,0 +1,60 @@
+@import "../../tools.scss";
+
+.grid {
+  display: grid;
+  @media (max-width: $widthM - 1) {
+    &_xs-columns {
+      &_3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    &_s-columns {
+      &_3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      &_6 {
+        grid-template-columns: repeat(6, 1fr);
+      }
+    }
+  }
+
+  @media (min-width: $widthM) {
+    &_m-columns {
+      &_12 {
+        grid-template-columns: repeat(12, 1fr);
+      }
+
+      &_10 {
+        grid-template-columns: repeat(10, 1fr);
+      }
+    }
+  }
+
+  &_col-gap {
+    &_two-thirds {
+      grid-column-gap: calc(var(--themeGap) * 0.6);
+    }
+
+    &_half {
+      grid-column-gap: calc(var(--themeGap) / 2);
+    }
+
+    &_full {
+      grid-column-gap: var(--themeGap);
+    }
+  }
+
+  &_row-gap {
+    &_half {
+      grid-row-gap: calc(var(--themeGap) / 2);
+    }
+
+    &_full {
+      grid-row-gap: var(--themeGap);
+    }
+  }
+}
+
+@import "./elements/fraction.scss";

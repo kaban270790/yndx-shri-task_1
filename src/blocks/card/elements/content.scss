@@ -1,0 +1,28 @@
+
+.card__content {
+  display: flex;
+  &_distribute {
+    &_center {
+      justify-content: center;
+    }
+  }
+  &_vertical-align {
+    &_center {
+      align-items: center;
+    }
+  }
+  &_space-a {
+    &_m {
+      padding: var(--themeSpaceM);
+    }
+    &_l {
+      padding: var(--themeSpaceL);
+    }
+    &_xl {
+      padding: var(--themeSpaceXL);
+    }
+    &_XXL {
+      padding: var(--themeSpaceXXL);
+    }
+  }
+}

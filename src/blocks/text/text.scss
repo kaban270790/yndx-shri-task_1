@@ -1,0 +1,105 @@
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  &_align {
+    &_center {
+      justify-content: center;
+    }
+  }
+
+  &_size {
+    &_s {
+      --textWordHeight: 7px;
+      --textWordWidthS: 20px;
+      --textWordWidthM: 48px;
+      --textWordWidthL: 100px;
+      --lineHeight: var(--themeSizeIntervalS);
+    }
+
+    &_m {
+      --textWordHeight: 8px;
+      --textWordWidthS: 24px;
+      --textWordWidthM: 56px;
+      --textWordWidthL: 114px;
+      --lineHeight: var(--themeSizeIntervalM);
+    }
+
+    &_l {
+      --textWordHeight: 10px;
+      --textWordWidthS: 28px;
+      --textWordWidthM: 68px;
+      --textWordWidthL: 138px;
+      --lineHeight: var(--themeSizeIntervalL);
+    }
+
+    &_xl {
+      --textWordHeight: 11px;
+      --textWordWidthS: 32px;
+      --textWordWidthM: 74px;
+      --textWordWidthL: 154px;
+      --lineHeight: var(--themeSizeIntervalXL);
+    }
+
+    &_xxl {
+      --textWordHeight: 13px;
+      --textWordWidthS: 36px;
+      --textWordWidthM: 88px;
+      --textWordWidthL: 184px;
+      --lineHeight: var(--themeSizeIntervalXXL);
+    }
+  }
+
+  &_type {
+    &_h1 {
+      margin: 15px 0 21px;
+    }
+
+    &_h2 {
+      margin: 48px 0 20px;
+    }
+
+    &_h3 {
+      margin: 43px 0 0;
+    }
+
+    &_p {
+      margin: 15px 0 21px;
+    }
+  }
+
+  &_view {
+    &_primary {
+      --wordColor: var(--themeTextColorDefault);
+    }
+
+    &_secondary {
+      --wordColor: var(--themeTextColorSecondary);
+    }
+
+    &_ghost {
+      --wordColor: var(--themeTextColorAdditional);
+    }
+
+    &_link {
+      --wordColor: var(--themeTextColorLink);
+    }
+  }
+  &_indent-b {
+    &_s {
+      margin-bottom: var(--themeSpaceS);
+    }
+    &_xs {
+      margin-bottom: var(--themeSpaceXS);
+    }
+    &_xl {
+      margin-bottom: var(--themeSpaceXL);
+    }
+  }
+  &_indent-t {
+    &_xs {
+      margin-top: var(--themeSpaceXS);
+    }
+  }
+}
+
+@import "./elements/word.scss";

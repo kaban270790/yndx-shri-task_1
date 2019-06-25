@@ -1,0 +1,25 @@
+
+.layout__fraction {
+  &_xs-col {
+    &_3 {
+      --layoutFractionXSCol: 3;
+    }
+  }
+  &_m-col {
+    &_2 {
+      --layoutFractionMCol: 2;
+    }
+    &_3 {
+      --layoutFractionMCol: 3;
+    }
+    &_4 {
+      --layoutFractionMCol: 4;
+    }
+    &_5 {
+      --layoutFractionMCol: 5;
+    }
+    &_8 {
+      --layoutFractionMCol: 8;
+    }
+  }
+}

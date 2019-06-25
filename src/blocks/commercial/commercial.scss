@@ -1,0 +1,10 @@
+.commercial  {
+  min-height: 430px;
+  --borderWidth: 3px;
+  display: flex;
+  flex-direction: column;
+}
+@import "./elements/pic.scss";
+@import "./elements/info.scss";
+@import "./elements/nav.scss";
+@import "./elements/item.scss";

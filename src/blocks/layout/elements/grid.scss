@@ -1,0 +1,40 @@
+
+.layout__grid {
+  &_xs-columns {
+    &_3 {
+      --layoutGridXSColumns: 3;
+    }
+  }
+  &_s-columns {
+    &_3 {
+      --layoutGridSColumns: 3;
+    }
+    &_6 {
+      --layoutGridSColumns: 6;
+    }
+  }
+  &_m-columns {
+    &_10 {
+      --layoutGridMColumns: 10;
+    }
+    &_12 {
+      --layoutGridMColumns: 12;
+    }
+  }
+  &_col-gap {
+    &_two-thirds {
+      --layoutColGap: calc(((var(--themeGap) * 2) / 3));
+    }
+    &_full {
+      --layoutColGap: var(--themeGap);
+    }
+  }
+  &_row-gap {
+    &_half {
+      --layoutColGap: calc(var(--themeGap) / 2);
+    }
+    &_full {
+      --layoutColGap: var(--themeGap);
+    }
+  }
+}

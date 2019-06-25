@@ -1,0 +1,17 @@
+.text__word {
+  height: var(--textWordHeight);
+  background-color: var(--wordColor);
+  margin-bottom: calc((var(--lineHeight) - var(--textWordHeight))/2);
+  margin-top: calc((var(--lineHeight) - var(--textWordHeight))/2);
+  &_width {
+    &_s {
+      width: var(--textWordWidthS);
+    }
+    &_m {
+      width: var(--textWordWidthM);
+    }
+    &_l {
+      width: var(--textWordWidthL);
+    }
+  }
+}

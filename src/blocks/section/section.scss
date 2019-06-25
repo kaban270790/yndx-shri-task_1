@@ -1,0 +1,21 @@
+.section
+{
+  &_indent-b {
+    &_xxl {
+      margin-bottom: var(--themeSpaceXXL);
+    }
+    &_xxxxl {
+      margin-bottom: var(--themeSpaceXXXXL);
+    }
+  }
+  &_space-v {
+    &_xxl {
+      padding-top: var(--themeSpaceXXL);
+      padding-bottom: var(--themeSpaceXXL);
+    }
+    &_xxxxl {
+      padding-top: var(--themeSpaceXXXXL);
+      padding-bottom: var(--themeSpaceXXXXL);
+    }
+  }
+}

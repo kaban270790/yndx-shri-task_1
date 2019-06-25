@@ -1,0 +1,102 @@
+
+@import "../../tools.scss";
+.theme {
+  background-color: var(--themeBackgroundColorDefault);
+  &_color {
+    &_project-default {
+      --themeBackgroundColorDefault: #FFFFFF;
+      --themeBackgroundColorAccent: #0056B3;
+      --themeColorBorder: #000000;
+      --themeTextColorDefault: #000000;
+      --themeTextColorSecondary: rgba(0, 0, 0, 0.6);
+      --themeTextColorAdditional: rgba(0, 0, 0, 0.3);
+      --themeTextColorLink: #0070f0;
+    }
+
+    &_project-brand {
+      --themeBackgroundColorDefault: #0070f0;
+      --themeBackgroundColorAccent: #FFFFFF;
+      --themeColorBorder: #FFFFFF;
+      --themeTextColorDefault: #FFFFFF;
+      --themeTextColorSecondary: rgba(255, 255, 255, 0.6);
+      --themeTextColorAdditional: rgba(255, 255, 255, 0.3);
+      --themeTextColorLink: #FFFFFF;
+    }
+
+    &_project-inverse {
+      --themeBackgroundColorDefault: #000000;
+      --themeBackgroundColorAccent: #FFFFFF;
+      --themeColorBorder: #FFFFFF;
+      --themeTextColorDefault: #FFFFFF;
+      --themeTextColorSecondary: rgba(255, 255, 255, 0.6);
+      --themeTextColorAdditional: rgba(255, 255, 255, 0.3);
+      --themeTextColorLink: #0070f0;
+    }
+
+    &_project-warning {
+      --themeBackgroundColorDefault: #FF9900;
+      --themeBackgroundColorAccent: #FFFFFF;
+      --themeColorBorder: #FFFFFF;
+      --themeTextColorDefault: #FFFFFF;
+      --themeTextColorSecondary: rgba(255, 255, 255, 0.6);
+      --themeTextColorAdditional: rgba(255, 255, 255, 0.3);
+      --themeTextColorLink: #FFFFFF;
+    }
+
+    &_megafon-brand {
+      --themeBackgroundColorDefault: #1FA55D;
+      --themeBackgroundColorAccent: #FFFFFF;
+      --themeColorBorder: #FFFFFF;
+      --themeTextColorDefault: #FFFFFF;
+      --themeTextColorSecondary: rgba(255, 255, 255, 0.6);
+      --themeTextColorAdditional: rgba(255, 255, 255, 0.3);
+      --themeTextColorLink: #FFFFFF;
+    }
+  }
+
+  &_size {
+    &_default {
+      --themeSizeHeightS: 7px;
+      --themeSizeHeightM: 8px;
+      --themeSizeHeightL: 10px;
+      --themeSizeHeightXL: 11px;
+      --themeSizeHeightXXL: 13px;
+
+      --themeSizeIntervalS: 18px;
+      --themeSizeIntervalM: 21px;
+      --themeSizeIntervalL: 25px;
+      --themeSizeIntervalXL: 28px;
+      --themeSizeIntervalXXL: 34px;
+    }
+  }
+
+  &_space {
+    &_default {
+      --themeSpaceXXXS: 2px;
+      --themeSpaceXXS: 4px;
+      --themeSpaceXS: 8px;
+      --themeSpaceS: 12px;
+      --themeSpaceM: 16px;
+      --themeSpaceL: 20px;
+      --themeSpaceXL: 24px;
+      --themeSpaceXXL: 32px;
+      --themeSpaceXXXL: 40px;
+      --themeSpaceXXXXL: 48px;
+    }
+  }
+
+  &_breakpoint {
+    &_default {
+      --themeBreakpont: $widthM;
+    }
+  }
+
+  &_gap {
+    &_small {
+      --themeGap: var(--themeSpaceXXXL);
+      @media (max-width: $widthM) {
+        --themeGap: var(--themeSpaceM);
+      }
+    }
+  }
+}

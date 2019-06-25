@@ -1,0 +1,15 @@
+.icon-plus__icon {
+  &_indent-r {
+    &_s {
+      margin-right: var(--themeSpaceS);
+    }
+    &_m {
+      margin-right: var(--themeSpaceM);
+    }
+  }
+  &_indent-l {
+    &_l {
+      margin-left: var(--themeSpaceL);
+    }
+  }
+}

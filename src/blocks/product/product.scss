@@ -1,0 +1,10 @@
+.product {
+  --borderWidth: 3px;
+  min-height: 280px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+@import "./elements/content.scss";

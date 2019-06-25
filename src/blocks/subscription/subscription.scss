@@ -1,0 +1,10 @@
+.subscription {
+  min-height: 408px;
+  box-sizing: border-box;
+  padding: var(--themeSpaceXL);
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+@import "./elements/info.scss";
+@import "./elements/footer.scss";

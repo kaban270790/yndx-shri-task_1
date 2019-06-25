@@ -1,0 +1,8 @@
+.offer {
+  min-height: 408px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: var(--themeSpaceXL);
+}
+@import "./elements/footer.scss";

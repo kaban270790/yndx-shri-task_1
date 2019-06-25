@@ -1,0 +1,18 @@
+.onoffswitch__switcher {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  transition: right .2s ease-out;
+  top: 3px;
+  background-color: var(--themeColorBorder);
+
+  &_status {
+    &_on {
+      right: 3px;
+    }
+
+    &_off {
+      right: 65px;
+    }
+  }
+}

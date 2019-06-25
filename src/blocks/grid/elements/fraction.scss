@@ -1,0 +1,25 @@
+.grid__fraction {
+  height: 100%;
+  &_xs-col {
+    &_3 {
+      grid-column-start: span 3;
+    }
+  }
+  &_m-col {
+    &_2 {
+      grid-column-start: span 2;
+    }
+    &_3 {
+      grid-column-start: span 3;
+    }
+    &_4 {
+      grid-column-start: span 4;
+    }
+    &_5 {
+      grid-column-start: span 5;
+    }
+    &_8 {
+      grid-column-start: span 8;
+    }
+  }
+}

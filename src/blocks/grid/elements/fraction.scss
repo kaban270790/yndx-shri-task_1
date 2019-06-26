@@ -2,12 +2,14 @@
 
 .grid__fraction {
   height: 100%;
-  @media (min-width: $widthM) {
+  @media (max-width: $widthS) {
     &_xs-col {
       &_3 {
         grid-column-start: span 3;
       }
     }
+  }
+  @media (min-width: $widthS) {
     &_m-col {
       &_2 {
         grid-column-start: span 2;

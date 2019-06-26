@@ -89,12 +89,12 @@
     margin-left: auto;
     margin-right: auto; }
   .layout__container_size_s {
-    max-width: 800px; }
+    max-width: 880px; }
   .layout__container_size_m {
     max-width: 1144px; }
-    @media screen and (max-width: 1143px) {
+    @media (max-width: 1143px) {
       .layout__container_size_m {
-        max-width: 800px; } }
+        max-width: 880px; } }
 
 .layout__grid_xs-columns_3 {
   --layoutGridXSColumns: 3; }
@@ -400,7 +400,7 @@
 **/
 .grid {
   display: grid; }
-  @media screen and (min-width: 1144px) {
+  @media (min-width: 1144px) {
     .grid_xs-columns_3 {
       grid-template-columns: repeat(3, 1fr); }
     .grid_s-columns_3 {
@@ -422,9 +422,15 @@
   .grid_row-gap_full {
     grid-row-gap: var(--themeGap); }
 
+/**
+ * Created by Дмитрий
+ * User: Дмитрий
+ * Date: 015 15.06.19
+ * Time: 21:57:06
+**/
 .grid__fraction {
   height: 100%; }
-  @media screen and (min-width: 1144px) {
+  @media (min-width: 1144px) {
     .grid__fraction_xs-col_3 {
       grid-column-start: span 3; }
     .grid__fraction_m-col_2 {

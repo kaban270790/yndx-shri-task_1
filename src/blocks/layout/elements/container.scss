@@ -17,7 +17,7 @@
 
     &_m {
       max-width: $widthM;
-      @media screen and (max-width: ($widthM - 1)) {
+      @media (max-width: ($widthM - 1)) {
         max-width: $widthS;
       }
     }

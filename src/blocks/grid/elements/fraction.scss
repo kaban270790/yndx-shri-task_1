@@ -1,6 +1,8 @@
+@import "../../../tools.scss";
+
 .grid__fraction {
   height: 100%;
-  @media screen and (min-width: $widthM) {
+  @media (min-width: $widthM) {
     &_xs-col {
       &_3 {
         grid-column-start: span 3;

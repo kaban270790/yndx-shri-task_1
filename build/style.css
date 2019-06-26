@@ -400,14 +400,13 @@
 **/
 .grid {
   display: grid; }
-  @media (max-width: 1143px) {
+  @media screen and (min-width: 1144px) {
     .grid_xs-columns_3 {
       grid-template-columns: repeat(3, 1fr); }
     .grid_s-columns_3 {
       grid-template-columns: repeat(3, 1fr); }
     .grid_s-columns_6 {
-      grid-template-columns: repeat(6, 1fr); } }
-  @media (min-width: 1144px) {
+      grid-template-columns: repeat(6, 1fr); }
     .grid_m-columns_12 {
       grid-template-columns: repeat(12, 1fr); }
     .grid_m-columns_10 {
@@ -425,18 +424,19 @@
 
 .grid__fraction {
   height: 100%; }
-  .grid__fraction_xs-col_3 {
-    grid-column-start: span 3; }
-  .grid__fraction_m-col_2 {
-    grid-column-start: span 2; }
-  .grid__fraction_m-col_3 {
-    grid-column-start: span 3; }
-  .grid__fraction_m-col_4 {
-    grid-column-start: span 4; }
-  .grid__fraction_m-col_5 {
-    grid-column-start: span 5; }
-  .grid__fraction_m-col_8 {
-    grid-column-start: span 8; }
+  @media screen and (min-width: 1144px) {
+    .grid__fraction_xs-col_3 {
+      grid-column-start: span 3; }
+    .grid__fraction_m-col_2 {
+      grid-column-start: span 2; }
+    .grid__fraction_m-col_3 {
+      grid-column-start: span 3; }
+    .grid__fraction_m-col_4 {
+      grid-column-start: span 4; }
+    .grid__fraction_m-col_5 {
+      grid-column-start: span 5; }
+    .grid__fraction_m-col_8 {
+      grid-column-start: span 8; } }
 
 .payment__content {
   flex-direction: column; }

@@ -92,7 +92,7 @@
     max-width: 800px; }
   .layout__container_size_m {
     max-width: 1144px; }
-    @media (max-width: 1143px) {
+    @media screen and (max-width: 1143px) {
       .layout__container_size_m {
         max-width: 800px; } }
 

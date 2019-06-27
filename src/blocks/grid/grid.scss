@@ -2,7 +2,7 @@
 
 .grid {
   display: grid;
-  @media (max-width: $widthS) {
+  @media (min-width: $widthM) {
     &_xs-columns {
       &_3 {
         grid-template-columns: repeat(3, 1fr);
@@ -18,9 +18,6 @@
         grid-template-columns: repeat(6, 1fr);
       }
     }
-  }
-
-  @media (min-width: $widthS) {
     &_m-columns {
       &_12 {
         grid-template-columns: repeat(12, 1fr);

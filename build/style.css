@@ -697,10 +697,18 @@
 .history__transaction {
   padding-bottom: var(--themeSpaceXL);
   background-color: var(--themeBackgroundColorDefault);
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
 
 .history__time {
   margin-top: var(--themeSpaceXXS); }
+
+.history__description {
+  flex-direction: column; }
+
+.history__hide {
+  flex-direction: column;
+  display: none; }
 
 .brand-logo_name_yota {
   background-color: #00c0f8; }

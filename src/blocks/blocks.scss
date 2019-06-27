@@ -1,3 +1,9 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @import "./theme/theme.scss";
 @import "./layout/layout.scss";
 @import "./card/card.scss";

@@ -1,4 +1,9 @@
 @charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 /**
  * Created by Дмитрий
  * User: Дмитрий
@@ -69,11 +74,9 @@
     --themeSpaceXXL: 32px;
     --themeSpaceXXXL: 40px;
     --themeSpaceXXXXL: 48px; }
-  .theme_breakpoint_default {
-    --themeBreakpont: $widthM; }
   .theme_gap_small {
     --themeGap: var(--themeSpaceXXXL); }
-    @media (max-width: 1144px) {
+    @media (max-width: 880px) {
       .theme_gap_small {
         --themeGap: var(--themeSpaceM); } }
 
@@ -436,9 +439,8 @@
 .payment__content {
   flex-direction: column; }
 
-.payment__header .text {
-  margin-top: 1px;
-  margin-bottom: 7px; }
+.payment__footer .button {
+  width: 200px; }
 
 .text {
   display: flex;
@@ -562,7 +564,6 @@
   background-color: var(--themeBackgroundColorDefault);
   display: flex;
   flex-direction: column;
-  border: 3px solid var(--themeBackgroundColorDefault);
   box-sizing: border-box; }
 
 .informer__action {
@@ -591,20 +592,17 @@
 
 .warning {
   min-height: 335px;
-  height: 100%; }
-  .warning .text {
-    margin-top: 2px; }
+  height: 100%;
+  padding-top: var(--themeSpaceM); }
 
-.warning__button-wrapper {
+.warning__button-wrapper .button {
   width: 200px; }
 
 .placeholder {
   background-color: var(--themeTextColorDefault); }
   .placeholder_size_m {
     width: 72px;
-    height: 72px;
-    margin-top: var(--themeSpaceM);
-    margin-bottom: var(--themeSpaceM); }
+    height: 72px; }
 
 .image {
   width: 100%;

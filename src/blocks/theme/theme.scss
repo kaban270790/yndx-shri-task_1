@@ -85,16 +85,10 @@
     }
   }
 
-  &_breakpoint {
-    &_default {
-      --themeBreakpont: $widthM;
-    }
-  }
-
   &_gap {
     &_small {
       --themeGap: var(--themeSpaceXXXL);
-      @media (max-width: $widthM) {
+      @media (max-width: $widthS) {
         --themeGap: var(--themeSpaceM);
       }
     }

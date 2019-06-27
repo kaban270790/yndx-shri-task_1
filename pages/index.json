@@ -72,9 +72,8 @@
                     {
                       "block": "grid",
                       "mods": {
-                        "col-gap": "two-thirds",
+                        "col-gap": "full",
                         "row-gap": "full",
-                        "s-columns": "6",
                         "m-columns": "10"
                       }
                     }
@@ -84,7 +83,6 @@
                       "block": "grid",
                       "elem": "fraction",
                       "elemMods": {
-                        "s-col": "3",
                         "m-col": "5"
                       },
                       "content": [
@@ -94,8 +92,7 @@
                             {
                               "block": "form",
                               "mods": {
-                                "border": "all",
-                                "view": "default"
+                                "border": "all"
                               }
                             }
                           ],
@@ -108,7 +105,7 @@
                                   "block": "form",
                                   "elem": "item",
                                   "elemMods": {
-                                    "space-v": "m",
+                                    "space-v": "l",
                                     "space-h": "xl",
                                     "border": "bottom"
                                   }
@@ -264,27 +261,18 @@
                               ],
                               "content": [
                                 {
-                                  "block": "form",
-                                  "elem": "label",
-                                  "elemMods": {
-                                    "width": "default"
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "l"
                                   },
                                   "content": [
                                     {
                                       "block": "text",
-                                      "mods": {
-                                        "view": "primary",
-                                        "size": "l"
-                                      },
-                                      "content": [
-                                        {
-                                          "block": "text",
-                                          "elem": "word",
-                                          "elemMods": {
-                                            "width": "l"
-                                          }
-                                        }
-                                      ]
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
                                     }
                                   ]
                                 },
@@ -304,7 +292,6 @@
                       "block": "grid",
                       "elem": "fraction",
                       "elemMods": {
-                        "s-col": "3",
                         "m-col": "5"
                       },
                       "content": [
@@ -352,8 +339,6 @@
                                   "mods": {
                                     "view": "primary",
                                     "size": "xl",
-                                    "align": "center",
-                                    "type": "p"
                                   },
                                   "content": [
                                     {
@@ -452,730 +437,1951 @@
                   ]
                 },
                 {
-                  "block":"section","mods":{"indent-b":"xxl"},
-                  "mix":[
-                    {"block":"grid","mods":{"col-gap":"half","row-gap":"full","m-columns":"10"}}
-                  ],
-                  "content": [
-                    {"block":"grid","elem":"fraction","elemMods":{"m-col":"2"},
-                      "content": [
-                        {
-                          "block":"product",
-                          "mix": [
-                            {"block":"card", "mods":{"view":"default","border":"all"}}
-                          ],
-                          "content": [
-                            {
-                              "block":"product","elem":"content",
-                              "mix": [
-                                {"block":"card","elem":"content","elemMods":{"space-a":"m"}}
-                              ],
-                              "content": [
-                                {"block":"image"}
-                              ]
-                            },
-                            {
-                              "block":"product","elem":"footer",
-                              "mix": [
-                                {"block":"card", "elem":"footer", "elemMods":{"space-a":"m"}}
-                              ],
-                              "content": [
-                                {"block":"text", "mods":{"view":"primary", "size":"m"},
-                                  "content": [
-                                    {"block":"text","elem":"word", "elemMods":{"width":"l"}}
-                                  ]
-                                },
-                                {"block":"text", "mods":{"view":"primary", "size":"s"},
-                                  "content": [
-                                    {"block":"text","elem":"word", "elemMods":{"width":"m"}}
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-
-                      ]
-                    },
-                    {"block":"grid","elem":"fraction","elemMods":{"m-col":"2"},
-                      "content": [
-                        {
-                          "block":"product",
-                          "mix": [
-                            {"block":"card", "mods":{"view":"default","border":"all"}}
-                          ],
-                          "content": [
-                            {
-                              "block":"product","elem":"content",
-                              "mix": [
-                                {"block":"card","elem":"content","elemMods":{"space-a":"m"}}
-                              ],
-                              "content": [
-                                {"block":"image"}
-                              ]
-                            },
-                            {
-                              "block":"product","elem":"footer",
-                              "mix": [
-                                {"block":"card", "elem":"footer", "elemMods":{"space-a":"m"}}
-                              ],
-                              "content": [
-                                {"block":"text", "mods":{"view":"primary", "size":"m"},
-                                  "content": [
-                                    {"block":"text","elem":"word", "elemMods":{"width":"l"}}
-                                  ]
-                                },
-                                {"block":"text", "mods":{"view":"primary", "size":"s"},
-                                  "content": [
-                                    {"block":"text","elem":"word", "elemMods":{"width":"m"}}
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-
-                      ]
-                    },
-                    {"block":"grid","elem":"fraction","elemMods":{"m-col":"2"},
-                      "content": [
-                        {
-                          "block":"product",
-                          "mix": [
-                            {"block":"card", "mods":{"view":"default","border":"all"}}
-                          ],
-                          "content": [
-                            {
-                              "block":"product","elem":"content",
-                              "mix": [
-                                {"block":"card","elem":"content","elemMods":{"space-a":"m"}}
-                              ],
-                              "content": [
-                                {"block":"image"}
-                              ]
-                            },
-                            {
-                              "block":"product","elem":"footer",
-                              "mix": [
-                                {"block":"card", "elem":"footer", "elemMods":{"space-a":"m"}}
-                              ],
-                              "content": [
-                                {"block":"text", "mods":{"view":"primary", "size":"m"},
-                                  "content": [
-                                    {"block":"text","elem":"word", "elemMods":{"width":"l"}}
-                                  ]
-                                },
-                                {"block":"text", "mods":{"view":"primary", "size":"s"},
-                                  "content": [
-                                    {"block":"text","elem":"word", "elemMods":{"width":"m"}}
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-
-                      ]
-                    },
-                    {"block":"grid","elem":"fraction","elemMods":{"m-col":"2"},
-                      "content": [
-                        {
-                          "block":"product",
-                          "mix": [
-                            {"block":"card", "mods":{"view":"default","border":"all"}}
-                          ],
-                          "content": [
-                            {
-                              "block":"product","elem":"content",
-                              "mix": [
-                                {"block":"card","elem":"content","elemMods":{"space-a":"m"}}
-                              ],
-                              "content": [
-                                {"block":"image"}
-                              ]
-                            },
-                            {
-                              "block":"product","elem":"footer",
-                              "mix": [
-                                {"block":"card", "elem":"footer", "elemMods":{"space-a":"m"}}
-                              ],
-                              "content": [
-                                {"block":"text", "mods":{"view":"primary", "size":"m"},
-                                  "content": [
-                                    {"block":"text","elem":"word", "elemMods":{"width":"l"}}
-                                  ]
-                                },
-                                {"block":"text", "mods":{"view":"primary", "size":"s"},
-                                  "content": [
-                                    {"block":"text","elem":"word", "elemMods":{"width":"m"}}
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-
-                      ]
-                    },
-                    {"block":"grid","elem":"fraction","elemMods":{"m-col":"2"},
-                      "content": [
-                        {
-                          "block":"product",
-                          "mix": [
-                            {"block":"card", "mods":{"view":"default","border":"all"}}
-                          ],
-                          "content": [
-                            {
-                              "block":"product","elem":"content",
-                              "mix": [
-                                {"block":"card","elem":"content","elemMods":{"space-a":"m"}}
-                              ],
-                              "content": [
-                                {"block":"image"}
-                              ]
-                            },
-                            {
-                              "block":"product","elem":"footer",
-                              "mix": [
-                                {"block":"card", "elem":"footer", "elemMods":{"space-a":"m"}}
-                              ],
-                              "content": [
-                                {"block":"text", "mods":{"view":"primary", "size":"m"},
-                                  "content": [
-                                    {"block":"text","elem":"word", "elemMods":{"width":"l"}}
-                                  ]
-                                },
-                                {"block":"text", "mods":{"view":"primary", "size":"s"},
-                                  "content": [
-                                    {"block":"text","elem":"word", "elemMods":{"width":"m"}}
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-
-                      ]
+                  "block": "section",
+                  "mods": {
+                    "indent-b": "xxl"
+                  },
+                  "mix": [
+                    {
+                      "block": "grid",
+                      "mods": {
+                        "col-gap": "half",
+                        "row-gap": "full",
+                        "m-columns": "10"
+                      }
                     }
-
-                  ]
-                },
-                {
-                  "block":"section","mods":{"indent-b":"xxl"},
-                  "mix":[
-                    {"block":"grid","mods":{"col-gap":"two-thirds","row-gap":"full","m-columns":"12"}}
                   ],
-                  "content": [
-                    {"block":"grid","elem":"fraction","elemMods":{"m-col":"8"},
-                      "content": [
-                        {
-                          "block":"history",
-                          "mix": [
-                            {"block":"list", "mods":{"view":"default", "border":"all"}}
-                          ],
-                          "content": [
-                            {
-                              "block":"history","elem": "transaction",
-                              "mix": [
-                                {"block":"list", "elem":"item","elemMods":{"border":"bottom","space-a":"l"}},
-                                {"block": "e-accordion"}
-                              ],
-                              "content": [
-                                {
-                                  "block":"history","elem":"show",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"vertical-align":"center"}},
-                                    {"block":"e-accordion", "elem":"short"}
-                                  ],
-                                  "content": [
-                                    {
-                                      "block":"history","elem": "destination",
-                                      "mix": [
-                                        {"block": "icon-plus", "mods":{"vertical-align":"center"}}
-                                      ],
-                                      "content": [
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"ghost", "size":"s"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}}
-                                              ]},
-                                            {"block": "text", "mods":{"view":"ghost", "size":"s"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}}
-                                              ]}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"pic",
-                                          "mix": [
-                                            {"block":"icon-plus","elem":"icon","elemMods":{"indent-r":"s","indent-l":"l"}}
-                                          ],
-                                          "content" :[
-                                            {"block":"brand-logo", "mods":{"name":"yota", "size":"m"}}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"l"}}
-                                              ]}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                              ]}
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]},
-                                {
-                                  "block":"history","elem": "description",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"indent-b":"m", "indent-t":"m"}},
-                                    {"block": "e-accordion", "elem":"hidden"}
-                                  ],
-                                  "content": [
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}}
-                                      ]},
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}}
-                                      ]}
-                                  ]},
-                                {
-                                  "block":"history","elem": "actions",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"distribute":"between","indent-b":"m"}},
-                                    {"block": "e-accordion", "elem":"hidden"}
-                                  ],
-                                  "content": [
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                      ]},
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                      ]}
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "block":"history","elem": "transaction",
-                              "mix": [
-                                {"block":"list", "elem":"item","elemMods":{"border":"bottom","space-a":"l"}},
-                                {"block": "e-accordion"}
-                              ],
-                              "content": [
-                                {
-                                  "block":"history","elem":"show",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"vertical-align":"center"}},
-                                    {"block":"e-accordion", "elem":"short"}
-                                  ],
-                                  "content": [
-                                    {
-                                      "block":"history","elem": "destination",
-                                      "mix": [
-                                        {"block": "icon-plus", "mods":{"vertical-align":"center"}}
-                                      ],
-                                      "content": [
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"ghost", "size":"s"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}}
-                                              ]},
-                                            {"block": "text", "mods":{"view":"ghost", "size":"s"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}}
-                                              ]}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"pic",
-                                          "mix": [
-                                            {"block":"icon-plus","elem":"icon","elemMods":{"indent-r":"s","indent-l":"l"}}
-                                          ],
-                                          "content" :[
-                                            {"block":"brand-logo", "mods":{"name":"mts", "size":"m"}}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"l"}}
-                                              ]}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                              ]}
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]},
-                                {
-                                  "block":"history","elem": "description",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"indent-b":"m", "indent-t":"m"}},
-                                    {"block": "e-accordion", "elem":"hidden"}
-                                  ],
-                                  "content": [
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}}
-                                      ]},
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}}
-                                      ]}
-                                  ]},
-                                {
-                                  "block":"history","elem": "actions",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"distribute":"between","indent-b":"m"}},
-                                    {"block": "e-accordion", "elem":"hidden"}
-                                  ],
-                                  "content": [
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                      ]},
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                      ]}
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "block":"history","elem": "transaction",
-                              "mix": [
-                                {"block":"list", "elem":"item","elemMods":{"border":"bottom","space-a":"l"}},
-                                {"block": "e-accordion"}
-                              ],
-                              "content": [
-                                {
-                                  "block":"history","elem":"show",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"vertical-align":"center"}},
-                                    {"block":"e-accordion", "elem":"short"}
-                                  ],
-                                  "content": [
-                                    {
-                                      "block":"history","elem": "destination",
-                                      "mix": [
-                                        {"block": "icon-plus", "mods":{"vertical-align":"center"}}
-                                      ],
-                                      "content": [
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"ghost", "size":"s"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}}
-                                              ]},
-                                            {"block": "text", "mods":{"view":"ghost", "size":"s"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}}
-                                              ]}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"pic",
-                                          "mix": [
-                                            {"block":"icon-plus","elem":"icon","elemMods":{"indent-r":"s","indent-l":"l"}}
-                                          ],
-                                          "content" :[
-                                            {"block":"brand-logo", "mods":{"name":"kcell", "size":"m"}}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"l"}}
-                                              ]}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                              ]}
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]},
-                                {
-                                  "block":"history","elem": "description",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"indent-b":"m", "indent-t":"m"}},
-                                    {"block": "e-accordion", "elem":"hidden"}
-                                  ],
-                                  "content": [
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}}
-                                      ]},
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}}
-                                      ]}
-                                  ]},
-                                {
-                                  "block":"history","elem": "actions",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"distribute":"between","indent-b":"m"}},
-                                    {"block": "e-accordion", "elem":"hidden"}
-                                  ],
-                                  "content": [
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                      ]},
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                      ]}
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "block":"history","elem": "transaction",
-                              "mix": [
-                                {"block":"list", "elem":"item","elemMods":{"space-a":"l"}},
-                                {"block": "e-accordion"}
-                              ],
-                              "content": [
-                                {
-                                  "block":"history","elem":"show",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"vertical-align":"center"}},
-                                    {"block":"e-accordion", "elem":"short"}
-                                  ],
-                                  "content": [
-                                    {
-                                      "block":"history","elem": "destination",
-                                      "mix": [
-                                        {"block": "icon-plus", "mods":{"vertical-align":"center"}}
-                                      ],
-                                      "content": [
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"ghost", "size":"s"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}}
-                                              ]},
-                                            {"block": "text", "mods":{"view":"ghost", "size":"s"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}}
-                                              ]}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"pic",
-                                          "mix": [
-                                            {"block":"icon-plus","elem":"icon","elemMods":{"indent-r":"s","indent-l":"l"}}
-                                          ],
-                                          "content" :[
-                                            {"block":"brand-logo", "mods":{"name":"megafon", "size":"m"}}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"l"}}
-                                              ]}
-                                          ]
-                                        },
-                                        {"block":"history","elem":"label",
-                                          "mix": [
-                                            {"block":"icon-plus", "elem":"block"}
-                                          ],
-                                          "content":[
-                                            {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                              "content":[
-                                                {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                              ]}
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]},
-                                {
-                                  "block":"history","elem": "description",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"indent-b":"m", "indent-t":"m"}},
-                                    {"block": "e-accordion", "elem":"hidden"}
-                                  ],
-                                  "content": [
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}}
-                                      ]},
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m", "type":"p"}},
-                                        {"block": "text","elem":"word", "elemMods":{"width":"l", "type":"p"}}
-                                      ]}
-                                  ]},
-                                {
-                                  "block":"history","elem": "actions",
-                                  "mix": [
-                                    {"block":"list", "elem":"item", "elemMods":{"distribute":"between","indent-b":"m"}},
-                                    {"block": "e-accordion", "elem":"hidden"}
-                                  ],
-                                  "content": [
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                      ]},
-                                    {"block": "text", "mods":{"view":"primary", "size":"l"},
-                                      "content":[
-                                        {"block": "text","elem":"word", "elemMods":{"width":"m"}}
-                                      ]}
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-
-                      ]
-                    },
-                    {"block":"grid","elem":"fraction","elemMods":{"m-col":"4"},
-                      "content": [
-                        {
-                          "block":"commercial",
-                          "mix": [
-                            {"block":"card", "mods":{"view":"default"}},
-                            {"block":"theme", "mods":{"color":"project-brand","space": "default"}}
-                          ],
-                          "content": [
-                            {
-                              "block":"commercial","elem": "pic",
-                              "mix": [
-                                {"block":"card", "elem":"content", "elemMods":{"space-a":"xxl"}}
-                              ],
-                              "content": [
-                                {"block":"image"}
-                              ]
-                            },
-                            {
-                              "block":"commercial","elem": "info",
-                              "mix": [
-                                {"block":"card", "elem":"footer", "elemMods":{"space-a":"xxl"}}
-                              ],
-                              "content": [
-                                {
-                                  "block":"text", "mods":{"view":"primary", "size":"s"},
-                                  "content": [
-                                    {"block":"text","elem":"word", "elemMods":{"width":"l"}},
-                                    {"block":"text","elem":"word", "elemMods":{"width":"m"}},
-                                    {"block":"text","elem":"word", "elemMods":{"width":"l"}},
-                                    {"block":"text","elem":"word", "elemMods":{"width":"s"}},
-                                    {"block":"text","elem":"word", "elemMods":{"width":"s"}},
-                                    {"block":"text","elem":"word", "elemMods":{"width":"m"}},
-                                    {"block":"text","elem":"word", "elemMods":{"width":"l"}},
-                                    {"block":"text","elem":"word", "elemMods":{"width":"m"}}
-                                  ]
-                                },
-                                {
-                                  "block":"commercial","elem":"nav",
-                                  "content": [
-                                    {"block":"commercial","elem":"item"},
-                                    {"block":"commercial","elem":"item"},
-                                    {"block":"commercial","elem":"item"}
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-
-                      ]
-                    }
-
-                  ]
-                },
-                {
-                  "block":"footer","mods":{"space-v":"xxxl"},
                   "content": [
                     {
-                      "block":"text", "mods":{"view":"primary", "size":"l"},
+                      "block": "grid",
+                      "elem": "fraction",
+                      "elemMods": {
+                        "m-col": "2"
+                      },
                       "content": [
-                        {"block":"text","elem":"word","elemMods":{"width":"l"}},
-                        {"block":"text","elem":"word","elemMods":{"width":"s"}}
+                        {
+                          "block": "product",
+                          "mix": [
+                            {
+                              "block": "card",
+                              "mods": {
+                                "view": "default",
+                                "border": "all"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "product",
+                              "elem": "content",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "content",
+                                  "elemMods": {
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "image"
+                                }
+                              ]
+                            },
+                            {
+                              "block": "product",
+                              "elem": "footer",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "footer",
+                                  "elemMods": {
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "m"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "s"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "m"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     },
                     {
-                      "block":"text", "mods":{"view":"primary", "size":"l"},
+                      "block": "grid",
+                      "elem": "fraction",
+                      "elemMods": {
+                        "m-col": "2"
+                      },
                       "content": [
-                        {"block":"text","elem":"word","elemMods":{"width":"l"}}
+                        {
+                          "block": "product",
+                          "mix": [
+                            {
+                              "block": "card",
+                              "mods": {
+                                "view": "default",
+                                "border": "all"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "product",
+                              "elem": "content",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "content",
+                                  "elemMods": {
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "image"
+                                }
+                              ]
+                            },
+                            {
+                              "block": "product",
+                              "elem": "footer",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "footer",
+                                  "elemMods": {
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "m"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "s"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "m"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "grid",
+                      "elem": "fraction",
+                      "elemMods": {
+                        "m-col": "2"
+                      },
+                      "content": [
+                        {
+                          "block": "product",
+                          "mix": [
+                            {
+                              "block": "card",
+                              "mods": {
+                                "view": "default",
+                                "border": "all"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "product",
+                              "elem": "content",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "content",
+                                  "elemMods": {
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "image"
+                                }
+                              ]
+                            },
+                            {
+                              "block": "product",
+                              "elem": "footer",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "footer",
+                                  "elemMods": {
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "m"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "s"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "m"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "grid",
+                      "elem": "fraction",
+                      "elemMods": {
+                        "m-col": "2"
+                      },
+                      "content": [
+                        {
+                          "block": "product",
+                          "mix": [
+                            {
+                              "block": "card",
+                              "mods": {
+                                "view": "default",
+                                "border": "all"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "product",
+                              "elem": "content",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "content",
+                                  "elemMods": {
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "image"
+                                }
+                              ]
+                            },
+                            {
+                              "block": "product",
+                              "elem": "footer",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "footer",
+                                  "elemMods": {
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "m"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "s"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "m"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "grid",
+                      "elem": "fraction",
+                      "elemMods": {
+                        "m-col": "2"
+                      },
+                      "content": [
+                        {
+                          "block": "product",
+                          "mix": [
+                            {
+                              "block": "card",
+                              "mods": {
+                                "view": "default",
+                                "border": "all"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "product",
+                              "elem": "content",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "content",
+                                  "elemMods": {
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "image"
+                                }
+                              ]
+                            },
+                            {
+                              "block": "product",
+                              "elem": "footer",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "footer",
+                                  "elemMods": {
+                                    "space-a": "m"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "m"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "s"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "m"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "block": "section",
+                  "mods": {
+                    "indent-b": "xxl"
+                  },
+                  "mix": [
+                    {
+                      "block": "grid",
+                      "mods": {
+                        "col-gap": "two-thirds",
+                        "row-gap": "full",
+                        "m-columns": "12"
+                      }
+                    }
+                  ],
+                  "content": [
+                    {
+                      "block": "grid",
+                      "elem": "fraction",
+                      "elemMods": {
+                        "m-col": "8"
+                      },
+                      "content": [
+                        {
+                          "block": "history",
+                          "mix": [
+                            {
+                              "block": "list",
+                              "mods": {
+                                "view": "default",
+                                "border": "all"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "history",
+                              "elem": "transaction",
+                              "mix": [
+                                {
+                                  "block": "list",
+                                  "elem": "item",
+                                  "elemMods": {
+                                    "border": "bottom",
+                                    "space-a": "l"
+                                  }
+                                },
+                                {
+                                  "block": "e-accordion"
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "history",
+                                  "elem": "show",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "vertical-align": "center"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "short"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "history",
+                                      "elem": "destination",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "mods": {
+                                            "vertical-align": "center"
+                                          }
+                                        }
+                                      ],
+                                      "content": [
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "ghost",
+                                                "size": "s"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m",
+                                                    "type": "p"
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "ghost",
+                                                "size": "s"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m",
+                                                    "type": "p"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "pic",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "icon",
+                                              "elemMods": {
+                                                "indent-r": "s",
+                                                "indent-l": "l"
+                                              }
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "brand-logo",
+                                              "mods": {
+                                                "name": "yota",
+                                                "size": "m"
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "primary",
+                                                "size": "l"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "l"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "primary",
+                                                "size": "l"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "history",
+                                  "elem": "description",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "indent-b": "m",
+                                        "indent-t": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "hidden"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "history",
+                                  "elem": "actions",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "distribute": "between",
+                                        "indent-b": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "hidden"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "block": "history",
+                              "elem": "transaction",
+                              "mix": [
+                                {
+                                  "block": "list",
+                                  "elem": "item",
+                                  "elemMods": {
+                                    "border": "bottom",
+                                    "space-a": "l"
+                                  }
+                                },
+                                {
+                                  "block": "e-accordion"
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "history",
+                                  "elem": "show",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "vertical-align": "center"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "short"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "history",
+                                      "elem": "destination",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "mods": {
+                                            "vertical-align": "center"
+                                          }
+                                        }
+                                      ],
+                                      "content": [
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "ghost",
+                                                "size": "s"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m",
+                                                    "type": "p"
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "ghost",
+                                                "size": "s"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m",
+                                                    "type": "p"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "pic",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "icon",
+                                              "elemMods": {
+                                                "indent-r": "s",
+                                                "indent-l": "l"
+                                              }
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "brand-logo",
+                                              "mods": {
+                                                "name": "mts",
+                                                "size": "m"
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "primary",
+                                                "size": "l"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "l"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "primary",
+                                                "size": "l"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "history",
+                                  "elem": "description",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "indent-b": "m",
+                                        "indent-t": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "hidden"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "history",
+                                  "elem": "actions",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "distribute": "between",
+                                        "indent-b": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "hidden"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "block": "history",
+                              "elem": "transaction",
+                              "mix": [
+                                {
+                                  "block": "list",
+                                  "elem": "item",
+                                  "elemMods": {
+                                    "border": "bottom",
+                                    "space-a": "l"
+                                  }
+                                },
+                                {
+                                  "block": "e-accordion"
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "history",
+                                  "elem": "show",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "vertical-align": "center"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "short"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "history",
+                                      "elem": "destination",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "mods": {
+                                            "vertical-align": "center"
+                                          }
+                                        }
+                                      ],
+                                      "content": [
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "ghost",
+                                                "size": "s"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m",
+                                                    "type": "p"
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "ghost",
+                                                "size": "s"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m",
+                                                    "type": "p"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "pic",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "icon",
+                                              "elemMods": {
+                                                "indent-r": "s",
+                                                "indent-l": "l"
+                                              }
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "brand-logo",
+                                              "mods": {
+                                                "name": "kcell",
+                                                "size": "m"
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "primary",
+                                                "size": "l"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "l"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "primary",
+                                                "size": "l"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "history",
+                                  "elem": "description",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "indent-b": "m",
+                                        "indent-t": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "hidden"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "history",
+                                  "elem": "actions",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "distribute": "between",
+                                        "indent-b": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "hidden"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "block": "history",
+                              "elem": "transaction",
+                              "mix": [
+                                {
+                                  "block": "list",
+                                  "elem": "item",
+                                  "elemMods": {
+                                    "space-a": "l"
+                                  }
+                                },
+                                {
+                                  "block": "e-accordion"
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "history",
+                                  "elem": "show",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "vertical-align": "center"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "short"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "history",
+                                      "elem": "destination",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "mods": {
+                                            "vertical-align": "center"
+                                          }
+                                        }
+                                      ],
+                                      "content": [
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "ghost",
+                                                "size": "s"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m",
+                                                    "type": "p"
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "ghost",
+                                                "size": "s"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m",
+                                                    "type": "p"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "pic",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "icon",
+                                              "elemMods": {
+                                                "indent-r": "s",
+                                                "indent-l": "l"
+                                              }
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "brand-logo",
+                                              "mods": {
+                                                "name": "megafon",
+                                                "size": "m"
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "primary",
+                                                "size": "l"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "l"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "block": "history",
+                                          "elem": "label",
+                                          "mix": [
+                                            {
+                                              "block": "icon-plus",
+                                              "elem": "block"
+                                            }
+                                          ],
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "mods": {
+                                                "view": "primary",
+                                                "size": "l"
+                                              },
+                                              "content": [
+                                                {
+                                                  "block": "text",
+                                                  "elem": "word",
+                                                  "elemMods": {
+                                                    "width": "m"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "history",
+                                  "elem": "description",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "indent-b": "m",
+                                        "indent-t": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "hidden"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m",
+                                            "type": "p"
+                                          }
+                                        },
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l",
+                                            "type": "p"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "history",
+                                  "elem": "actions",
+                                  "mix": [
+                                    {
+                                      "block": "list",
+                                      "elem": "item",
+                                      "elemMods": {
+                                        "distribute": "between",
+                                        "indent-b": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "e-accordion",
+                                      "elem": "hidden"
+                                    }
+                                  ],
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "m"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "grid",
+                      "elem": "fraction",
+                      "elemMods": {
+                        "m-col": "4"
+                      },
+                      "content": [
+                        {
+                          "block": "commercial",
+                          "mix": [
+                            {
+                              "block": "card",
+                              "mods": {
+                                "view": "default"
+                              }
+                            },
+                            {
+                              "block": "theme",
+                              "mods": {
+                                "color": "project-brand",
+                                "space": "default"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "commercial",
+                              "elem": "pic",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "content",
+                                  "elemMods": {
+                                    "space-a": "xxl"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "image"
+                                }
+                              ]
+                            },
+                            {
+                              "block": "commercial",
+                              "elem": "info",
+                              "mix": [
+                                {
+                                  "block": "card",
+                                  "elem": "footer",
+                                  "elemMods": {
+                                    "space-a": "xxl"
+                                  }
+                                }
+                              ],
+                              "content": [
+                                {
+                                  "block": "text",
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "s"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "s"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "s"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "m"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    },
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "m"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "commercial",
+                                  "elem": "nav",
+                                  "content": [
+                                    {
+                                      "block": "commercial",
+                                      "elem": "item"
+                                    },
+                                    {
+                                      "block": "commercial",
+                                      "elem": "item"
+                                    },
+                                    {
+                                      "block": "commercial",
+                                      "elem": "item"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "block": "footer",
+                  "mods": {
+                    "space-v": "xxxl"
+                  },
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "l"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        },
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "s"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "l"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
+                        }
                       ]
                     }
                   ]

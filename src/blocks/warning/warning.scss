@@ -1,8 +1,9 @@
 .warning {
   min-height: 335px;
   height: 100%;
-  .text {
-    margin-top: 2px;
-  }
+  padding-top: var(--themeSpaceM);
+  //.text {
+  //  margin-top: 2px;
+  //}
 }
 @import "./elements/button-wrapper.scss";

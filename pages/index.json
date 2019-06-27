@@ -338,7 +338,7 @@
                                   "block": "text",
                                   "mods": {
                                     "view": "primary",
-                                    "size": "xl",
+                                    "size": "xl"
                                   },
                                   "content": [
                                     {
@@ -903,7 +903,7 @@
                     {
                       "block": "grid",
                       "mods": {
-                        "col-gap": "two-thirds",
+                        "col-gap": "full",
                         "row-gap": "full",
                         "m-columns": "12"
                       }
@@ -977,13 +977,7 @@
                                       "content": [
                                         {
                                           "block": "history",
-                                          "elem": "label",
-                                          "mix": [
-                                            {
-                                              "block": "icon-plus",
-                                              "elem": "block"
-                                            }
-                                          ],
+                                          "elem": "time",
                                           "content": [
                                             {
                                               "block": "text",

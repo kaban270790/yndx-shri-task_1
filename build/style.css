@@ -321,7 +321,8 @@
   padding: var(--themeSpaceL); }
 
 .list__item {
-  display: flex; }
+  display: flex;
+  width: 100%; }
   .list__item_border_bottom {
     border-bottom: 3px solid var(--themeColorBorder); }
   .list__item_border_top {
@@ -645,7 +646,8 @@
   padding: var(--themeSpaceL); }
 
 .list__item {
-  display: flex; }
+  display: flex;
+  width: 100%; }
   .list__item_border_bottom {
     border-bottom: 3px solid var(--themeColorBorder); }
   .list__item_border_top {
@@ -687,12 +689,18 @@
   display: flex;
   width: 100%; }
 
-.history__label:last-child {
-  margin-left: auto; }
+.history__label {
+  margin-top: var(--themeSpaceXXS); }
+  .history__label:last-child {
+    margin-left: auto; }
 
 .history__transaction {
   padding-bottom: var(--themeSpaceXL);
-  background-color: var(--themeBackgroundColorDefault); }
+  background-color: var(--themeBackgroundColorDefault);
+  display: flex; }
+
+.history__time {
+  margin-top: var(--themeSpaceXXS); }
 
 .brand-logo_name_yota {
   background-color: #00c0f8; }

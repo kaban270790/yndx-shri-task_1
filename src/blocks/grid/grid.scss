@@ -3,21 +3,6 @@
 .grid {
   display: grid;
   @media (min-width: $widthM) {
-    &_xs-columns {
-      &_3 {
-        grid-template-columns: repeat(3, 1fr);
-      }
-    }
-
-    &_s-columns {
-      &_3 {
-        grid-template-columns: repeat(3, 1fr);
-      }
-
-      &_6 {
-        grid-template-columns: repeat(6, 1fr);
-      }
-    }
     &_m-columns {
       &_12 {
         grid-template-columns: repeat(12, 1fr);

@@ -401,12 +401,6 @@
 .grid {
   display: grid; }
   @media (min-width: 1144px) {
-    .grid_xs-columns_3 {
-      grid-template-columns: repeat(3, 1fr); }
-    .grid_s-columns_3 {
-      grid-template-columns: repeat(3, 1fr); }
-    .grid_s-columns_6 {
-      grid-template-columns: repeat(6, 1fr); }
     .grid_m-columns_12 {
       grid-template-columns: repeat(12, 1fr); }
     .grid_m-columns_10 {
@@ -431,8 +425,6 @@
 .grid__fraction {
   height: 100%; }
   @media (min-width: 1144px) {
-    .grid__fraction_xs-col_3 {
-      grid-column-start: span 3; }
     .grid__fraction_m-col_2 {
       grid-column-start: span 2; }
     .grid__fraction_m-col_3 {

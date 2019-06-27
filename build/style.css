@@ -92,9 +92,6 @@
     max-width: 880px; }
   .layout__container_size_m {
     max-width: 1144px; }
-    @media (max-width: 1143px) {
-      .layout__container_size_m {
-        max-width: 880px; } }
 
 .layout__grid_xs-columns_3 {
   --layoutGridXSColumns: 3; }

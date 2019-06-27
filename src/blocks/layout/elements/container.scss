@@ -17,9 +17,6 @@
 
     &_m {
       max-width: $widthM;
-      @media (max-width: ($widthM - 1)) {
-        max-width: $widthS;
-      }
     }
   }
 }

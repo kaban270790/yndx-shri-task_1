@@ -752,8 +752,7 @@
   border: 3px solid var(--themeColorBorder); }
 
 .commercial__info {
-  margin-top: auto;
-  margin-bottom: 4px; }
+  margin-top: auto; }
 
 .commercial__nav {
   margin-top: var(--themeSpaceS);

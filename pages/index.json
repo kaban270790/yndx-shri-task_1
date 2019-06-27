@@ -2205,8 +2205,7 @@
                             {
                               "block": "theme",
                               "mods": {
-                                "color": "project-brand",
-                                "space": "default"
+                                "color": "project-brand"
                               }
                             }
                           ],

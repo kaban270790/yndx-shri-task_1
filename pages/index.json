@@ -1105,7 +1105,8 @@
                                       "block": "e-accordion",
                                       "elem": "more",
                                       "elemMods": {
-                                        "view": "default"
+                                        "view": "default",
+                                        "hide": true
                                       }
                                     },
                                     {
@@ -1127,10 +1128,6 @@
                                           "elemMods": {
                                             "indent-b": "m"
                                           }
-                                        },
-                                        {
-                                          "block": "e-accordion",
-                                          "elem": "hidden"
                                         }
                                       ],
                                       "content": [
@@ -1212,10 +1209,6 @@
                                           "elemMods": {
                                             "distribute": "between"
                                           }
-                                        },
-                                        {
-                                          "block": "e-accordion",
-                                          "elem": "hidden"
                                         }
                                       ],
                                       "content": [
@@ -1441,7 +1434,8 @@
                                       "block": "e-accordion",
                                       "elem": "more",
                                       "elemMods": {
-                                        "view": "default"
+                                        "view": "default",
+                                        "hide": true
                                       }
                                     },
                                     {
@@ -1463,10 +1457,6 @@
                                           "elemMods": {
                                             "indent-b": "m"
                                           }
-                                        },
-                                        {
-                                          "block": "e-accordion",
-                                          "elem": "hidden"
                                         }
                                       ],
                                       "content": [
@@ -1548,10 +1538,6 @@
                                           "elemMods": {
                                             "distribute": "between"
                                           }
-                                        },
-                                        {
-                                          "block": "e-accordion",
-                                          "elem": "hidden"
                                         }
                                       ],
                                       "content": [
@@ -1777,7 +1763,8 @@
                                       "block": "e-accordion",
                                       "elem": "more",
                                       "elemMods": {
-                                        "view": "default"
+                                        "view": "default",
+                                        "hide": true
                                       }
                                     },
                                     {
@@ -1799,10 +1786,6 @@
                                           "elemMods": {
                                             "indent-b": "m"
                                           }
-                                        },
-                                        {
-                                          "block": "e-accordion",
-                                          "elem": "hidden"
                                         }
                                       ],
                                       "content": [
@@ -1884,10 +1867,6 @@
                                           "elemMods": {
                                             "distribute": "between"
                                           }
-                                        },
-                                        {
-                                          "block": "e-accordion",
-                                          "elem": "hidden"
                                         }
                                       ],
                                       "content": [
@@ -2112,7 +2091,8 @@
                                       "block": "e-accordion",
                                       "elem": "more",
                                       "elemMods": {
-                                        "view": "default"
+                                        "view": "default",
+                                        "hide": true
                                       }
                                     },
                                     {
@@ -2134,10 +2114,6 @@
                                           "elemMods": {
                                             "indent-b": "m"
                                           }
-                                        },
-                                        {
-                                          "block": "e-accordion",
-                                          "elem": "hidden"
                                         }
                                       ],
                                       "content": [
@@ -2219,10 +2195,6 @@
                                           "elemMods": {
                                             "distribute": "between"
                                           }
-                                        },
-                                        {
-                                          "block": "e-accordion",
-                                          "elem": "hidden"
                                         }
                                       ],
                                       "content": [

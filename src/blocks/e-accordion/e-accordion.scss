@@ -1,6 +1,8 @@
 .e-accordion {
-
+  &_hidden {
+    display: none;
+  }
 }
 
-@import "./elements/hidden.scss";
 @import "./elements/short.scss";
+@import "./elements/more.scss";

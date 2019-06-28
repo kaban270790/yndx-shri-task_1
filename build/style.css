@@ -714,13 +714,15 @@
 
 .history__time {
   margin-top: var(--themeSpaceXXS); }
+  .history__time .text {
+    position: relative;
+    top: 1px; }
 
 .history__description {
   flex-direction: column; }
 
 .history__hide {
-  flex-direction: column;
-  display: none; }
+  flex-direction: column; }
 
 .brand-logo_name_yota {
   background-color: #00c0f8; }
@@ -754,11 +756,14 @@
   width: 80px;
   height: 80px; }
 
-.e-accordion__hidden {
+.e-accordion_hidden {
   display: none; }
 
 .e-accordion__short {
   cursor: pointer; }
+
+.e-accordion__more_hide {
+  display: none; }
 
 .commercial {
   min-height: 430px;
@@ -798,6 +803,10 @@
 .product__content .image {
   height: 160px;
   background-color: var(--themeColorBorder); }
+
+.product__footer .text {
+  position: relative;
+  top: 1px; }
 
 .cover {
   min-height: 408px; }

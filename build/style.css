@@ -365,7 +365,8 @@
   position: relative;
   border: 2px solid var(--themeColorBorder);
   box-sizing: border-box;
-  cursor: pointer; }
+  cursor: pointer;
+  top: 1px; }
 
 .onoffswitch__switcher {
   position: absolute;

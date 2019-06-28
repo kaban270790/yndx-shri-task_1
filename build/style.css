@@ -361,7 +361,7 @@
 
 .onoffswitch {
   width: 97px;
-  height: 34px;
+  height: 32px;
   position: relative;
   border: 2px solid var(--themeColorBorder);
   box-sizing: border-box;
@@ -372,12 +372,12 @@
   height: 24px;
   width: 24px;
   transition: right .2s ease-out;
-  top: 3px;
+  top: 2px;
   background-color: var(--themeColorBorder); }
   .onoffswitch__switcher_status_on {
-    right: 3px; }
+    right: 2px; }
   .onoffswitch__switcher_status_off {
-    right: 65px; }
+    right: 66px; }
 
 .section_indent-b_xxl {
   margin-bottom: var(--themeSpaceXXL); }

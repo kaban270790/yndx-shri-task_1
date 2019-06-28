@@ -440,9 +440,20 @@
 
 .payment__content {
   flex-direction: column; }
+  .payment__content .text {
+    position: relative;
+    top: 1px; }
+
+.payment__header .text {
+  position: relative;
+  top: -2px; }
 
 .payment__footer .button {
   width: 200px; }
+
+.payment__footer .text {
+  position: relative;
+  top: 1px; }
 
 .text {
   display: flex;

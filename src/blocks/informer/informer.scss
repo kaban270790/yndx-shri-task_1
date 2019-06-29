@@ -3,6 +3,12 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+
+  &_border {
+    &_all {
+      border: 3px solid var(--themeColorBorder);
+    }
+  }
 }
 
 @import "./elements/action.scss";

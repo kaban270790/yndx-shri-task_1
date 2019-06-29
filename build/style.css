@@ -703,6 +703,9 @@
 
 .history__label {
   margin-top: var(--themeSpaceXXS); }
+  .history__label .text {
+    position: relative;
+    top: 1px; }
   .history__label:last-child {
     margin-left: auto; }
 
@@ -778,6 +781,9 @@
 
 .commercial__info {
   margin-top: auto; }
+  .commercial__info .text {
+    position: relative;
+    top: 1px; }
 
 .commercial__nav {
   margin-top: var(--themeSpaceS);

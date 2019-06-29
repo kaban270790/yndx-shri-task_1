@@ -1,5 +1,9 @@
 .history__label {
   margin-top: var(--themeSpaceXXS);
+  .text {
+    position: relative;
+    top: 1px;
+  }
   &:last-child {
     margin-left: auto;
   }

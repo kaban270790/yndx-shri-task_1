@@ -349,6 +349,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--themeBackgroundColorDefault); }
   .header_space-v_xxxl {
     padding-top: var(--themeSpaceXXXL);
@@ -365,8 +366,7 @@
   position: relative;
   border: 2px solid var(--themeColorBorder);
   box-sizing: border-box;
-  cursor: pointer;
-  top: 1px; }
+  cursor: pointer; }
 
 .onoffswitch__switcher {
   position: absolute;

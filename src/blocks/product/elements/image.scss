@@ -1,0 +1,9 @@
+.product__image {
+  height: 160px;
+  background-color: var(--themeColorBorder);
+  flex-grow: 1;
+
+  .image {
+    height: 100%;
+  }
+}

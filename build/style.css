@@ -637,8 +637,7 @@
   width: 100%;
   background-image: url(image-primary.svg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--themeBackgroundColorDefault); }
+  background-position: center; }
 
 .theme_color_project-default .image {
   background-image: url(image-inverse.svg); }
@@ -816,9 +815,12 @@
   flex-direction: column;
   justify-content: space-around; }
 
-.product__content .image {
+.product__image {
   height: 160px;
-  background-color: var(--themeColorBorder); }
+  background-color: var(--themeColorBorder);
+  flex-grow: 1; }
+  .product__image .image {
+    height: 100%; }
 
 .product__footer .text {
   position: relative;

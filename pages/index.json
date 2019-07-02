@@ -485,7 +485,13 @@
                               ],
                               "content": [
                                 {
-                                  "block": "image"
+                                  "block": "product",
+                                  "elem":"image",
+                                  "content": [
+                                    {
+                                      "block": "image"
+                                    }
+                                  ]
                                 }
                               ]
                             },
@@ -573,7 +579,13 @@
                               ],
                               "content": [
                                 {
-                                  "block": "image"
+                                  "block": "product",
+                                  "elem":"image",
+                                  "content": [
+                                    {
+                                      "block": "image"
+                                    }
+                                  ]
                                 }
                               ]
                             },
@@ -661,7 +673,13 @@
                               ],
                               "content": [
                                 {
-                                  "block": "image"
+                                  "block": "product",
+                                  "elem":"image",
+                                  "content": [
+                                    {
+                                      "block": "image"
+                                    }
+                                  ]
                                 }
                               ]
                             },
@@ -749,7 +767,13 @@
                               ],
                               "content": [
                                 {
-                                  "block": "image"
+                                  "block": "product",
+                                  "elem":"image",
+                                  "content": [
+                                    {
+                                      "block": "image"
+                                    }
+                                  ]
                                 }
                               ]
                             },
@@ -837,7 +861,13 @@
                               ],
                               "content": [
                                 {
-                                  "block": "image"
+                                  "block": "product",
+                                  "elem":"image",
+                                  "content": [
+                                    {
+                                      "block": "image"
+                                    }
+                                  ]
                                 }
                               ]
                             },

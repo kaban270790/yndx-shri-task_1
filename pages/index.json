@@ -338,9 +338,7 @@
                                   "block": "text",
                                   "mods": {
                                     "view": "primary",
-                                    "size": "xl",
-                                    "type": "p",
-                                    "align": "center"
+                                    "size": "xl"
                                   },
                                   "content": [
                                     {

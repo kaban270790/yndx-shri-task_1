@@ -623,6 +623,10 @@
 .warning__button-wrapper .button {
   width: 200px; }
 
+.warning__content .text {
+  margin-top: var(--themeSpaceM);
+  justify-content: center; }
+
 .placeholder {
   background-color: var(--themeTextColorDefault); }
   .placeholder_size_m {

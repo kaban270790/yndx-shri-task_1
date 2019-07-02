@@ -5,6 +5,9 @@
   &_border {
     &_bottom {
       border-bottom: 3px solid var(--themeColorBorder);
+      &:last-child {
+        border-bottom: none;
+      }
     }
 
     &_top {

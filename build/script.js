@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("(function () {\n  document.body.addEventListener('click', function (e) {\n    let {\n      target\n    } = e;\n\n    while (target !== this) {\n      if (target.classList.contains('e-accordion__short')) {\n        let parent = target.closest('.e-accordion');\n        parent.querySelectorAll('.e-accordion__more').forEach(node => {\n          node.classList.toggle('e-accordion__more_hide');\n        });\n        break;\n      }\n\n      target = target.parentNode;\n    }\n  });\n})();\n\n//# sourceURL=webpack:///./src/blocks/e-accordion/elements/short.js?");
+eval("(function () {\n  document.body.addEventListener('click', function (e) {\n    let {\n      target\n    } = e;\n\n    while (target !== this) {\n      if (target.classList.contains('e-accordion__short')) {\n        let parent = target.closest('.e-accordion');\n        parent.querySelectorAll('.e-accordion__more').forEach(node => {\n          node.classList.toggle('history__hide');\n          node.classList.toggle('history__show');\n        });\n        break;\n      }\n\n      target = target.parentNode;\n    }\n  });\n})();\n\n//# sourceURL=webpack:///./src/blocks/e-accordion/elements/short.js?");
 
 /***/ }),
 

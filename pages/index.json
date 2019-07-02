@@ -1133,8 +1133,7 @@
                                       "block": "e-accordion",
                                       "elem": "more",
                                       "elemMods": {
-                                        "view": "default",
-                                        "hide": true
+                                        "view": "default"
                                       }
                                     },
                                     {
@@ -1235,7 +1234,8 @@
                                           "block": "list",
                                           "elem": "item",
                                           "elemMods": {
-                                            "distribute": "between"
+                                            "distribute": "between",
+                                            "indent-b": "l"
                                           }
                                         }
                                       ],
@@ -1251,14 +1251,7 @@
                                               "block": "text",
                                               "elem": "word",
                                               "elemMods": {
-                                                "width": "m"
-                                              }
-                                            },
-                                            {
-                                              "block": "text",
-                                              "elem": "word",
-                                              "elemMods": {
-                                                "width": "m"
+                                                "width": "l"
                                               }
                                             }
                                           ]
@@ -1462,8 +1455,7 @@
                                       "block": "e-accordion",
                                       "elem": "more",
                                       "elemMods": {
-                                        "view": "default",
-                                        "hide": true
+                                        "view": "default"
                                       }
                                     },
                                     {
@@ -1564,7 +1556,8 @@
                                           "block": "list",
                                           "elem": "item",
                                           "elemMods": {
-                                            "distribute": "between"
+                                            "distribute": "between",
+                                            "indent-b": "l"
                                           }
                                         }
                                       ],
@@ -1580,14 +1573,7 @@
                                               "block": "text",
                                               "elem": "word",
                                               "elemMods": {
-                                                "width": "m"
-                                              }
-                                            },
-                                            {
-                                              "block": "text",
-                                              "elem": "word",
-                                              "elemMods": {
-                                                "width": "m"
+                                                "width": "l"
                                               }
                                             }
                                           ]
@@ -1791,8 +1777,7 @@
                                       "block": "e-accordion",
                                       "elem": "more",
                                       "elemMods": {
-                                        "view": "default",
-                                        "hide": true
+                                        "view": "default"
                                       }
                                     },
                                     {
@@ -1893,7 +1878,8 @@
                                           "block": "list",
                                           "elem": "item",
                                           "elemMods": {
-                                            "distribute": "between"
+                                            "distribute": "between",
+                                            "indent-b": "l"
                                           }
                                         }
                                       ],
@@ -1909,14 +1895,7 @@
                                               "block": "text",
                                               "elem": "word",
                                               "elemMods": {
-                                                "width": "m"
-                                              }
-                                            },
-                                            {
-                                              "block": "text",
-                                              "elem": "word",
-                                              "elemMods": {
-                                                "width": "m"
+                                                "width": "l"
                                               }
                                             }
                                           ]
@@ -1951,6 +1930,7 @@
                                   "block": "list",
                                   "elem": "item",
                                   "elemMods": {
+                                    "border": "bottom",
                                     "space-a": "l"
                                   }
                                 },
@@ -2119,8 +2099,7 @@
                                       "block": "e-accordion",
                                       "elem": "more",
                                       "elemMods": {
-                                        "view": "default",
-                                        "hide": true
+                                        "view": "default"
                                       }
                                     },
                                     {
@@ -2221,7 +2200,8 @@
                                           "block": "list",
                                           "elem": "item",
                                           "elemMods": {
-                                            "distribute": "between"
+                                            "distribute": "between",
+                                            "indent-b": "l"
                                           }
                                         }
                                       ],
@@ -2237,14 +2217,7 @@
                                               "block": "text",
                                               "elem": "word",
                                               "elemMods": {
-                                                "width": "m"
-                                              }
-                                            },
-                                            {
-                                              "block": "text",
-                                              "elem": "word",
-                                              "elemMods": {
-                                                "width": "m"
+                                                "width": "l"
                                               }
                                             }
                                           ]

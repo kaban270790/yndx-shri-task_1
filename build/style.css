@@ -159,7 +159,7 @@
     padding: var(--themeSpaceL); }
   .card__content_space-a_xl {
     padding: var(--themeSpaceXL); }
-  .card__content_space-a_XXL {
+  .card__content_space-a_xxl {
     padding: var(--themeSpaceXXL); }
 
 .card__footer {
@@ -184,7 +184,7 @@
     padding: var(--themeSpaceL); }
   .card__footer_space-a_xl {
     padding: var(--themeSpaceXL); }
-  .card__footer_space-a_XXL {
+  .card__footer_space-a_xxl {
     padding: var(--themeSpaceXXL); }
 
 .form_border_all {

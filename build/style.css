@@ -427,7 +427,8 @@
  * Time: 21:57:06
 **/
 .grid__fraction {
-  height: 100%; }
+  display: flex;
+  flex-direction: column; }
   @media (min-width: 1144px) {
     .grid__fraction_m-col_2 {
       grid-column-start: span 2; }
@@ -619,8 +620,8 @@
 
 .warning {
   min-height: 335px;
-  height: 100%;
-  padding-top: var(--themeSpaceM); }
+  padding-top: var(--themeSpaceM);
+  flex-grow: 1; }
 
 .warning__button-wrapper .button {
   width: 200px; }

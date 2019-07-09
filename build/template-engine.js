@@ -1,9 +1,9 @@
 /**
- * @param  {object} obj — Структура блоков интерфейса в формате BEMJSON
+ * @param  {string} obj — Структура блоков интерфейса в формате BEMJSON
  * @return {string} HTML разметка страницы
  */
 export default function (obj) {
-    return factoryTag(obj).toString();
+    return factoryTag(JSON.parse(obj)).toString();
 }
 /**
  * @param {JSON} bemjson

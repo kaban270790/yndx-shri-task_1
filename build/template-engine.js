@@ -1,9 +1,8 @@
 /**
- * @param  {string} obj — Структура блоков интерфейса в формате BEMJSON
+ * @param  {object} bemjson — Структура блоков интерфейса в формате BEMJSON
  * @return {string} HTML разметка страницы
  */
-export default function (obj) {
-    let bemjson = JSON.parse(obj);
+export default function (bemjson) {
     if (bemjson instanceof Array) {
         return bemjson.reduce((html, bemjson) => html + factoryTag(bemjson).toString(), '');
     }

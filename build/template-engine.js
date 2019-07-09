@@ -3,7 +3,7 @@
  * @return {string} HTML разметка страницы
  */
 export default function (obj) {
-    return factoryTag(bemjson).toString();
+    return factoryTag(obj).toString();
 }
 /**
  * @param {JSON} bemjson

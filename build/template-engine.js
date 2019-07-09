@@ -3,7 +3,11 @@
  * @return {string} HTML разметка страницы
  */
 export default function (obj) {
-    return factoryTag(JSON.parse(obj)).toString();
+    let bemjson = JSON.parse(obj);
+    if (bemjson instanceof Array) {
+        return bemjson.reduce((html, bemjson) => html + factoryTag(bemjson).toString(), '');
+    }
+    return factoryTag(bemjson).toString();
 }
 /**
  * @param {JSON} bemjson

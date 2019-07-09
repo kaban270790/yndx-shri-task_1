@@ -1,22 +1,4 @@
 {
-  "tag": "html",
-  "content": [
-    {
-      "tag": "head",
-      "content": [
-        {
-          "tag": "link",
-          "attrs": {
-            "href": "./style.css",
-            "rel": "stylesheet"
-          }
-        }
-      ]
-    },
-    {
-      "tag": "body",
-      "content": [
-        {
           "block": "theme",
           "mods": {
             "color": "project-default",
@@ -2444,14 +2426,4 @@
               ]
             }
           ]
-        },
-        {
-          "tag": "script",
-          "attrs": {
-            "src": "./script.js"
-          }
         }
-      ]
-    }
-  ]
-}

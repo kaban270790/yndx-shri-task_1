@@ -9,7 +9,7 @@ module.exports = function (bemjson) {
     return factoryTag(bemjson).toString();
 };
 /**
- * @param {JSON} bemjson
+ * @param {{block:string, elem:string?, mods:Object, elemMods:Object, attrs:Object, content:Object|[]}} bemjson
  * @return {Tag}
  */
 const factoryTag = function (bemjson) {
@@ -20,14 +20,20 @@ const factoryTag = function (bemjson) {
         attrs.class = classNames.join(' ');
     }
     tag.setAttrs(factoryAttr(attrs));
-    (bemjson.content || []).map((bemjson) => {
-        tag.addContent(factoryTag(bemjson));
-    });
+    if (bemjson.content && typeof(bemjson.content) === 'object') {
+        if (bemjson.content instanceof Array) {
+            bemjson.content.map((bemjson) => {
+                    tag.addContent(factoryTag(bemjson));
+                });
+        } else {
+            tag.addContent(factoryTag(bemjson.content));
+        }
+    }
     return tag;
 };
 
 /**
- * @param {object}attrs
+ * @param {object} attrs
  * @returns {string[]}
  */
 const factoryAttr = function (attrs = {}) {
@@ -37,7 +43,7 @@ const factoryAttr = function (attrs = {}) {
     }, []);
 };
 /**
- * @param {object}blockData
+ * @param {object} blockData
  * @returns {string[]}
  */
 const factoryBemClassNames = function (blockData) {

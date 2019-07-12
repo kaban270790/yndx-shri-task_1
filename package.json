@@ -7,7 +7,6 @@
     "url": "git+https://github.com/kaban270790/yndx-shri-task_1.git"
   },
   "scripts": {
-    "pages": "node ./src/template-engine.js",
     "dev": "webpack --mode=development",
     "test": "mocha --recursive test/**/*.test.js --recursive"
   },

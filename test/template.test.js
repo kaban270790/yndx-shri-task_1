@@ -179,3 +179,13 @@ it("test content string", function () {
     });
     assert.strictEqual(html, '<div class="block"><div class="sub-block-1"></div><div class="sub-block-2">content-sub-block-2</div>content-block-2</div>');
 });
+it("test attrs", function () {
+    let html = templateEngine({
+        block: "block",
+        attrs: {
+            class: 'otherClassName',
+            attribute:'attr-val'
+        },
+    });
+    assert.strictEqual(html, '<div class="otherClassName block" attribute="attr-val"></div>');
+});

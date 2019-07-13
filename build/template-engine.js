@@ -11,13 +11,14 @@ module.exports = function (bemjson) {
 /**
  * @param {
  *  {
+ *      tag:string|boolean?,
  *      block:string,
  *      elem:string?,
  *      mods:Object,
  *      elemMods:Object,
  *      attrs:Object,
  *      html: string?
- *      content:Object|Object[],
+ *      content:Object|Object[]|string?,
  *      mix:Object|Object[]
  * }
  *} bemjson

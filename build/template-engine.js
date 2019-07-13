@@ -34,13 +34,24 @@ const factoryTag = function (bemjson) {
         attrs.class = classNames.join(' ');
     }
     tag.setAttrs(factoryAttr(attrs));
-    if (bemjson.content && typeof(bemjson.content) === 'object') {
-        if (bemjson.content instanceof Array) {
-            bemjson.content.map((bemjson) => {
-                    tag.addContent(factoryTag(bemjson));
-                });
-        } else {
-            tag.addContent(factoryTag(bemjson.content));
+    if (bemjson.content) {
+        switch (typeof (bemjson.content)) {
+            case "object":
+                if (bemjson.content instanceof Array) {
+                    bemjson.content.map((bemjson) => {
+                        if (typeof bemjson === 'string') {
+                            tag.addContent(bemjson);
+                        } else {
+                            tag.addContent(factoryTag(bemjson));
+                        }
+                    });
+                } else {
+                    tag.addContent(factoryTag(bemjson.content));
+                }
+                break;
+            case "string":
+                tag.addContent(bemjson.content);
+                break;
         }
     }
     return tag;

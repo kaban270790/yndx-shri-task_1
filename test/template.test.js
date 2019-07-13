@@ -168,3 +168,14 @@ it("test content html", function () {
     });
     assert.strictEqual(html, '<div class="block"><div>&copy; 2019</div></div>');
 });
+it("test content string", function () {
+    let html = templateEngine({
+        block: "block",
+        content: [
+            {block: 'sub-block-1'},
+            {block: 'sub-block-2', content:'content-sub-block-2'},
+            'content-block-2'
+        ],
+    });
+    assert.strictEqual(html, '<div class="block"><div class="sub-block-1"></div><div class="sub-block-2">content-sub-block-2</div>content-block-2</div>');
+});

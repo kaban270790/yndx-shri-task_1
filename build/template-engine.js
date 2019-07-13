@@ -162,6 +162,9 @@ class Tag {
      * @returns {string}
      */
     randOpenTag() {
+        if (this.name === false) {
+            return '';
+        }
         let params = [this.name];
         params = params.concat(this.attrs);
         return '<' + params.join(' ') + (this.isAutoClose ? ' /' : '') + '>';
@@ -171,6 +174,9 @@ class Tag {
      * @returns {string}
      */
     randCloseTag() {
+        if (this.name === false) {
+            return '';
+        }
         return '</' + this.name + '>';
     }
 

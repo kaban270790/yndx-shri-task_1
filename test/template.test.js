@@ -196,3 +196,14 @@ it("test cls", function () {
     });
     assert.strictEqual(html, '<div class="subClass1 subClass2 block"></div>');
 });
+it("test tag false", function () {
+    let html = templateEngine({
+        tag: false,
+        attrs: {
+            class: 'otherClassName',
+            attribute:'attr-val'
+        },
+        content: 'start'
+    });
+    assert.strictEqual(html, 'start');
+});

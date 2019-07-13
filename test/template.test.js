@@ -56,6 +56,20 @@ it("template engine test mix block", function () {
     });
     assert.strictEqual(html, '<div class="block__elem block__elem_mod-3_val-3 block__elem_mod-4_val-4 mix-block-1"></div>');
 });
+it("template engine test one mix block", function () {
+    let html = templateEngine({
+        block: "block",
+        elem: "elem",
+        elemMods: {
+            'mod-3': "val-3",
+            'mod-4': "val-4"
+        },
+        mix: {
+            block: "mix-block-1",
+        }
+    });
+    assert.strictEqual(html, '<div class="block__elem block__elem_mod-3_val-3 block__elem_mod-4_val-4 mix-block-1"></div>');
+});
 it("template engine test mix element", function () {
     let html = templateEngine({
         block: "block",

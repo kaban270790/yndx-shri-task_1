@@ -2,7 +2,7 @@
  * @param  {object} bemjson — Структура блоков интерфейса в формате BEMJSON
  * @return {string} HTML разметка страницы
  */
-module.exports = function (bemjson) {
+export default function (bemjson) {
     if (bemjson instanceof Array) {
         return bemjson.reduce((html, bemjson) => html + factoryTag(bemjson).toString(), '');
     }

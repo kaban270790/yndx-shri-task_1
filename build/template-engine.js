@@ -12,14 +12,15 @@ module.exports = function (bemjson) {
  * @param {
  *  {
  *      tag:string|boolean?,
- *      block:string,
- *      elem:string?,
- *      mods:Object,
- *      elemMods:Object,
- *      attrs:Object,
+ *      block: string,
+ *      elem: string?,
+ *      mods: Object?,
+ *      elemMods: Object?,
+ *      attrs: Object?,
  *      html: string?
+ *      cls: string?,
  *      content:Object|Object[]|string?,
- *      mix:Object|Object[]
+ *      mix:Object|Object[]?
  * }
  *} bemjson
  * @return {Tag|string}
@@ -30,7 +31,11 @@ const factoryTag = function (bemjson) {
     }
     let tag = new Tag(bemjson.tag);
     let attrs = bemjson.attrs || {};
-    let classNames = (attrs.class ? [attrs.class] : []).concat(factoryBemClassNames(bemjson));
+    let classNames = [].concat(
+        attrs.class || null,
+        bemjson.cls || null,
+        factoryBemClassNames(bemjson)
+    ).filter((name) => !!name);
     if (classNames.length > 0) {
         attrs.class = classNames.join(' ');
     }

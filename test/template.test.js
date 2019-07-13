@@ -189,3 +189,10 @@ it("test attrs", function () {
     });
     assert.strictEqual(html, '<div class="otherClassName block" attribute="attr-val"></div>');
 });
+it("test cls", function () {
+    let html = templateEngine({
+        block: "block",
+        cls: 'subClass1 subClass2',
+    });
+    assert.strictEqual(html, '<div class="subClass1 subClass2 block"></div>');
+});

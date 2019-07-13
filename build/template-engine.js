@@ -9,10 +9,24 @@ module.exports = function (bemjson) {
     return factoryTag(bemjson).toString();
 };
 /**
- * @param {{block:string, elem:string?, mods:Object, elemMods:Object, attrs:Object, content:Object|Object[], mix:Object|Object[]}} bemjson
- * @return {Tag}
+ * @param {
+ *  {
+ *      block:string,
+ *      elem:string?,
+ *      mods:Object,
+ *      elemMods:Object,
+ *      attrs:Object,
+ *      html: string?
+ *      content:Object|Object[],
+ *      mix:Object|Object[]
+ * }
+ *} bemjson
+ * @return {Tag|string}
  */
 const factoryTag = function (bemjson) {
+    if (bemjson.html) {
+        return bemjson.html;
+    }
     let tag = new Tag(bemjson.tag);
     let attrs = bemjson.attrs || {};
     let classNames = (attrs.class ? [attrs.class] : []).concat(factoryBemClassNames(bemjson));
@@ -120,7 +134,7 @@ class Tag {
     }
 
     /**
-     * @param {Tag} item
+     * @param {Tag|string} item
      */
     addContent(item) {
         this.content.push(item);

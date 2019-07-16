@@ -2316,7 +2316,11 @@
                       ],
                       "content": [
                         {
-                          "block": "image"
+                          "block": "commercial",
+                          "elem": "image",
+                          "content": {
+                            "block": "image"
+                          }
                         }
                       ]
                     },

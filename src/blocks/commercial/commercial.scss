@@ -1,11 +1,11 @@
 .commercial  {
   min-height: 430px;
-  --borderWidth: 3px;
   display: flex;
   flex-direction: column;
   align-items: stretch;
 }
 @import "./elements/pic.scss";
+@import "./elements/image.scss";
 @import "./elements/info.scss";
 @import "./elements/nav.scss";
 @import "./elements/item.scss";

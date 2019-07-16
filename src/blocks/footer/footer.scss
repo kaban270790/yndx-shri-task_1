@@ -5,10 +5,6 @@
   justify-content: space-between;
   max-width: $widthM;
   background-color: var(--themeBackgroundColorDefault);
-  &_space-v{
-    &_xxxl {
-      padding-top: var(--themeSpaceXXXL);
-      padding-bottom: var(--themeSpaceXXXL);
-    }
-  }
+  padding-top: var(--themeSpaceXXXL);
+  padding-bottom: var(--themeSpaceXXXL);
 }

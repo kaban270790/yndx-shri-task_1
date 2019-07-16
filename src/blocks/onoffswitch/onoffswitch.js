@@ -15,9 +15,9 @@
 
         while (target !== this) {
             if (target.classList.contains('onoffswitch')) {
-                let classList = target.querySelector('.onoffswitch__switcher').classList;
-                classList.toggle('onoffswitch__switcher_status_on');
-                classList.toggle('onoffswitch__switcher_status_off');
+                let classList = target.querySelector('.onoffswitch__button').classList;
+                classList.toggle('onoffswitch__button_status_on');
+                classList.toggle('onoffswitch__button_status_off');
 
                 let theme = target.closest('.theme');
                 toggleTheme(theme);

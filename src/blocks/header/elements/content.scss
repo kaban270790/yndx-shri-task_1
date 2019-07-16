@@ -1,4 +1,7 @@
 @import "../../../tools.scss";
 .header__content {
   max-width: $widthM;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
 }

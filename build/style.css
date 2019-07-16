@@ -368,7 +368,10 @@
  * Time: 21:57:06
 **/
 .header__content {
-  max-width: 1144px; }
+  max-width: 1144px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between; }
 
 .onoffswitch {
   width: 97px;
@@ -592,6 +595,18 @@
   background-color: var(--themeBackgroundColorDefault);
   padding-top: var(--themeSpaceXXXL);
   padding-bottom: var(--themeSpaceXXXL); }
+
+/**
+ * Created by Дмитрий
+ * User: Дмитрий
+ * Date: 015 15.06.19
+ * Time: 21:57:06
+**/
+.footer__content {
+  max-width: 1144px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between; }
 
 .informer {
   background-color: var(--themeBackgroundColorDefault);

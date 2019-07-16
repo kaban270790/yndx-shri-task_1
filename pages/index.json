@@ -26,17 +26,23 @@
           "content": [
             {
               "block": "header",
-              "elem": "logo"
-            },
-            {
-              "block": "onoffswitch",
+              "elem": "content",
               "content": [
                 {
+                  "block": "header",
+                  "elem": "logo"
+                },
+                {
                   "block": "onoffswitch",
-                  "elem": "switcher",
-                  "elemMods": {
-                    "status": "on"
-                  }
+                  "content": [
+                    {
+                      "block": "onoffswitch",
+                      "elem": "switcher",
+                      "elemMods": {
+                        "status": "on"
+                      }
+                    }
+                  ]
                 }
               ]
             }
@@ -2377,6 +2383,10 @@
           "block": "footer",
           "content": [
             {
+              "block": "footer",
+              "elem": "content",
+              "content": [
+            {
               "block": "text",
               "mods": {
                 "view": "primary",
@@ -2413,6 +2423,8 @@
                     "width": "l"
                   }
                 }
+              ]
+            }
               ]
             }
           ]

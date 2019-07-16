@@ -381,16 +381,16 @@
   box-sizing: border-box;
   cursor: pointer; }
 
-.onoffswitch__switcher {
+.onoffswitch__button {
   position: absolute;
   height: 24px;
   width: 24px;
   transition: right .2s ease-out;
   top: 2px;
   background-color: var(--themeColorBorder); }
-  .onoffswitch__switcher_status_on {
+  .onoffswitch__button_status_on {
     right: 2px; }
-  .onoffswitch__switcher_status_off {
+  .onoffswitch__button_status_off {
     right: 66px; }
 
 .section_indent-b_xxl {

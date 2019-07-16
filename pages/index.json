@@ -29,7 +29,7 @@
               "content": [
                 {
                   "block": "onoffswitch",
-                  "elem": "switcher",
+                  "elem": "button",
                   "elemMods": {
                     "status": "on"
                   }

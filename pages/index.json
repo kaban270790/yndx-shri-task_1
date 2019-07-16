@@ -254,26 +254,41 @@
                           ],
                           "content": [
                             {
-                              "block": "text",
-                              "mods": {
-                                "view": "primary",
-                                "size": "l"
+                              "block": "form",
+                              "elem": "label",
+                              "elemMods": {
+                                "width": "default"
                               },
                               "content": [
                                 {
                                   "block": "text",
-                                  "elem": "word",
-                                  "elemMods": {
-                                    "width": "l"
-                                  }
+                                  "mods": {
+                                    "view": "primary",
+                                    "size": "l"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "elem": "word",
+                                      "elemMods": {
+                                        "width": "l"
+                                      }
+                                    }
+                                  ]
                                 }
                               ]
                             },
                             {
-                              "block": "button",
-                              "mods": {
-                                "size": "l"
-                              }
+                              "block": "form",
+                              "elem": "control",
+                              "content": [
+                                {
+                                  "block": "button",
+                                  "mods": {
+                                    "size": "l"
+                                  }
+                                }
+                              ]
                             }
                           ]
                         }

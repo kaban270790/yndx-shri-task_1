@@ -453,21 +453,16 @@
       grid-column-start: span 8; } }
 
 .payment__content {
+  display: flex;
   flex-direction: column; }
-  .payment__content .text {
-    position: relative;
-    top: 1px; }
 
 .payment__header .text {
   position: relative;
   top: -2px; }
 
-.payment__footer .button {
+.payment__footer .form__control {
+  flex-grow: unset;
   width: 200px; }
-
-.payment__footer .text {
-  position: relative;
-  top: 1px; }
 
 .text {
   display: flex;

@@ -14,6 +14,33 @@
   ],
   "content": [
     {
+      "block": "header",
+      "content": [
+        {
+          "block": "header",
+          "elem": "content",
+          "content": [
+            {
+              "block": "header",
+              "elem": "logo"
+            },
+            {
+              "block": "onoffswitch",
+              "content": [
+                {
+                  "block": "onoffswitch",
+                  "elem": "switcher",
+                  "elemMods": {
+                    "status": "on"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "block": "layout",
       "elem": "container",
       "elemMods": {
@@ -22,396 +49,379 @@
       },
       "content": [
         {
-          "block": "header",
+          "block": "layout",
+          "elem": "container",
+          "elemMods": {
+            "align": "center",
+            "size": "m"
+          },
           "content": [
             {
-              "block": "header",
-              "elem": "content",
+              "block": "section",
+              "mods": {
+                "indent-b": "xxl"
+              },
+              "mix": [
+                {
+                  "block": "grid",
+                  "mods": {
+                    "col-gap": "full",
+                    "row-gap": "full",
+                    "m-columns": "10"
+                  }
+                }
+              ],
               "content": [
                 {
-                  "block": "header",
-                  "elem": "logo"
+                  "block": "grid",
+                  "elem": "fraction",
+                  "elemMods": {
+                    "m-col": "5"
+                  },
+                  "content": [
+                    {
+                      "block": "payment",
+                      "mix": [
+                        {
+                          "block": "form",
+                          "mods": {
+                            "border": "all"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "payment",
+                          "elem": "header",
+                          "mix": [
+                            {
+                              "block": "form",
+                              "elem": "item",
+                              "elemMods": {
+                                "space-v": "l",
+                                "space-h": "xl",
+                                "border": "bottom"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "text",
+                              "mods": {
+                                "view": "primary",
+                                "size": "xxl"
+                              },
+                              "content": [
+                                {
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "l"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "block": "payment",
+                          "elem": "content",
+                          "mix": [
+                            {
+                              "block": "form",
+                              "elem": "item",
+                              "elemMods": {
+                                "space-v": "xxxl",
+                                "space-h": "xl",
+                                "border": "bottom"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "form",
+                              "elem": "item",
+                              "elemMods": {
+                                "indent-b": "xl",
+                                "distribute": "between",
+                                "vertical-align": "center"
+                              },
+                              "content": [
+                                {
+                                  "block": "form",
+                                  "elem": "label",
+                                  "elemMods": {
+                                    "width": "default"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "form",
+                                  "elem": "control",
+                                  "content": [
+                                    {
+                                      "block": "input",
+                                      "mods": {
+                                        "size": "l"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "block": "form",
+                              "elem": "item",
+                              "elemMods": {
+                                "indent-b": "xl",
+                                "distribute": "between",
+                                "vertical-align": "center"
+                              },
+                              "content": [
+                                {
+                                  "block": "form",
+                                  "elem": "label",
+                                  "elemMods": {
+                                    "width": "default"
+                                  },
+                                  "content": [
+                                    {
+                                      "block": "text",
+                                      "mods": {
+                                        "view": "primary",
+                                        "size": "l"
+                                      },
+                                      "content": [
+                                        {
+                                          "block": "text",
+                                          "elem": "word",
+                                          "elemMods": {
+                                            "width": "l"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "block": "form",
+                                  "elem": "control",
+                                  "content": [
+                                    {
+                                      "block": "input",
+                                      "mods": {
+                                        "size": "l"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "block": "payment",
+                          "elem": "footer",
+                          "mix": [
+                            {
+                              "block": "form",
+                              "elem": "item",
+                              "elemMods": {
+                                "distribute": "between",
+                                "vertical-align": "center",
+                                "space-v": "l",
+                                "space-h": "xl",
+                                "border": "bottom"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "text",
+                              "mods": {
+                                "view": "primary",
+                                "size": "l"
+                              },
+                              "content": [
+                                {
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "l"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "block": "button",
+                              "mods": {
+                                "size": "l"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
-                  "block": "onoffswitch",
-                  "content": [
-                    {
-                      "block": "onoffswitch",
-                      "elem": "switcher",
-                      "elemMods": {
-                        "status": "on"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "block": "section",
-          "mods": {
-            "indent-b": "xxl"
-          },
-          "mix": [
-            {
-              "block": "grid",
-              "mods": {
-                "col-gap": "full",
-                "row-gap": "full",
-                "m-columns": "10"
-              }
-            }
-          ],
-          "content": [
-            {
-              "block": "grid",
-              "elem": "fraction",
-              "elemMods": {
-                "m-col": "5"
-              },
-              "content": [
-                {
-                  "block": "payment",
-                  "mix": [
-                    {
-                      "block": "form",
-                      "mods": {
-                        "border": "all"
-                      }
-                    }
-                  ],
-                  "content": [
-                    {
-                      "block": "payment",
-                      "elem": "header",
-                      "mix": [
-                        {
-                          "block": "form",
-                          "elem": "item",
-                          "elemMods": {
-                            "space-v": "l",
-                            "space-h": "xl",
-                            "border": "bottom"
-                          }
-                        }
-                      ],
-                      "content": [
-                        {
-                          "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "xxl"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "l"
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "block": "payment",
-                      "elem": "content",
-                      "mix": [
-                        {
-                          "block": "form",
-                          "elem": "item",
-                          "elemMods": {
-                            "space-v": "xxxl",
-                            "space-h": "xl",
-                            "border": "bottom"
-                          }
-                        }
-                      ],
-                      "content": [
-                        {
-                          "block": "form",
-                          "elem": "item",
-                          "elemMods": {
-                            "indent-b": "xl",
-                            "distribute": "between",
-                            "vertical-align": "center"
-                          },
-                          "content": [
-                            {
-                              "block": "form",
-                              "elem": "label",
-                              "elemMods": {
-                                "width": "default"
-                              },
-                              "content": [
-                                {
-                                  "block": "text",
-                                  "mods": {
-                                    "view": "primary",
-                                    "size": "l"
-                                  },
-                                  "content": [
-                                    {
-                                      "block": "text",
-                                      "elem": "word",
-                                      "elemMods": {
-                                        "width": "l"
-                                      }
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "block": "form",
-                              "elem": "control",
-                              "content": [
-                                {
-                                  "block": "input",
-                                  "mods": {
-                                    "size": "l"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "block": "form",
-                          "elem": "item",
-                          "elemMods": {
-                            "indent-b": "xl",
-                            "distribute": "between",
-                            "vertical-align": "center"
-                          },
-                          "content": [
-                            {
-                              "block": "form",
-                              "elem": "label",
-                              "elemMods": {
-                                "width": "default"
-                              },
-                              "content": [
-                                {
-                                  "block": "text",
-                                  "mods": {
-                                    "view": "primary",
-                                    "size": "l"
-                                  },
-                                  "content": [
-                                    {
-                                      "block": "text",
-                                      "elem": "word",
-                                      "elemMods": {
-                                        "width": "l"
-                                      }
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "block": "form",
-                              "elem": "control",
-                              "content": [
-                                {
-                                  "block": "input",
-                                  "mods": {
-                                    "size": "l"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "block": "payment",
-                      "elem": "footer",
-                      "mix": [
-                        {
-                          "block": "form",
-                          "elem": "item",
-                          "elemMods": {
-                            "distribute": "between",
-                            "vertical-align": "center",
-                            "space-v": "l",
-                            "space-h": "xl",
-                            "border": "bottom"
-                          }
-                        }
-                      ],
-                      "content": [
-                        {
-                          "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "l"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "l"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "block": "button",
-                          "mods": {
-                            "size": "l"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "block": "grid",
-              "elem": "fraction",
-              "elemMods": {
-                "m-col": "5"
-              },
-              "content": [
-                {
-                  "block": "warning",
-                  "mix": [
-                    {
-                      "block": "informer",
-                      "mods": {
-                        "view": "default",
-                        "border": "all"
-                      }
-                    },
-                    {
-                      "block": "theme",
-                      "mods": {
-                        "color": "project-warning"
-                      }
-                    }
-                  ],
+                  "block": "grid",
+                  "elem": "fraction",
+                  "elemMods": {
+                    "m-col": "5"
+                  },
                   "content": [
                     {
                       "block": "warning",
-                      "elem": "content",
                       "mix": [
                         {
                           "block": "informer",
+                          "mods": {
+                            "view": "default",
+                            "border": "all"
+                          }
+                        },
+                        {
+                          "block": "theme",
+                          "mods": {
+                            "color": "project-warning"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "warning",
                           "elem": "content",
-                          "elemMods": {
-                            "distribute": "center",
-                            "space-a": "xxl"
-                          }
-                        }
-                      ],
-                      "content": [
-                        {
-                          "block": "placeholder",
-                          "mods": {
-                            "view": "primary",
-                            "size": "m"
-                          }
-                        },
-                        {
-                          "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "xl"
-                          },
+                          "mix": [
+                            {
+                              "block": "informer",
+                              "elem": "content",
+                              "elemMods": {
+                                "distribute": "center",
+                                "space-a": "xxl"
+                              }
+                            }
+                          ],
                           "content": [
                             {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "s"
+                              "block": "placeholder",
+                              "mods": {
+                                "view": "primary",
+                                "size": "m"
                               }
                             },
                             {
                               "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "l"
-                              }
-                            },
+                              "mods": {
+                                "view": "primary",
+                                "size": "xl"
+                              },
+                              "content": [
+                                {
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "s"
+                                  }
+                                },
+                                {
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "l"
+                                  }
+                                },
+                                {
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "m"
+                                  }
+                                },
+                                {
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "m"
+                                  }
+                                },
+                                {
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "s"
+                                  }
+                                },
+                                {
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "m"
+                                  }
+                                },
+                                {
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "l"
+                                  }
+                                },
+                                {
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "s"
+                                  }
+                                },
+                                {
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "m"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "block": "warning",
+                          "elem": "button-wrapper",
+                          "mix": [
                             {
-                              "block": "text",
-                              "elem": "word",
+                              "block": "informer",
+                              "elem": "action",
                               "elemMods": {
-                                "width": "m"
+                                "distribute": "center",
+                                "space-a": "xl"
                               }
-                            },
+                            }
+                          ],
+                          "content": [
                             {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "m"
-                              }
-                            },
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "s"
-                              }
-                            },
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "m"
-                              }
-                            },
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "l"
-                              }
-                            },
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "s"
-                              }
-                            },
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "m"
+                              "block": "button",
+                              "mods": {
+                                "size": "l"
                               }
                             }
                           ]
-                        }
-                      ]
-                    },
-                    {
-                      "block": "warning",
-                      "elem": "button-wrapper",
-                      "mix": [
-                        {
-                          "block": "informer",
-                          "elem": "action",
-                          "elemMods": {
-                            "distribute": "center",
-                            "space-a": "xl"
-                          }
-                        }
-                      ],
-                      "content": [
-                        {
-                          "block": "button",
-                          "mods": {
-                            "size": "l"
-                          }
                         }
                       ]
                     }
@@ -420,7 +430,17 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "block": "layout",
+      "elem": "container",
+      "elemMods": {
+        "align": "center",
+        "size": "m"
+      },
+      "content": [
         {
           "block": "section",
           "mods": {
@@ -908,7 +928,17 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "block": "layout",
+      "elem": "container",
+      "elemMods": {
+        "align": "center",
+        "size": "m"
+      },
+      "content": [
         {
           "block": "section",
           "mix": [
@@ -2378,14 +2408,16 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "block": "footer",
+      "content": [
         {
           "block": "footer",
+          "elem": "content",
           "content": [
-            {
-              "block": "footer",
-              "elem": "content",
-              "content": [
             {
               "block": "text",
               "mods": {
@@ -2423,8 +2455,6 @@
                     "width": "l"
                   }
                 }
-              ]
-            }
               ]
             }
           ]

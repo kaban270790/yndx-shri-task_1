@@ -763,6 +763,9 @@
 .history__hide {
   display: none; }
 
+.history__show {
+  display: flex; }
+
 .history__actions {
   margin-bottom: -4px; }
 

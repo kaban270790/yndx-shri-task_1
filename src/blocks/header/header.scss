@@ -3,8 +3,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--themeBackgroundColorDefault);
-  padding-top: var(--themeSpaceXXXL);
-  padding-bottom: var(--themeSpaceXXXL);
+  padding: var(--themeSpaceXXXL) var(--themeGap);
 }
 
 @import "./elements/logo.scss";

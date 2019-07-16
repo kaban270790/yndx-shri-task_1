@@ -354,8 +354,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--themeBackgroundColorDefault);
-  padding-top: var(--themeSpaceXXXL);
-  padding-bottom: var(--themeSpaceXXXL); }
+  padding: var(--themeSpaceXXXL) var(--themeGap); }
 
 .header__logo {
   width: 179px;
@@ -592,8 +591,7 @@
   display: flex;
   justify-content: center;
   background-color: var(--themeBackgroundColorDefault);
-  padding-top: var(--themeSpaceXXXL);
-  padding-bottom: var(--themeSpaceXXXL); }
+  padding: var(--themeSpaceXXXL) var(--themeGap); }
 
 /**
  * Created by Дмитрий

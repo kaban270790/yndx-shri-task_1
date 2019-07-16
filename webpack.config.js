@@ -10,7 +10,7 @@ module.exports = (env, argv) => {
         },
         entry: {
             'style.css': path.join(__dirname, 'src', 'blocks', 'blocks.scss'),
-            'script.js': path.join(__dirname, 'src', 'blocks', 'script.js'),
+            // 'script.js': path.join(__dirname, 'src', 'blocks', 'script.js'),
         },
         output: {
             filename: "[name]",

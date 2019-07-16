@@ -1,4 +1,7 @@
 .history__destination {
   display: flex;
   width: 100%;
+  .text {
+    margin-top: var(--themeSpaceXXS);
+  }
 }

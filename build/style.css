@@ -741,11 +741,8 @@
 .history__destination {
   display: flex;
   width: 100%; }
-
-.history__label {
-  margin-top: var(--themeSpaceXXS); }
-  .history__label:last-child {
-    margin-left: auto; }
+  .history__destination .text {
+    margin-top: var(--themeSpaceXXS); }
 
 .history__transaction {
   padding-bottom: var(--themeSpaceXL);
@@ -754,7 +751,7 @@
   flex-direction: column; }
 
 .history__time {
-  margin-top: var(--themeSpaceXS); }
+  margin-top: var(--themeSpaceM); }
 
 .history__description {
   margin-top: var(--themeSpaceXXS);
@@ -765,9 +762,15 @@
 
 .history__show {
   display: flex; }
+  .history__show > .text {
+    margin-top: var(--themeSpaceXXS); }
 
 .history__actions {
   margin-bottom: -4px; }
+
+.history__detail {
+  display: flex;
+  flex-grow: 1; }
 
 .brand-logo_name_yota {
   background-color: #00c0f8; }

@@ -1022,15 +1022,7 @@
                           "content": [
                             {
                               "block": "history",
-                              "elem": "destination",
-                              "mix": [
-                                {
-                                  "block": "icon-plus",
-                                  "mods": {
-                                    "vertical-align": "center"
-                                  }
-                                }
-                              ],
+                              "elem": "detail",
                               "content": [
                                 {
                                   "block": "history",
@@ -1074,82 +1066,84 @@
                                 },
                                 {
                                   "block": "history",
-                                  "elem": "pic",
+                                  "elem": "destination",
                                   "mix": [
                                     {
                                       "block": "icon-plus",
-                                      "elem": "icon",
-                                      "elemMods": {
-                                        "indent-r": "s",
-                                        "indent-l": "l"
+                                      "mods": {
+                                        "vertical-align": "center"
                                       }
                                     }
                                   ],
                                   "content": [
                                     {
-                                      "block": "brand-logo",
-                                      "mods": {
-                                        "name": "yota",
-                                        "size": "m"
-                                      }
-                                    }
-                                  ]
-                                },
-                                {
-                                  "block": "history",
-                                  "elem": "label",
-                                  "mix": [
+                                      "block": "history",
+                                      "elem": "pic",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "elem": "icon",
+                                          "elemMods": {
+                                            "indent-r": "s",
+                                            "indent-l": "l"
+                                          }
+                                        }
+                                      ],
+                                      "content": [
+                                        {
+                                          "block": "brand-logo",
+                                          "mods": {
+                                            "name": "yota",
+                                            "size": "m"
+                                          }
+                                        }
+                                      ]
+                                    },
                                     {
-                                      "block": "icon-plus",
-                                      "elem": "block"
-                                    }
-                                  ],
-                                  "content": [
-                                    {
-                                      "block": "text",
-                                      "mods": {
-                                        "view": "primary",
-                                        "size": "l"
-                                      },
+                                      "block": "history",
+                                      "elem": "label",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "elem": "block"
+                                        }
+                                      ],
                                       "content": [
                                         {
                                           "block": "text",
-                                          "elem": "word",
-                                          "elemMods": {
-                                            "width": "l"
-                                          }
+                                          "mods": {
+                                            "view": "primary",
+                                            "size": "l"
+                                          },
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "elem": "word",
+                                              "elemMods": {
+                                                "width": "l"
+                                              }
+                                            }
+                                          ]
                                         }
                                       ]
                                     }
                                   ]
-                                },
+                                }
+                              ]
+                            },
+                            {
+                              "block": "text",
+                              "mods": {
+                                "view": "primary",
+                                "size": "l"
+                              },
+                              "content": [
                                 {
-                                  "block": "history",
-                                  "elem": "label",
-                                  "mix": [
-                                    {
-                                      "block": "icon-plus",
-                                      "elem": "block"
-                                    }
-                                  ],
-                                  "content": [
-                                    {
-                                      "block": "text",
-                                      "mods": {
-                                        "view": "primary",
-                                        "size": "l"
-                                      },
-                                      "content": [
-                                        {
-                                          "block": "text",
-                                          "elem": "word",
-                                          "elemMods": {
-                                            "width": "m"
-                                          }
-                                        }
-                                      ]
-                                    }
-                                  ]
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "m"
+                                  }
                                 }
                               ]
                             }
@@ -1344,15 +1338,7 @@
                           "content": [
                             {
                               "block": "history",
-                              "elem": "destination",
-                              "mix": [
-                                {
-                                  "block": "icon-plus",
-                                  "mods": {
-                                    "vertical-align": "center"
-                                  }
-                                }
-                              ],
+                              "elem": "detail",
                               "content": [
                                 {
                                   "block": "history",
@@ -1396,82 +1382,84 @@
                                 },
                                 {
                                   "block": "history",
-                                  "elem": "pic",
+                                  "elem": "destination",
                                   "mix": [
                                     {
                                       "block": "icon-plus",
-                                      "elem": "icon",
-                                      "elemMods": {
-                                        "indent-r": "s",
-                                        "indent-l": "l"
+                                      "mods": {
+                                        "vertical-align": "center"
                                       }
                                     }
                                   ],
                                   "content": [
                                     {
-                                      "block": "brand-logo",
-                                      "mods": {
-                                        "name": "mts",
-                                        "size": "m"
-                                      }
-                                    }
-                                  ]
-                                },
-                                {
-                                  "block": "history",
-                                  "elem": "label",
-                                  "mix": [
+                                      "block": "history",
+                                      "elem": "pic",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "elem": "icon",
+                                          "elemMods": {
+                                            "indent-r": "s",
+                                            "indent-l": "l"
+                                          }
+                                        }
+                                      ],
+                                      "content": [
+                                        {
+                                          "block": "brand-logo",
+                                          "mods": {
+                                            "name": "mts",
+                                            "size": "m"
+                                          }
+                                        }
+                                      ]
+                                    },
                                     {
-                                      "block": "icon-plus",
-                                      "elem": "block"
-                                    }
-                                  ],
-                                  "content": [
-                                    {
-                                      "block": "text",
-                                      "mods": {
-                                        "view": "primary",
-                                        "size": "l"
-                                      },
+                                      "block": "history",
+                                      "elem": "label",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "elem": "block"
+                                        }
+                                      ],
                                       "content": [
                                         {
                                           "block": "text",
-                                          "elem": "word",
-                                          "elemMods": {
-                                            "width": "l"
-                                          }
+                                          "mods": {
+                                            "view": "primary",
+                                            "size": "l"
+                                          },
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "elem": "word",
+                                              "elemMods": {
+                                                "width": "l"
+                                              }
+                                            }
+                                          ]
                                         }
                                       ]
                                     }
                                   ]
-                                },
+                                }
+                              ]
+                            },
+                            {
+                              "block": "text",
+                              "mods": {
+                                "view": "primary",
+                                "size": "l"
+                              },
+                              "content": [
                                 {
-                                  "block": "history",
-                                  "elem": "label",
-                                  "mix": [
-                                    {
-                                      "block": "icon-plus",
-                                      "elem": "block"
-                                    }
-                                  ],
-                                  "content": [
-                                    {
-                                      "block": "text",
-                                      "mods": {
-                                        "view": "primary",
-                                        "size": "l"
-                                      },
-                                      "content": [
-                                        {
-                                          "block": "text",
-                                          "elem": "word",
-                                          "elemMods": {
-                                            "width": "m"
-                                          }
-                                        }
-                                      ]
-                                    }
-                                  ]
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "m"
+                                  }
                                 }
                               ]
                             }
@@ -1666,15 +1654,7 @@
                           "content": [
                             {
                               "block": "history",
-                              "elem": "destination",
-                              "mix": [
-                                {
-                                  "block": "icon-plus",
-                                  "mods": {
-                                    "vertical-align": "center"
-                                  }
-                                }
-                              ],
+                              "elem": "detail",
                               "content": [
                                 {
                                   "block": "history",
@@ -1718,82 +1698,84 @@
                                 },
                                 {
                                   "block": "history",
-                                  "elem": "pic",
+                                  "elem": "destination",
                                   "mix": [
                                     {
                                       "block": "icon-plus",
-                                      "elem": "icon",
-                                      "elemMods": {
-                                        "indent-r": "s",
-                                        "indent-l": "l"
+                                      "mods": {
+                                        "vertical-align": "center"
                                       }
                                     }
                                   ],
                                   "content": [
                                     {
-                                      "block": "brand-logo",
-                                      "mods": {
-                                        "name": "kcell",
-                                        "size": "m"
-                                      }
-                                    }
-                                  ]
-                                },
-                                {
-                                  "block": "history",
-                                  "elem": "label",
-                                  "mix": [
+                                      "block": "history",
+                                      "elem": "pic",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "elem": "icon",
+                                          "elemMods": {
+                                            "indent-r": "s",
+                                            "indent-l": "l"
+                                          }
+                                        }
+                                      ],
+                                      "content": [
+                                        {
+                                          "block": "brand-logo",
+                                          "mods": {
+                                            "name": "kcell",
+                                            "size": "m"
+                                          }
+                                        }
+                                      ]
+                                    },
                                     {
-                                      "block": "icon-plus",
-                                      "elem": "block"
-                                    }
-                                  ],
-                                  "content": [
-                                    {
-                                      "block": "text",
-                                      "mods": {
-                                        "view": "primary",
-                                        "size": "l"
-                                      },
+                                      "block": "history",
+                                      "elem": "label",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "elem": "block"
+                                        }
+                                      ],
                                       "content": [
                                         {
                                           "block": "text",
-                                          "elem": "word",
-                                          "elemMods": {
-                                            "width": "l"
-                                          }
+                                          "mods": {
+                                            "view": "primary",
+                                            "size": "l"
+                                          },
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "elem": "word",
+                                              "elemMods": {
+                                                "width": "l"
+                                              }
+                                            }
+                                          ]
                                         }
                                       ]
                                     }
                                   ]
-                                },
+                                }
+                              ]
+                            },
+                            {
+                              "block": "text",
+                              "mods": {
+                                "view": "primary",
+                                "size": "l"
+                              },
+                              "content": [
                                 {
-                                  "block": "history",
-                                  "elem": "label",
-                                  "mix": [
-                                    {
-                                      "block": "icon-plus",
-                                      "elem": "block"
-                                    }
-                                  ],
-                                  "content": [
-                                    {
-                                      "block": "text",
-                                      "mods": {
-                                        "view": "primary",
-                                        "size": "l"
-                                      },
-                                      "content": [
-                                        {
-                                          "block": "text",
-                                          "elem": "word",
-                                          "elemMods": {
-                                            "width": "m"
-                                          }
-                                        }
-                                      ]
-                                    }
-                                  ]
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "m"
+                                  }
                                 }
                               ]
                             }
@@ -1988,15 +1970,7 @@
                           "content": [
                             {
                               "block": "history",
-                              "elem": "destination",
-                              "mix": [
-                                {
-                                  "block": "icon-plus",
-                                  "mods": {
-                                    "vertical-align": "center"
-                                  }
-                                }
-                              ],
+                              "elem": "detail",
                               "content": [
                                 {
                                   "block": "history",
@@ -2040,82 +2014,84 @@
                                 },
                                 {
                                   "block": "history",
-                                  "elem": "pic",
+                                  "elem": "destination",
                                   "mix": [
                                     {
                                       "block": "icon-plus",
-                                      "elem": "icon",
-                                      "elemMods": {
-                                        "indent-r": "s",
-                                        "indent-l": "l"
+                                      "mods": {
+                                        "vertical-align": "center"
                                       }
                                     }
                                   ],
                                   "content": [
                                     {
-                                      "block": "brand-logo",
-                                      "mods": {
-                                        "name": "megafon",
-                                        "size": "m"
-                                      }
-                                    }
-                                  ]
-                                },
-                                {
-                                  "block": "history",
-                                  "elem": "label",
-                                  "mix": [
+                                      "block": "history",
+                                      "elem": "pic",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "elem": "icon",
+                                          "elemMods": {
+                                            "indent-r": "s",
+                                            "indent-l": "l"
+                                          }
+                                        }
+                                      ],
+                                      "content": [
+                                        {
+                                          "block": "brand-logo",
+                                          "mods": {
+                                            "name": "megafon",
+                                            "size": "m"
+                                          }
+                                        }
+                                      ]
+                                    },
                                     {
-                                      "block": "icon-plus",
-                                      "elem": "block"
-                                    }
-                                  ],
-                                  "content": [
-                                    {
-                                      "block": "text",
-                                      "mods": {
-                                        "view": "primary",
-                                        "size": "l"
-                                      },
+                                      "block": "history",
+                                      "elem": "label",
+                                      "mix": [
+                                        {
+                                          "block": "icon-plus",
+                                          "elem": "block"
+                                        }
+                                      ],
                                       "content": [
                                         {
                                           "block": "text",
-                                          "elem": "word",
-                                          "elemMods": {
-                                            "width": "l"
-                                          }
+                                          "mods": {
+                                            "view": "primary",
+                                            "size": "l"
+                                          },
+                                          "content": [
+                                            {
+                                              "block": "text",
+                                              "elem": "word",
+                                              "elemMods": {
+                                                "width": "l"
+                                              }
+                                            }
+                                          ]
                                         }
                                       ]
                                     }
                                   ]
-                                },
+                                }
+                              ]
+                            },
+                            {
+                              "block": "text",
+                              "mods": {
+                                "view": "primary",
+                                "size": "l"
+                              },
+                              "content": [
                                 {
-                                  "block": "history",
-                                  "elem": "label",
-                                  "mix": [
-                                    {
-                                      "block": "icon-plus",
-                                      "elem": "block"
-                                    }
-                                  ],
-                                  "content": [
-                                    {
-                                      "block": "text",
-                                      "mods": {
-                                        "view": "primary",
-                                        "size": "l"
-                                      },
-                                      "content": [
-                                        {
-                                          "block": "text",
-                                          "elem": "word",
-                                          "elemMods": {
-                                            "width": "m"
-                                          }
-                                        }
-                                      ]
-                                    }
-                                  ]
+                                  "block": "text",
+                                  "elem": "word",
+                                  "elemMods": {
+                                    "width": "m"
+                                  }
                                 }
                               ]
                             }

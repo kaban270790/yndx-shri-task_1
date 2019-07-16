@@ -1,3 +1,7 @@
 .history__show {
   display: flex;
+
+  > .text {
+    margin-top: var(--themeSpaceXXS);
+  }
 }

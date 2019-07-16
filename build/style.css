@@ -73,7 +73,8 @@
     --themeSpaceXL: 24px;
     --themeSpaceXXL: 32px;
     --themeSpaceXXXL: 40px;
-    --themeSpaceXXXXL: 48px; }
+    --themeSpaceXXXXL: 48px;
+    --themeSpaceXXXXXL: 72px; }
   .theme_gap_small {
     --themeGap: var(--themeSpaceXXXL); }
     @media (max-width: 880px) {
@@ -406,6 +407,10 @@
 .section_space-v_xxxxl {
   padding-top: var(--themeSpaceXXXXL);
   padding-bottom: var(--themeSpaceXXXXL); }
+
+.section_space-v_xxxxxl {
+  padding-top: var(--themeSpaceXXXXXL);
+  padding-bottom: var(--themeSpaceXXXXXL); }
 
 /**
  * Created by Дмитрий
@@ -914,11 +919,16 @@
   box-sizing: border-box;
   padding: var(--themeSpaceXL);
   display: flex;
-  flex-direction: column;
-  margin-top: auto; }
+  flex-direction: column; }
+
+.subscription__title {
+  margin-top: -2px;
+  margin-bottom: var(--themeSpaceM); }
 
 .subscription__info {
   flex-direction: column; }
+  .subscription__info .text {
+    margin-bottom: var(--themeSpaceS); }
 
 .subscription__footer {
   margin-top: auto; }

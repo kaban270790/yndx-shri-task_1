@@ -1,3 +1,6 @@
 .subscription__info {
   flex-direction: column;
+  .text {
+    margin-bottom: var(--themeSpaceS);
+  }
 }

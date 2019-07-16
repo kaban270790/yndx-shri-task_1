@@ -1,4 +1,7 @@
 (function () {
+    if (!document || !document.body) {
+        return;
+    }
     document.body.addEventListener('click', function (e) {
         let {target} = e;
 

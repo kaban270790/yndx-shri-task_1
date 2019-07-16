@@ -1,4 +1,7 @@
 (function () {
+    if (!document || !document.body) {
+        return;
+    }
     const themeClasses = [
         'theme_color_project-default',
         'theme_color_project-brand',

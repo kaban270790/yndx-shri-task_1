@@ -23,9 +23,6 @@
               "content": [
                 {
                   "block": "header",
-                  "mods": {
-                    "space-v": "xxxl"
-                  },
                   "content": [
                     {
                       "block": "header",

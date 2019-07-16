@@ -352,10 +352,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--themeBackgroundColorDefault); }
-  .header_space-v_xxxl {
-    padding-top: var(--themeSpaceXXXL);
-    padding-bottom: var(--themeSpaceXXXL); }
+  background-color: var(--themeBackgroundColorDefault);
+  padding-top: var(--themeSpaceXXXL);
+  padding-bottom: var(--themeSpaceXXXL); }
 
 .header__logo {
   width: 179px;

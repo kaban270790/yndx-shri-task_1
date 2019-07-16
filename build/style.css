@@ -361,6 +361,15 @@
   height: 34px;
   background-color: var(--themeTextColorDefault); }
 
+/**
+ * Created by Дмитрий
+ * User: Дмитрий
+ * Date: 015 15.06.19
+ * Time: 21:57:06
+**/
+.header__content {
+  max-width: 1144px; }
+
 .onoffswitch {
   width: 97px;
   height: 32px;

@@ -1,7 +1,4 @@
 .payment__content {
+  display: flex;
   flex-direction: column;
-  .text {
-    position: relative;
-    top: 1px;
-  }
 }

@@ -26,7 +26,8 @@ export default function (bemjson) {
  * @return {Tag|string}
  */
 const factoryTag = function (bemjson) {
-    if (bemjson && bemjson.html) {
+    bemjson = bemjson || {};
+    if (bemjson.html) {
         return bemjson.html;
     }
     let tag = new Tag(bemjson.tag);

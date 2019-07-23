@@ -762,7 +762,8 @@
   display: none; }
 
 .history__show {
-  display: flex; }
+  display: flex;
+  margin-top: 0; }
   .history__show > .text {
     margin-top: var(--themeSpaceXXS); }
 

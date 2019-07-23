@@ -15,20 +15,17 @@
   "content": [
     {
       "block": "history",
-      "mix": [
-        {
-          "block": "list",
-          "mods": {
-            "view": "default",
-            "border": "all"
-          }
-        }
-      ],
       "content": [
         {
           "block": "history",
           "elem": "transaction",
+          "elemMods": {
+            "brand": "yota"
+          },
           "mix": [
+            {
+              "block": "e-accordion"
+            },
             {
               "block": "list",
               "elem": "item",
@@ -36,16 +33,20 @@
                 "border": "bottom",
                 "space-a": "l"
               }
-            },
-            {
-              "block": "e-accordion"
             }
           ],
           "content": [
             {
               "block": "history",
               "elem": "show",
+              "elemMods": {
+                "brand": "yota"
+              },
               "mix": [
+                {
+                  "block": "e-accordion",
+                  "elem": "short"
+                },
                 {
                   "block": "list",
                   "elem": "item",
@@ -53,16 +54,12 @@
                     "vertical-align": "center",
                     "indent-t": "m"
                   }
-                },
-                {
-                  "block": "e-accordion",
-                  "elem": "short"
                 }
               ],
               "content": [
                 {
                   "block": "history",
-                  "elem": "detail",
+                  "elem": "details",
                   "content": [
                     {
                       "block": "history",
@@ -71,16 +68,15 @@
                         {
                           "block": "text",
                           "mods": {
-                            "view": "ghost",
-                            "size": "s"
+                            "size": "s",
+                            "view": "ghost"
                           },
                           "content": [
                             {
                               "block": "text",
                               "elem": "word",
                               "elemMods": {
-                                "width": "m",
-                                "type": "p"
+                                "width": "m"
                               }
                             }
                           ]
@@ -88,16 +84,15 @@
                         {
                           "block": "text",
                           "mods": {
-                            "view": "ghost",
-                            "size": "s"
+                            "size": "s",
+                            "view": "ghost"
                           },
                           "content": [
                             {
                               "block": "text",
                               "elem": "word",
                               "elemMods": {
-                                "width": "m",
-                                "type": "p"
+                                "width": "m"
                               }
                             }
                           ]
@@ -133,8 +128,8 @@
                             {
                               "block": "brand-logo",
                               "mods": {
-                                "name": "yota",
-                                "size": "m"
+                                "size": "m",
+                                "name": "yota"
                               }
                             }
                           ]
@@ -146,24 +141,22 @@
                             {
                               "block": "icon-plus",
                               "elem": "block"
-                            }
-                          ],
-                          "content": [
+                            },
                             {
                               "block": "text",
                               "mods": {
                                 "view": "primary",
                                 "size": "l"
-                              },
-                              "content": [
-                                {
-                                  "block": "text",
-                                  "elem": "word",
-                                  "elemMods": {
-                                    "width": "l"
-                                  }
-                                }
-                              ]
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
                             }
                           ]
                         }
@@ -172,154 +165,9 @@
                   ]
                 },
                 {
-                  "block": "text",
-                  "mods": {
-                    "view": "primary",
-                    "size": "l"
-                  },
-                  "content": [
-                    {
-                      "block": "text",
-                      "elem": "word",
-                      "elemMods": {
-                        "width": "m"
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "block": "history",
-              "elem": "hide",
-              "mix": [
-                {
-                  "block": "e-accordion",
-                  "elem": "more",
-                  "elemMods": {
-                    "view": "default"
-                  }
-                },
-                {
-                  "block": "list",
-                  "elem": "item",
-                  "elemMods": {
-                    "indent-t": "m"
-                  }
-                }
-              ],
-              "content": [
-                {
                   "block": "history",
-                  "elem": "description",
-                  "mix": [
-                    {
-                      "block": "list",
-                      "elem": "item",
-                      "elemMods": {
-                        "indent-b": "m"
-                      }
-                    }
-                  ],
+                  "elem": "quantity",
                   "content": [
-                    {
-                      "block": "text",
-                      "mods": {
-                        "view": "primary",
-                        "size": "l"
-                      },
-                      "content": [
-                        {
-                          "block": "text",
-                          "elem": "word",
-                          "elemMods": {
-                            "width": "l",
-                            "type": "p"
-                          }
-                        },
-                        {
-                          "block": "text",
-                          "elem": "word",
-                          "elemMods": {
-                            "width": "m",
-                            "type": "p"
-                          }
-                        },
-                        {
-                          "block": "text",
-                          "elem": "word",
-                          "elemMods": {
-                            "width": "l",
-                            "type": "p"
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "block": "text",
-                      "mods": {
-                        "view": "primary",
-                        "size": "l"
-                      },
-                      "content": [
-                        {
-                          "block": "text",
-                          "elem": "word",
-                          "elemMods": {
-                            "width": "l",
-                            "type": "p"
-                          }
-                        },
-                        {
-                          "block": "text",
-                          "elem": "word",
-                          "elemMods": {
-                            "width": "m",
-                            "type": "p"
-                          }
-                        },
-                        {
-                          "block": "text",
-                          "elem": "word",
-                          "elemMods": {
-                            "width": "l",
-                            "type": "p"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "block": "history",
-                  "elem": "actions",
-                  "mix": [
-                    {
-                      "block": "list",
-                      "elem": "item",
-                      "elemMods": {
-                        "distribute": "between",
-                        "indent-b": "l"
-                      }
-                    }
-                  ],
-                  "content": [
-                    {
-                      "block": "text",
-                      "mods": {
-                        "view": "primary",
-                        "size": "l"
-                      },
-                      "content": [
-                        {
-                          "block": "text",
-                          "elem": "word",
-                          "elemMods": {
-                            "width": "l"
-                          }
-                        }
-                      ]
-                    },
                     {
                       "block": "text",
                       "mods": {
@@ -339,8 +187,1131 @@
                   ]
                 }
               ]
+            },
+            {
+              "block": "history",
+              "elem": "hide",
+              "mix": [
+                {
+                  "block": "e-accordion",
+                  "elem": "more"
+                },
+                {
+                  "block": "list",
+                  "elem": "item",
+                  "elemMods": {
+                    "indent-t": "m"
+                  }
+                }
+              ],
+              "content": [
+                {
+                  "block": "history",
+                  "elem": "info",
+                  "content": [
+                    {
+                      "block": "history",
+                      "elem": "description",
+                      "mix": [
+                        {
+                          "block": "list",
+                          "elem": "item",
+                          "elemMods": {
+                            "indent-b": "m"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "history",
+                      "elem": "actions",
+                      "mix": [
+                        {
+                          "block": "list",
+                          "elem": "item",
+                          "elemMods": {
+                            "distribute": "between",
+                            "indent-b": "l"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
+        },
+        {
+          "block": "history",
+          "elem": "transaction",
+          "elemMods": {
+            "brand": "mts"
+          },
+          "mix": [
+            {
+              "block": "e-accordion"
+            },
+            {
+              "block": "list",
+              "elem": "item",
+              "elemMods": {
+                "border": "bottom",
+                "space-a": "l"
+              }
+            }
+          ],
+          "content": [
+            {
+              "block": "history",
+              "elem": "show",
+              "elemMods": {
+                "brand": "mts"
+              },
+              "mix": [
+                {
+                  "block": "e-accordion",
+                  "elem": "short"
+                },
+                {
+                  "block": "list",
+                  "elem": "item",
+                  "elemMods": {
+                    "vertical-align": "center",
+                    "indent-t": "m"
+                  }
+                }
+              ],
+              "content": [
+                {
+                  "block": "history",
+                  "elem": "details",
+                  "content": [
+                    {
+                      "block": "history",
+                      "elem": "time",
+                      "content": [
+                        {
+                          "block": "text",
+                          "mods": {
+                            "size": "s",
+                            "view": "ghost"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "text",
+                          "mods": {
+                            "size": "s",
+                            "view": "ghost"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "history",
+                      "elem": "destination",
+                      "mix": [
+                        {
+                          "block": "icon-plus",
+                          "mods": {
+                            "vertical-align": "center"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "history",
+                          "elem": "pic",
+                          "mix": [
+                            {
+                              "block": "icon-plus",
+                              "elem": "icon",
+                              "elemMods": {
+                                "indent-r": "s",
+                                "indent-l": "l"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "brand-logo",
+                              "mods": {
+                                "size": "m",
+                                "name": "mts"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "history",
+                          "elem": "label",
+                          "mix": [
+                            {
+                              "block": "icon-plus",
+                              "elem": "block"
+                            },
+                            {
+                              "block": "text",
+                              "mods": {
+                                "view": "primary",
+                                "size": "l"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "block": "history",
+                  "elem": "quantity",
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "l"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block": "history",
+              "elem": "hide",
+              "mix": [
+                {
+                  "block": "e-accordion",
+                  "elem": "more"
+                },
+                {
+                  "block": "list",
+                  "elem": "item",
+                  "elemMods": {
+                    "indent-t": "m"
+                  }
+                }
+              ],
+              "content": [
+                {
+                  "block": "history",
+                  "elem": "info",
+                  "content": [
+                    {
+                      "block": "history",
+                      "elem": "description",
+                      "mix": [
+                        {
+                          "block": "list",
+                          "elem": "item",
+                          "elemMods": {
+                            "indent-b": "m"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "history",
+                      "elem": "actions",
+                      "mix": [
+                        {
+                          "block": "list",
+                          "elem": "item",
+                          "elemMods": {
+                            "distribute": "between",
+                            "indent-b": "l"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block": "history",
+          "elem": "transaction",
+          "elemMods": {
+            "brand": "kcell"
+          },
+          "mix": [
+            {
+              "block": "e-accordion"
+            },
+            {
+              "block": "list",
+              "elem": "item",
+              "elemMods": {
+                "border": "bottom",
+                "space-a": "l"
+              }
+            }
+          ],
+          "content": [
+            {
+              "block": "history",
+              "elem": "show",
+              "elemMods": {
+                "brand": "kcell"
+              },
+              "mix": [
+                {
+                  "block": "e-accordion",
+                  "elem": "short"
+                },
+                {
+                  "block": "list",
+                  "elem": "item",
+                  "elemMods": {
+                    "vertical-align": "center",
+                    "indent-t": "m"
+                  }
+                }
+              ],
+              "content": [
+                {
+                  "block": "history",
+                  "elem": "details",
+                  "content": [
+                    {
+                      "block": "history",
+                      "elem": "time",
+                      "content": [
+                        {
+                          "block": "text",
+                          "mods": {
+                            "size": "s",
+                            "view": "ghost"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "text",
+                          "mods": {
+                            "size": "s",
+                            "view": "ghost"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "history",
+                      "elem": "destination",
+                      "mix": [
+                        {
+                          "block": "icon-plus",
+                          "mods": {
+                            "vertical-align": "center"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "history",
+                          "elem": "pic",
+                          "mix": [
+                            {
+                              "block": "icon-plus",
+                              "elem": "icon",
+                              "elemMods": {
+                                "indent-r": "s",
+                                "indent-l": "l"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "brand-logo",
+                              "mods": {
+                                "size": "m",
+                                "name": "kcell"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "history",
+                          "elem": "label",
+                          "mix": [
+                            {
+                              "block": "icon-plus",
+                              "elem": "block"
+                            },
+                            {
+                              "block": "text",
+                              "mods": {
+                                "view": "primary",
+                                "size": "l"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "block": "history",
+                  "elem": "quantity",
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "l"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block": "history",
+              "elem": "hide",
+              "mix": [
+                {
+                  "block": "e-accordion",
+                  "elem": "more"
+                },
+                {
+                  "block": "list",
+                  "elem": "item",
+                  "elemMods": {
+                    "indent-t": "m"
+                  }
+                }
+              ],
+              "content": [
+                {
+                  "block": "history",
+                  "elem": "info",
+                  "content": [
+                    {
+                      "block": "history",
+                      "elem": "description",
+                      "mix": [
+                        {
+                          "block": "list",
+                          "elem": "item",
+                          "elemMods": {
+                            "indent-b": "m"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "history",
+                      "elem": "actions",
+                      "mix": [
+                        {
+                          "block": "list",
+                          "elem": "item",
+                          "elemMods": {
+                            "distribute": "between",
+                            "indent-b": "l"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block": "history",
+          "elem": "transaction",
+          "elemMods": {
+            "brand": "megafon"
+          },
+          "mix": [
+            {
+              "block": "e-accordion"
+            },
+            {
+              "block": "list",
+              "elem": "item",
+              "elemMods": {
+                "border": "bottom",
+                "space-a": "l"
+              }
+            }
+          ],
+          "content": [
+            {
+              "block": "history",
+              "elem": "show",
+              "elemMods": {
+                "brand": "megafon"
+              },
+              "mix": [
+                {
+                  "block": "e-accordion",
+                  "elem": "short"
+                },
+                {
+                  "block": "list",
+                  "elem": "item",
+                  "elemMods": {
+                    "vertical-align": "center",
+                    "indent-t": "m"
+                  }
+                }
+              ],
+              "content": [
+                {
+                  "block": "history",
+                  "elem": "details",
+                  "content": [
+                    {
+                      "block": "history",
+                      "elem": "time",
+                      "content": [
+                        {
+                          "block": "text",
+                          "mods": {
+                            "size": "s",
+                            "view": "ghost"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "text",
+                          "mods": {
+                            "size": "s",
+                            "view": "ghost"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "history",
+                      "elem": "destination",
+                      "mix": [
+                        {
+                          "block": "icon-plus",
+                          "mods": {
+                            "vertical-align": "center"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "history",
+                          "elem": "pic",
+                          "mix": [
+                            {
+                              "block": "icon-plus",
+                              "elem": "icon",
+                              "elemMods": {
+                                "indent-r": "s",
+                                "indent-l": "l"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "brand-logo",
+                              "mods": {
+                                "size": "m",
+                                "name": "megafon"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "history",
+                          "elem": "label",
+                          "mix": [
+                            {
+                              "block": "icon-plus",
+                              "elem": "block"
+                            },
+                            {
+                              "block": "text",
+                              "mods": {
+                                "view": "primary",
+                                "size": "l"
+                              }
+                            }
+                          ],
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "block": "history",
+                  "elem": "quantity",
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "l"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "block": "history",
+              "elem": "hide",
+              "mix": [
+                {
+                  "block": "e-accordion",
+                  "elem": "more"
+                },
+                {
+                  "block": "list",
+                  "elem": "item",
+                  "elemMods": {
+                    "indent-t": "m"
+                  }
+                }
+              ],
+              "content": [
+                {
+                  "block": "history",
+                  "elem": "info",
+                  "content": [
+                    {
+                      "block": "history",
+                      "elem": "description",
+                      "mix": [
+                        {
+                          "block": "list",
+                          "elem": "item",
+                          "elemMods": {
+                            "indent-b": "m"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            },
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "block": "history",
+                      "elem": "actions",
+                      "mix": [
+                        {
+                          "block": "list",
+                          "elem": "item",
+                          "elemMods": {
+                            "distribute": "between",
+                            "indent-b": "l"
+                          }
+                        }
+                      ],
+                      "content": [
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "l"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "block": "text",
+                          "mods": {
+                            "view": "primary",
+                            "size": "l"
+                          },
+                          "content": [
+                            {
+                              "block": "text",
+                              "elem": "word",
+                              "elemMods": {
+                                "width": "m"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mix": [
+        {
+          "block": "list",
+          "mods": {
+            "view": "default",
+            "border": "all"
+          }
         }
       ]
     }

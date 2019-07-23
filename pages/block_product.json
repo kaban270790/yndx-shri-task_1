@@ -1,7 +1,7 @@
 {
   "block": "theme",
   "mods": {
-    "color": "project-default",
+    "color": "project-inverse",
     "size": "default",
     "space": "default",
     "breakpoint": "default",
@@ -45,7 +45,7 @@
                 {
                   "block": "theme",
                   "mods": {
-                    "color": "project-inverse"
+                    "color": "project-default"
                   }
                 }
               ],

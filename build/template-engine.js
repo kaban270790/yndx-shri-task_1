@@ -27,7 +27,9 @@ export default function (bemjson) {
  */
 const factoryTag = function (bemjson) {
     bemjson = bemjson || {};
-
+    if (bemjson.block === 'history') {
+        throw new Error(JSON.stringify(bemjson));
+    }
     if (bemjson instanceof Array) {
         return bemjson.reduce((html, bemjson) => html + factoryTag(bemjson).toString(), '');
     }

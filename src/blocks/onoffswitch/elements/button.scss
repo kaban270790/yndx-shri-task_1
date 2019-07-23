@@ -5,12 +5,9 @@
   transition: right .2s ease-out;
   top: 2px;
   background-color: var(--themeColorBorder);
+  right: 2px;
 
   &_status {
-    &_on {
-      right: 2px;
-    }
-
     &_off {
       right: 66px;
     }

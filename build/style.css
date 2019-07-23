@@ -774,6 +774,9 @@
   display: flex;
   flex-grow: 1; }
 
+.history__quantity {
+  margin-top: var(--themeSpaceXXXS); }
+
 .brand-logo_name_yota {
   background-color: #00c0f8; }
 

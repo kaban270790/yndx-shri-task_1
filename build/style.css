@@ -960,7 +960,6 @@
     height: 60px; }
 
 .event {
-  padding: var(--themeSpaceM);
   box-sizing: border-box;
   min-height: 333px;
   display: flex;

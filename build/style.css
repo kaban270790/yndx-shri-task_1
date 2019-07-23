@@ -851,7 +851,7 @@
 
 .product__image {
   height: 160px;
-  background-color: var(--themeColorBorder);
+  background-color: var(--themeBackgroundColorDefault);
   flex-grow: 1; }
   .product__image .image {
     height: 100%; }

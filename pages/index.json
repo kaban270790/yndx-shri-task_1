@@ -473,92 +473,91 @@
           ],
           "content": [
             {
-              "block": "grid",
-              "elem": "fraction",
-              "elemMods": {
-                "m-col": "2"
-              },
+              "block": "product",
+              "mix": [
+                {
+                  "block": "card",
+                  "mods": {
+                    "view": "default",
+                    "border": "all"
+                  }
+                }
+              ],
               "content": [
                 {
                   "block": "product",
+                  "elem": "content",
                   "mix": [
                     {
                       "block": "card",
-                      "mods": {
-                        "view": "default",
-                        "border": "all"
+                      "elem": "content",
+                      "elemMods": {
+                        "space-a": "m"
                       }
                     }
                   ],
                   "content": [
                     {
                       "block": "product",
-                      "elem": "content",
+                      "elem": "image",
                       "mix": [
                         {
-                          "block": "card",
-                          "elem": "content",
-                          "elemMods": {
-                            "space-a": "m"
+                          "block": "theme",
+                          "mods": {
+                            "color": "project-inverse"
                           }
                         }
                       ],
                       "content": [
                         {
-                          "block": "product",
-                          "elem": "image",
-                          "content": [
-                            {
-                              "block": "image"
-                            }
-                          ]
+                          "block": "image"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "block": "product",
+                  "elem": "footer",
+                  "mix": [
+                    {
+                      "block": "card",
+                      "elem": "footer",
+                      "elemMods": {
+                        "space-a": "m"
+                      }
+                    }
+                  ],
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "m"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
                         }
                       ]
                     },
                     {
-                      "block": "product",
-                      "elem": "footer",
-                      "mix": [
-                        {
-                          "block": "card",
-                          "elem": "footer",
-                          "elemMods": {
-                            "space-a": "m"
-                          }
-                        }
-                      ],
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "s"
+                      },
                       "content": [
                         {
                           "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "m"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "l"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "s"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "m"
-                              }
-                            }
-                          ]
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
                         }
                       ]
                     }
@@ -567,92 +566,91 @@
               ]
             },
             {
-              "block": "grid",
-              "elem": "fraction",
-              "elemMods": {
-                "m-col": "2"
-              },
+              "block": "product",
+              "mix": [
+                {
+                  "block": "card",
+                  "mods": {
+                    "view": "default",
+                    "border": "all"
+                  }
+                }
+              ],
               "content": [
                 {
                   "block": "product",
+                  "elem": "content",
                   "mix": [
                     {
                       "block": "card",
-                      "mods": {
-                        "view": "default",
-                        "border": "all"
+                      "elem": "content",
+                      "elemMods": {
+                        "space-a": "m"
                       }
                     }
                   ],
                   "content": [
                     {
                       "block": "product",
-                      "elem": "content",
+                      "elem": "image",
                       "mix": [
                         {
-                          "block": "card",
-                          "elem": "content",
-                          "elemMods": {
-                            "space-a": "m"
+                          "block": "theme",
+                          "mods": {
+                            "color": "project-inverse"
                           }
                         }
                       ],
                       "content": [
                         {
-                          "block": "product",
-                          "elem": "image",
-                          "content": [
-                            {
-                              "block": "image"
-                            }
-                          ]
+                          "block": "image"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "block": "product",
+                  "elem": "footer",
+                  "mix": [
+                    {
+                      "block": "card",
+                      "elem": "footer",
+                      "elemMods": {
+                        "space-a": "m"
+                      }
+                    }
+                  ],
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "m"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
                         }
                       ]
                     },
                     {
-                      "block": "product",
-                      "elem": "footer",
-                      "mix": [
-                        {
-                          "block": "card",
-                          "elem": "footer",
-                          "elemMods": {
-                            "space-a": "m"
-                          }
-                        }
-                      ],
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "s"
+                      },
                       "content": [
                         {
                           "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "m"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "l"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "s"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "m"
-                              }
-                            }
-                          ]
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
                         }
                       ]
                     }
@@ -661,92 +659,91 @@
               ]
             },
             {
-              "block": "grid",
-              "elem": "fraction",
-              "elemMods": {
-                "m-col": "2"
-              },
+              "block": "product",
+              "mix": [
+                {
+                  "block": "card",
+                  "mods": {
+                    "view": "default",
+                    "border": "all"
+                  }
+                }
+              ],
               "content": [
                 {
                   "block": "product",
+                  "elem": "content",
                   "mix": [
                     {
                       "block": "card",
-                      "mods": {
-                        "view": "default",
-                        "border": "all"
+                      "elem": "content",
+                      "elemMods": {
+                        "space-a": "m"
                       }
                     }
                   ],
                   "content": [
                     {
                       "block": "product",
-                      "elem": "content",
+                      "elem": "image",
                       "mix": [
                         {
-                          "block": "card",
-                          "elem": "content",
-                          "elemMods": {
-                            "space-a": "m"
+                          "block": "theme",
+                          "mods": {
+                            "color": "project-inverse"
                           }
                         }
                       ],
                       "content": [
                         {
-                          "block": "product",
-                          "elem": "image",
-                          "content": [
-                            {
-                              "block": "image"
-                            }
-                          ]
+                          "block": "image"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "block": "product",
+                  "elem": "footer",
+                  "mix": [
+                    {
+                      "block": "card",
+                      "elem": "footer",
+                      "elemMods": {
+                        "space-a": "m"
+                      }
+                    }
+                  ],
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "m"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
                         }
                       ]
                     },
                     {
-                      "block": "product",
-                      "elem": "footer",
-                      "mix": [
-                        {
-                          "block": "card",
-                          "elem": "footer",
-                          "elemMods": {
-                            "space-a": "m"
-                          }
-                        }
-                      ],
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "s"
+                      },
                       "content": [
                         {
                           "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "m"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "l"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "s"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "m"
-                              }
-                            }
-                          ]
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
                         }
                       ]
                     }
@@ -755,92 +752,91 @@
               ]
             },
             {
-              "block": "grid",
-              "elem": "fraction",
-              "elemMods": {
-                "m-col": "2"
-              },
+              "block": "product",
+              "mix": [
+                {
+                  "block": "card",
+                  "mods": {
+                    "view": "default",
+                    "border": "all"
+                  }
+                }
+              ],
               "content": [
                 {
                   "block": "product",
+                  "elem": "content",
                   "mix": [
                     {
                       "block": "card",
-                      "mods": {
-                        "view": "default",
-                        "border": "all"
+                      "elem": "content",
+                      "elemMods": {
+                        "space-a": "m"
                       }
                     }
                   ],
                   "content": [
                     {
                       "block": "product",
-                      "elem": "content",
+                      "elem": "image",
                       "mix": [
                         {
-                          "block": "card",
-                          "elem": "content",
-                          "elemMods": {
-                            "space-a": "m"
+                          "block": "theme",
+                          "mods": {
+                            "color": "project-inverse"
                           }
                         }
                       ],
                       "content": [
                         {
-                          "block": "product",
-                          "elem": "image",
-                          "content": [
-                            {
-                              "block": "image"
-                            }
-                          ]
+                          "block": "image"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "block": "product",
+                  "elem": "footer",
+                  "mix": [
+                    {
+                      "block": "card",
+                      "elem": "footer",
+                      "elemMods": {
+                        "space-a": "m"
+                      }
+                    }
+                  ],
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "m"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
                         }
                       ]
                     },
                     {
-                      "block": "product",
-                      "elem": "footer",
-                      "mix": [
-                        {
-                          "block": "card",
-                          "elem": "footer",
-                          "elemMods": {
-                            "space-a": "m"
-                          }
-                        }
-                      ],
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "s"
+                      },
                       "content": [
                         {
                           "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "m"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "l"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "s"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "m"
-                              }
-                            }
-                          ]
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
                         }
                       ]
                     }
@@ -849,92 +845,91 @@
               ]
             },
             {
-              "block": "grid",
-              "elem": "fraction",
-              "elemMods": {
-                "m-col": "2"
-              },
+              "block": "product",
+              "mix": [
+                {
+                  "block": "card",
+                  "mods": {
+                    "view": "default",
+                    "border": "all"
+                  }
+                }
+              ],
               "content": [
                 {
                   "block": "product",
+                  "elem": "content",
                   "mix": [
                     {
                       "block": "card",
-                      "mods": {
-                        "view": "default",
-                        "border": "all"
+                      "elem": "content",
+                      "elemMods": {
+                        "space-a": "m"
                       }
                     }
                   ],
                   "content": [
                     {
                       "block": "product",
-                      "elem": "content",
+                      "elem": "image",
                       "mix": [
                         {
-                          "block": "card",
-                          "elem": "content",
-                          "elemMods": {
-                            "space-a": "m"
+                          "block": "theme",
+                          "mods": {
+                            "color": "project-inverse"
                           }
                         }
                       ],
                       "content": [
                         {
-                          "block": "product",
-                          "elem": "image",
-                          "content": [
-                            {
-                              "block": "image"
-                            }
-                          ]
+                          "block": "image"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "block": "product",
+                  "elem": "footer",
+                  "mix": [
+                    {
+                      "block": "card",
+                      "elem": "footer",
+                      "elemMods": {
+                        "space-a": "m"
+                      }
+                    }
+                  ],
+                  "content": [
+                    {
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "m"
+                      },
+                      "content": [
+                        {
+                          "block": "text",
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "l"
+                          }
                         }
                       ]
                     },
                     {
-                      "block": "product",
-                      "elem": "footer",
-                      "mix": [
-                        {
-                          "block": "card",
-                          "elem": "footer",
-                          "elemMods": {
-                            "space-a": "m"
-                          }
-                        }
-                      ],
+                      "block": "text",
+                      "mods": {
+                        "view": "primary",
+                        "size": "s"
+                      },
                       "content": [
                         {
                           "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "m"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "l"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "block": "text",
-                          "mods": {
-                            "view": "primary",
-                            "size": "s"
-                          },
-                          "content": [
-                            {
-                              "block": "text",
-                              "elem": "word",
-                              "elemMods": {
-                                "width": "m"
-                              }
-                            }
-                          ]
+                          "elem": "word",
+                          "elemMods": {
+                            "width": "m"
+                          }
                         }
                       ]
                     }

@@ -4,9 +4,10 @@
   min-height: 333px;
   display: flex;
   flex-direction: column;
-  .avatar {
-    margin-right: var(--themeSpaceXS);
-  }
 }
+@import "./elements/preview.scss";
+@import "./elements/speaker.scss";
+@import "./elements/title.scss";
+@import "./elements/description.scss";
 @import "./elements/content.scss";
 @import "./elements/footer.scss";

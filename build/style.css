@@ -962,8 +962,18 @@
   min-height: 333px;
   display: flex;
   flex-direction: column; }
-  .event .avatar {
-    margin-right: var(--themeSpaceXS); }
+
+.event__preview {
+  display: flex; }
+
+.event__speaker {
+  margin-right: var(--themeSpaceXS); }
+
+.event__title {
+  margin-top: var(--themeSpaceL); }
+
+.event__description {
+  margin-top: var(--themeSpaceL); }
 
 .event__content {
   flex-direction: column; }

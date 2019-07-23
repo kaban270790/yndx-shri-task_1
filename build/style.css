@@ -860,7 +860,13 @@
   top: 1px; }
 
 .cover {
-  min-height: 408px; }
+  min-height: 408px;
+  display: flex;
+  flex-direction: column; }
+
+.cover__footer {
+  padding-top: 0;
+  margin-top: auto; }
 
 .cover__info {
   flex-direction: column;

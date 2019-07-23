@@ -1,5 +1,7 @@
 .cover {
   min-height: 408px;
+  display: flex;
+  flex-direction: column;
 }
 
 @import "./elements/footer.scss";

@@ -828,7 +828,7 @@
     position: relative;
     top: 1px; }
 
-.commercial__nav {
+.commercial__page-button {
   margin-top: var(--themeSpaceS);
   display: flex;
   justify-content: center; }

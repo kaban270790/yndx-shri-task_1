@@ -132,19 +132,19 @@
             },
             {
               "block": "commercial",
-              "elem": "page-button",
+              "elem": "navigation",
               "content": [
                 {
                   "block": "commercial",
-                  "elem": "item"
+                  "elem": "page-button"
                 },
                 {
                   "block": "commercial",
-                  "elem": "item"
+                  "elem": "page-button"
                 },
                 {
                   "block": "commercial",
-                  "elem": "item"
+                  "elem": "page-button"
                 }
               ]
             }

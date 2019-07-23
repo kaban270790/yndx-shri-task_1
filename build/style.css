@@ -387,9 +387,8 @@
   width: 24px;
   transition: right .2s ease-out;
   top: 2px;
-  background-color: var(--themeColorBorder); }
-  .onoffswitch__button_status_on {
-    right: 2px; }
+  background-color: var(--themeColorBorder);
+  right: 2px; }
   .onoffswitch__button_status_off {
     right: 66px; }
 
@@ -828,17 +827,17 @@
     position: relative;
     top: 1px; }
 
-.commercial__page-button {
+.commercial__navigation {
   margin-top: var(--themeSpaceS);
   display: flex;
   justify-content: center; }
 
-.commercial__item {
+.commercial__page-button {
   width: 8px;
   height: 8px;
   margin-right: var(--themeSpaceXS);
   background-color: var(--themeTextColorDefault); }
-  .commercial__item:last-child {
+  .commercial__page-button:last-child {
     margin-right: 0; }
 
 .product {

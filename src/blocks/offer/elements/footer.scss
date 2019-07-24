@@ -1,3 +1,15 @@
 .offer__footer {
   margin-top: auto;
+
+  & > .text_view_ghost{
+    margin-bottom: var(--themeSpaceXXS);
+  }
+
+  & > .text_view_primary {
+    margin-bottom: var(--themeSpaceS);
+  }
+
+  & > .text_view_secondary {
+    margin-bottom: calc(-1 * var(--themeSpaceXXXS));
+  }
 }

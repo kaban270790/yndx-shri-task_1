@@ -959,6 +959,12 @@
 
 .offer__footer {
   margin-top: auto; }
+  .offer__footer > .text_view_ghost {
+    margin-bottom: var(--themeSpaceXXS); }
+  .offer__footer > .text_view_primary {
+    margin-bottom: var(--themeSpaceS); }
+  .offer__footer > .text_view_secondary {
+    margin-bottom: calc(-1 * var(--themeSpaceXXXS)); }
 
 .subscription {
   min-height: 408px;

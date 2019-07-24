@@ -25,12 +25,8 @@ export default function (bemjson) {
  *} bemjson
  * @return {Tag|string}
  */
-let hasBlock = false;
 const factoryTag = function (bemjson) {
     bemjson = bemjson || {};
-    if (bemjson.block === 'product') {
-        hasBlock = true;
-    }
     if (bemjson instanceof Array) {
         return bemjson.reduce((html, bemjson) => html + factoryTag(bemjson).toString(), '');
     }
@@ -67,9 +63,6 @@ const factoryTag = function (bemjson) {
                 tag.addContent(bemjson.content);
                 break;
         }
-    }
-    if (hasBlock && bemjson.block === 'grid') {
-        throw new Error(JSON.stringify(bemjson));
     }
     return tag;
 };

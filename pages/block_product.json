@@ -14,97 +14,106 @@
   ],
   "content": [
     {
-      "block": "product",
-      "mix": [
-        {
-          "block": "card",
-          "mods": {
-            "view": "default",
-            "border": "all"
-          }
-        },
-        {
-          "block": "theme",
-          "mods": {
-            "color": "project-inverse"
-          }
-        }
-      ],
+      "block": "grid",
+      "elem": "fraction",
+      "elemMods": {
+        "m-col": 3
+      },
       "content": [
         {
           "block": "product",
-          "elem": "content",
           "mix": [
             {
               "block": "card",
-              "elem": "content",
-              "elemMods": {
-                "space-a": "m"
+              "mods": {
+                "view": "default",
+                "border": "all"
+              }
+            },
+            {
+              "block": "theme",
+              "mods": {
+                "color": "project-inverse"
               }
             }
           ],
           "content": [
             {
               "block": "product",
-              "elem": "image",
+              "elem": "content",
               "mix": [
                 {
-                  "block": "theme",
-                  "mods": {
-                    "color": "project-default"
+                  "block": "card",
+                  "elem": "content",
+                  "elemMods": {
+                    "space-a": "m"
                   }
                 }
               ],
               "content": [
                 {
-                  "block": "image"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "block": "product",
-          "elem": "footer",
-          "mix": [
-            {
-              "block": "card",
-              "elem": "footer",
-              "elemMods": {
-                "space-a": "m"
-              }
-            }
-          ],
-          "content": [
-            {
-              "block": "text",
-              "mods": {
-                "size": "m",
-                "view": "primary"
-              },
-              "content": [
-                {
-                  "block": "text",
-                  "elem": "word",
-                  "elemMods": {
-                    "width": "l"
-                  }
+                  "block": "product",
+                  "elem": "image",
+                  "mix": [
+                    {
+                      "block": "theme",
+                      "mods": {
+                        "color": "project-default"
+                      }
+                    }
+                  ],
+                  "content": [
+                    {
+                      "block": "image"
+                    }
+                  ]
                 }
               ]
             },
             {
-              "block": "text",
-              "mods": {
-                "size": "s",
-                "view": "primary"
-              },
+              "block": "product",
+              "elem": "footer",
+              "mix": [
+                {
+                  "block": "card",
+                  "elem": "footer",
+                  "elemMods": {
+                    "space-a": "m"
+                  }
+                }
+              ],
               "content": [
                 {
                   "block": "text",
-                  "elem": "word",
-                  "elemMods": {
-                    "width": "m"
-                  }
+                  "mods": {
+                    "size": "m",
+                    "view": "primary"
+                  },
+                  "content": [
+                    {
+                      "block": "text",
+                      "elem": "word",
+                      "elemMods": {
+                        "width": "l"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "block": "text",
+                  "mods": {
+                    "size": "s",
+                    "view": "primary"
+                  },
+                  "content": [
+                    {
+                      "block": "text",
+                      "elem": "word",
+                      "elemMods": {
+                        "width": "m"
+                      }
+                    }
+                  ]
                 }
               ]
             }

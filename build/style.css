@@ -1009,12 +1009,11 @@
   margin-right: var(--themeSpaceXS); }
 
 .event__title {
-  margin-top: var(--themeSpaceL); }
+  margin-top: var(--themeSpaceL);
+  margin-bottom: var(--themeSpaceXXXS); }
 
 .event__description {
-  margin-top: var(--themeSpaceM);
-  position: relative;
-  top: 1px; }
+  margin-top: var(--themeSpaceS); }
 
 .event__content {
   flex-direction: column; }

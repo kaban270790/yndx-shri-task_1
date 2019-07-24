@@ -949,8 +949,7 @@
   min-height: 408px;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-  padding: var(--themeSpaceXL); }
+  box-sizing: border-box; }
 
 .offer__footer {
   margin-top: auto; }

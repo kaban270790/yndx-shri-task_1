@@ -974,7 +974,9 @@
 
 .subscription__advantages {
   margin-top: var(--themeSpaceXXS);
-  padding-top: var(--themeSpaceXL); }
+  padding-top: var(--themeSpaceXL);
+  position: relative;
+  top: -1px; }
 
 .avatar {
   background-color: var(--themeTextColorDefault); }

@@ -1,11 +1,7 @@
 .event__content {
   flex-direction: column;
 
-  & > .card__content {
-    margin-bottom: var(--themeSpaceXL);
-  }
-
-  & > .text.text_size_xxl {
-    margin-bottom: var(--themeSpaceS);
+  & + .event__footer {
+    padding-top: 0;
   }
 }

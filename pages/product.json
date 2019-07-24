@@ -1246,62 +1246,52 @@
         "block": "layout",
         "elem": "container",
         "elemMods": {
-          "align": "center",
-          "size": "m"
+          "size": "m",
+          "align": "center"
         },
         "content": [
           {
-            "block": "section",
+            "block": "text",
             "mods": {
-              "space-v": "xxl"
-            },
-            "content": [
-              {
-                "block": "text",
-                "mods": {
-                  "view": "primary",
-                  "size": "xl"
-                },
-                "content": [
-                  {
-                    "block": "text",
-                    "elem": "word",
-                    "elemMods": {
-                      "width": "l"
-                    }
-                  },
-                  {
-                    "block": "text",
-                    "elem": "word",
-                    "elemMods": {
-                      "width": "l"
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "block": "section",
-            "mods": {
-              "indent-b": "xxl"
+              "view": "primary",
+              "size": "xl"
             },
             "mix": [
               {
-                "block": "grid",
-                "mods": {
-                  "col-gap": "half",
-                  "row-gap": "full",
-                  "m-columns": "12"
-                }
+                "block": "product",
+                "elem": "title"
               }
             ],
             "content": [
               {
+                "block": "text",
+                "elem": "word",
+                "elemMods": {
+                  "width": "l"
+                }
+              },
+              {
+                "block": "text",
+                "elem": "word",
+                "elemMods": {
+                  "width": "l"
+                }
+              }
+            ]
+          },
+          {
+            "block": "grid",
+            "mods": {
+              "m-columns": 12,
+              "row-gap": "half",
+              "col-gap": "half"
+            },
+            "content": [
+              {
                 "block": "grid",
                 "elem": "fraction",
                 "elemMods": {
-                  "m-col": "3"
+                  "m-col": 3
                 },
                 "content": [
                   {
@@ -1312,6 +1302,12 @@
                         "mods": {
                           "view": "default",
                           "border": "all"
+                        }
+                      },
+                      {
+                        "block": "theme",
+                        "mods": {
+                          "color": "project-inverse"
                         }
                       }
                     ],
@@ -1336,13 +1332,15 @@
                               {
                                 "block": "theme",
                                 "mods": {
-                                  "color": "project-inverse"
+                                  "color": "project-default"
                                 }
                               }
                             ],
-                            "content": {
-                              "block": "image"
-                            }
+                            "content": [
+                              {
+                                "block": "image"
+                              }
+                            ]
                           }
                         ]
                       },
@@ -1362,8 +1360,8 @@
                           {
                             "block": "text",
                             "mods": {
-                              "view": "primary",
-                              "size": "m"
+                              "size": "m",
+                              "view": "primary"
                             },
                             "content": [
                               {
@@ -1378,8 +1376,8 @@
                           {
                             "block": "text",
                             "mods": {
-                              "view": "primary",
-                              "size": "s"
+                              "size": "s",
+                              "view": "primary"
                             },
                             "content": [
                               {
@@ -1401,7 +1399,7 @@
                 "block": "grid",
                 "elem": "fraction",
                 "elemMods": {
-                  "m-col": "3"
+                  "m-col": 3
                 },
                 "content": [
                   {
@@ -1412,6 +1410,12 @@
                         "mods": {
                           "view": "default",
                           "border": "all"
+                        }
+                      },
+                      {
+                        "block": "theme",
+                        "mods": {
+                          "color": "project-inverse"
                         }
                       }
                     ],
@@ -1436,13 +1440,15 @@
                               {
                                 "block": "theme",
                                 "mods": {
-                                  "color": "project-inverse"
+                                  "color": "project-default"
                                 }
                               }
                             ],
-                            "content": {
-                              "block": "image"
-                            }
+                            "content": [
+                              {
+                                "block": "image"
+                              }
+                            ]
                           }
                         ]
                       },
@@ -1462,8 +1468,8 @@
                           {
                             "block": "text",
                             "mods": {
-                              "view": "primary",
-                              "size": "m"
+                              "size": "m",
+                              "view": "primary"
                             },
                             "content": [
                               {
@@ -1478,8 +1484,8 @@
                           {
                             "block": "text",
                             "mods": {
-                              "view": "primary",
-                              "size": "s"
+                              "size": "s",
+                              "view": "primary"
                             },
                             "content": [
                               {
@@ -1501,7 +1507,7 @@
                 "block": "grid",
                 "elem": "fraction",
                 "elemMods": {
-                  "m-col": "3"
+                  "m-col": 3
                 },
                 "content": [
                   {
@@ -1512,6 +1518,12 @@
                         "mods": {
                           "view": "default",
                           "border": "all"
+                        }
+                      },
+                      {
+                        "block": "theme",
+                        "mods": {
+                          "color": "project-inverse"
                         }
                       }
                     ],
@@ -1536,13 +1548,15 @@
                               {
                                 "block": "theme",
                                 "mods": {
-                                  "color": "project-inverse"
+                                  "color": "project-default"
                                 }
                               }
                             ],
-                            "content": {
-                              "block": "image"
-                            }
+                            "content": [
+                              {
+                                "block": "image"
+                              }
+                            ]
                           }
                         ]
                       },
@@ -1562,8 +1576,8 @@
                           {
                             "block": "text",
                             "mods": {
-                              "view": "primary",
-                              "size": "m"
+                              "size": "m",
+                              "view": "primary"
                             },
                             "content": [
                               {
@@ -1578,8 +1592,8 @@
                           {
                             "block": "text",
                             "mods": {
-                              "view": "primary",
-                              "size": "s"
+                              "size": "s",
+                              "view": "primary"
                             },
                             "content": [
                               {
@@ -1601,7 +1615,7 @@
                 "block": "grid",
                 "elem": "fraction",
                 "elemMods": {
-                  "m-col": "3"
+                  "m-col": 3
                 },
                 "content": [
                   {
@@ -1612,6 +1626,12 @@
                         "mods": {
                           "view": "default",
                           "border": "all"
+                        }
+                      },
+                      {
+                        "block": "theme",
+                        "mods": {
+                          "color": "project-inverse"
                         }
                       }
                     ],
@@ -1636,13 +1656,15 @@
                               {
                                 "block": "theme",
                                 "mods": {
-                                  "color": "project-inverse"
+                                  "color": "project-default"
                                 }
                               }
                             ],
-                            "content": {
-                              "block": "image"
-                            }
+                            "content": [
+                              {
+                                "block": "image"
+                              }
+                            ]
                           }
                         ]
                       },
@@ -1662,8 +1684,8 @@
                           {
                             "block": "text",
                             "mods": {
-                              "view": "primary",
-                              "size": "m"
+                              "size": "m",
+                              "view": "primary"
                             },
                             "content": [
                               {
@@ -1678,8 +1700,8 @@
                           {
                             "block": "text",
                             "mods": {
-                              "view": "primary",
-                              "size": "s"
+                              "size": "s",
+                              "view": "primary"
                             },
                             "content": [
                               {

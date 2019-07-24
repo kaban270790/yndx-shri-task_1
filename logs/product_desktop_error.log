@@ -1,0 +1,11 @@
+Error: {"block":"grid","elem":"fraction","elemMods":{"m-col":3},"content":[{"block":"product","mix":[{"block":"card","mods":{"view":"default","border":"all"}},{"block":"theme","mods":{"color":"project-inverse"}}],"content":[{"block":"product","elem":"content","mix":[{"block":"card","elem":"content","elemMods":{"space-a":"m"}}],"content":[{"block":"product","elem":"image","mix":[{"block":"theme","mods":{"color":"project-default"}}],"content":[{"block":"image"}]}]},{"block":"product","elem":"footer","mix":[{"block":"card","elem":"footer","elemMods":{"space-a":"m"}}],"content":[{"block":"text","mods":{"size":"m","view":"primary"},"content":[{"block":"text","elem":"word","elemMods":{"width":"l"}}]},{"block":"text","mods":{"size":"s","view":"primary"},"content":[{"block":"text","elem":"word","elemMods":{"width":"m"}}]}]}]}]}
+    at factoryTag (webpack-internal:///./static/kaban270790/template-engine.js:73:15)
+    at eval (webpack-internal:///./static/kaban270790/template-engine.js:60:44)
+    at Array.map (<anonymous>)
+    at factoryTag (webpack-internal:///./static/kaban270790/template-engine.js:56:37)
+    at eval (webpack-internal:///./static/kaban270790/template-engine.js:60:44)
+    at Array.map (<anonymous>)
+    at factoryTag (webpack-internal:///./static/kaban270790/template-engine.js:56:37)
+    at eval (webpack-internal:///./static/kaban270790/template-engine.js:60:44)
+    at Array.map (<anonymous>)
+    at factoryTag (webpack-internal:///./static/kaban270790/template-engine.js:56:37)

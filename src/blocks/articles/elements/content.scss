@@ -1,0 +1,9 @@
+.articles__content {
+  & > .text_view_secondary {
+    margin-top: var(--themeSpaceXXXS);
+  }
+
+  & > .text_view_link {
+    margin-top: var(--themeSpaceXS);
+  }
+}

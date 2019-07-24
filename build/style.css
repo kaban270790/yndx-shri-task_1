@@ -945,6 +945,12 @@
   height: 120px;
   background-color: var(--themeBackgroundColorDefault); }
 
+.articles__content > .text_view_secondary {
+  margin-top: var(--themeSpaceXXXS); }
+
+.articles__content > .text_view_link {
+  margin-top: var(--themeSpaceXS); }
+
 .offer {
   min-height: 408px;
   display: flex;

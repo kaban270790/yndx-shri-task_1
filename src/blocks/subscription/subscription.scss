@@ -1,10 +1,11 @@
 .subscription {
   min-height: 408px;
   box-sizing: border-box;
-  padding: var(--themeSpaceXL);
   display: flex;
   flex-direction: column;
 }
 @import "./elements/title.scss";
 @import "./elements/info.scss";
 @import "./elements/footer.scss";
+@import "./elements/advantage.scss";
+@import "./elements/advantages.scss";

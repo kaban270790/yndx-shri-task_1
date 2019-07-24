@@ -36,24 +36,39 @@
   &_indent-b {
     &_s {
       margin-bottom: var(--themeSpaceS);
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
     &_m {
       margin-bottom: var(--themeSpaceM);
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
     &_l {
       margin-bottom: var(--themeSpaceL);
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
     &_xl {
       margin-bottom: var(--themeSpaceXL);
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 
   &_space-b {
     &_s {
       padding-bottom: var(--themeSpaceS);
+      &:last-child {
+        padding-bottom: 0;
+      }
     }
   }
 

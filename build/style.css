@@ -345,14 +345,24 @@
     margin-top: var(--themeSpaceM); }
   .list__item_indent-b_s {
     margin-bottom: var(--themeSpaceS); }
+    .list__item_indent-b_s:last-child {
+      margin-bottom: 0; }
   .list__item_indent-b_m {
     margin-bottom: var(--themeSpaceM); }
+    .list__item_indent-b_m:last-child {
+      margin-bottom: 0; }
   .list__item_indent-b_l {
     margin-bottom: var(--themeSpaceL); }
+    .list__item_indent-b_l:last-child {
+      margin-bottom: 0; }
   .list__item_indent-b_xl {
     margin-bottom: var(--themeSpaceXL); }
+    .list__item_indent-b_xl:last-child {
+      margin-bottom: 0; }
   .list__item_space-b_s {
     padding-bottom: var(--themeSpaceS); }
+    .list__item_space-b_s:last-child {
+      padding-bottom: 0; }
   .list__item_space-a_l {
     padding: var(--themeSpaceL); }
 
@@ -714,14 +724,24 @@
     margin-top: var(--themeSpaceM); }
   .list__item_indent-b_s {
     margin-bottom: var(--themeSpaceS); }
+    .list__item_indent-b_s:last-child {
+      margin-bottom: 0; }
   .list__item_indent-b_m {
     margin-bottom: var(--themeSpaceM); }
+    .list__item_indent-b_m:last-child {
+      margin-bottom: 0; }
   .list__item_indent-b_l {
     margin-bottom: var(--themeSpaceL); }
+    .list__item_indent-b_l:last-child {
+      margin-bottom: 0; }
   .list__item_indent-b_xl {
     margin-bottom: var(--themeSpaceXL); }
+    .list__item_indent-b_xl:last-child {
+      margin-bottom: 0; }
   .list__item_space-b_s {
     padding-bottom: var(--themeSpaceS); }
+    .list__item_space-b_s:last-child {
+      padding-bottom: 0; }
   .list__item_space-a_l {
     padding: var(--themeSpaceL); }
 
@@ -938,21 +958,23 @@
 .subscription {
   min-height: 408px;
   box-sizing: border-box;
-  padding: var(--themeSpaceXL);
   display: flex;
   flex-direction: column; }
 
 .subscription__title {
-  margin-top: -2px;
-  margin-bottom: var(--themeSpaceM); }
+  margin-top: -2px; }
 
 .subscription__info {
   flex-direction: column; }
-  .subscription__info .text {
-    margin-bottom: var(--themeSpaceS); }
+  .subscription__info + .subscription__footer {
+    padding-top: 0; }
 
 .subscription__footer {
   margin-top: auto; }
+
+.subscription__advantages {
+  margin-top: var(--themeSpaceXXS);
+  padding-top: var(--themeSpaceXL); }
 
 .avatar {
   background-color: var(--themeTextColorDefault); }

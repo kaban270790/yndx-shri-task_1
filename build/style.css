@@ -1006,7 +1006,9 @@
   margin-top: var(--themeSpaceL); }
 
 .event__description {
-  margin-top: var(--themeSpaceM); }
+  margin-top: var(--themeSpaceM);
+  position: relative;
+  top: 1px; }
 
 .event__content {
   flex-direction: column; }

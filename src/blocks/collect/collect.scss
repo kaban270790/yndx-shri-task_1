@@ -2,12 +2,10 @@
   min-height: 380px;
   display: flex;
   flex-direction: column;
-
-  .image {
-    height: 160px;
-    background-color: var(--themeColorBorder);
-  }
 }
 
 @import "./elements/image.scss";
+@import "./elements/title.scss";
+@import "./elements/done.scss";
+@import "./elements/progress.scss";
 @import "./elements/footer.scss";

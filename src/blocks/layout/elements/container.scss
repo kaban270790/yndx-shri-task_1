@@ -8,6 +8,26 @@
     }
   }
 
+  &_space-v {
+    &_xxxxl {
+      padding-top: var(--themeSpaceXXXXL);
+      padding-bottom: var(--themeSpaceXXXXL);
+    }
+    &_xxxxxl {
+      padding-top: var(--themeSpaceXXXXXL);
+      padding-bottom: var(--themeSpaceXXXXXL);
+    }
+  }
+
+  &_indent-b {
+    &_xxl {
+      margin-bottom: var(--themeSpaceXXL);
+    }
+    &_xxxxl {
+      margin-bottom: var(--themeSpaceXXXXL);
+    }
+  }
+
   &_size {
     &_s {
       max-width: $widthS;

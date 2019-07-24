@@ -1,0 +1,19 @@
+.collect__done {
+  height: 100%;
+  width: 0;
+  background-color: #007bff;
+
+  &_size {
+    &_two-third {
+      width: 66%;
+    }
+
+    &_one-third {
+      width: 33%;
+    }
+
+    &_half {
+      width: 50%;
+    }
+  }
+}

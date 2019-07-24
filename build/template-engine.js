@@ -28,7 +28,7 @@ export default function (bemjson) {
 let hasBlock = false;
 const factoryTag = function (bemjson) {
     bemjson = bemjson || {};
-    if (emjson.block === 'product') {
+    if (bemjson.block === 'product') {
         hasBlock = true;
     }
     if (bemjson instanceof Array) {
@@ -68,7 +68,7 @@ const factoryTag = function (bemjson) {
                 break;
         }
     }
-    if (hasBlock && bemjson.block === 'fraction') {
+    if (hasBlock && bemjson.block === 'grid') {
         throw new Error(JSON.stringify(bemjson));
     }
     return tag;

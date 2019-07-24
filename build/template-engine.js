@@ -3,7 +3,6 @@
  * @return {string} HTML разметка страницы
  */
 export default function (bemjson) {
-    throw new Error(JSON.stringify(bemjson));
     if (bemjson instanceof Array) {
         return bemjson.reduce((html, bemjson) => html + factoryTag(bemjson).toString(), '');
     }

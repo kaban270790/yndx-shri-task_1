@@ -108,9 +108,13 @@
 
 .layout__container_indent-b_xxl {
   margin-bottom: var(--themeSpaceXXL); }
+  .layout__container_indent-b_xxl:last-child {
+    margin-bottom: 0; }
 
 .layout__container_indent-b_xxxxl {
   margin-bottom: var(--themeSpaceXXXXL); }
+  .layout__container_indent-b_xxxxl:last-child {
+    margin-bottom: 0; }
 
 .layout__container_size_s {
   max-width: 880px; }

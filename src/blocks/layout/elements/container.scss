@@ -22,9 +22,17 @@
   &_indent-b {
     &_xxl {
       margin-bottom: var(--themeSpaceXXL);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
     &_xxxxl {
       margin-bottom: var(--themeSpaceXXXXL);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 

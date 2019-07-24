@@ -17,15 +17,15 @@
       "block": "subscription",
       "mix": [
         {
-          "block": "card",
-          "mods": {
-            "view": "default"
-          }
-        },
-        {
           "block": "theme",
           "mods": {
             "color": "project-brand"
+          }
+        },
+        {
+          "block": "card",
+          "mods": {
+            "view": "default"
           }
         }
       ],
@@ -37,42 +37,40 @@
             {
               "block": "card",
               "elem": "content",
-              "mods": {
+              "elemMods": {
                 "space-a": "xl"
               }
             }
           ],
           "content": [
             {
-              "block": "subscription",
-              "elem": "title",
+              "block": "text",
+              "mods": {
+                "view": "primary",
+                "size": "xxl"
+              },
+              "mix": [
+                {
+                  "block": "subscription",
+                  "elem": "title"
+                }
+              ],
               "content": [
                 {
                   "block": "text",
-                  "mods": {
-                    "view": "primary",
-                    "size": "xxl"
-                  },
-                  "content": [
-                    {
-                      "block": "text",
-                      "elem": "word",
-                      "elemMods": {
-                        "width": "l"
-                      }
-                    }
-                  ]
+                  "elem": "word",
+                  "elemMods": {
+                    "width": "l"
+                  }
                 }
               ]
             },
             {
               "block": "subscription",
               "elem": "advantages",
-              "mix": [
-                {
-                  "block": "list"
-                }
-              ],
+              "mix": {
+                "block": "list"
+              },
               "content": [
                 {
                   "block": "subscription",
@@ -310,7 +308,7 @@
             {
               "block": "card",
               "elem": "footer",
-              "mods": {
+              "elemMods": {
                 "space-a": "xl"
               }
             },
@@ -320,41 +318,40 @@
           ],
           "content": [
             {
-              "block": "subscription",
-              "elem": "control",
+              "block": "input",
+              "mods": {
+                "size": "l"
+              },
               "mix": [
+                {
+                  "block": "subscription",
+                  "elem": "control"
+                },
                 {
                   "block": "list",
                   "elem": "item",
                   "elemMods": {
-                    "space-b": "s"
-                  }
-                }
-              ],
-              "content": [
-                {
-                  "block": "input",
-                  "mods": {
-                    "size": "l"
+                    "indent-b": "s"
                   }
                 }
               ]
             },
             {
-              "block": "subscription",
-              "elem": "control",
+              "block": "button",
+              "mods": {
+                "size": "l",
+                "width": "full"
+              },
               "mix": [
                 {
-                  "block": "list",
-                  "elem": "item"
-                }
-              ],
-              "content": [
+                  "block": "subscription",
+                  "elem": "control"
+                },
                 {
-                  "block": "button",
-                  "mods": {
-                    "size": "l",
-                    "width": "full"
+                  "block": "list",
+                  "elem": "item",
+                  "elemMods": {
+                    "indent-b": "s"
                   }
                 }
               ]

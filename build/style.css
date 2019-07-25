@@ -548,7 +548,7 @@
     --marginTop: 11px;
     --marginBottom: 10px; }
   .text_type_h1 {
-    margin: 15px 0 21px; }
+    margin: 13px 0 24px; }
   .text_type_h2 {
     margin: 48px 0 20px; }
   .text_type_h3 {
@@ -575,8 +575,8 @@
 .text__word {
   height: var(--textWordHeight);
   background-color: var(--wordColor);
-  margin-top: var(--marginTop);
-  margin-bottom: var(--marginBottom); }
+  margin-bottom: calc((var(--lineHeight) - var(--textWordHeight))/2);
+  margin-top: calc((var(--lineHeight) - var(--textWordHeight))/2); }
   .text__word_width_s {
     width: var(--textWordWidthS); }
   .text__word_width_m {

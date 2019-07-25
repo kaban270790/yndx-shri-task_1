@@ -512,45 +512,35 @@
     --textWordWidthS: 20px;
     --textWordWidthM: 48px;
     --textWordWidthL: 100px;
-    --lineHeight: var(--themeSizeIntervalS);
-    --marginTop: 5px;
-    --marginBottom: 6px; }
+    --lineHeight: var(--themeSizeIntervalS); }
   .text_size_m {
     --textWordHeight: 8px;
     --textWordWidthS: 24px;
     --textWordWidthM: 56px;
     --textWordWidthL: 114px;
-    --lineHeight: var(--themeSizeIntervalM);
-    --marginTop: 6px;
-    --marginBottom: 7px; }
+    --lineHeight: var(--themeSizeIntervalM); }
   .text_size_l {
     --textWordHeight: 10px;
     --textWordWidthS: 28px;
     --textWordWidthM: 68px;
     --textWordWidthL: 138px;
-    --lineHeight: var(--themeSizeIntervalL);
-    --marginTop: 7px;
-    --marginBottom: 8px; }
+    --lineHeight: var(--themeSizeIntervalL); }
   .text_size_xl {
     --textWordHeight: 11px;
     --textWordWidthS: 32px;
     --textWordWidthM: 74px;
     --textWordWidthL: 154px;
-    --lineHeight: var(--themeSizeIntervalXL);
-    --marginTop: 8px;
-    --marginBottom: 9px; }
+    --lineHeight: var(--themeSizeIntervalXL); }
   .text_size_xxl {
     --textWordHeight: 13px;
     --textWordWidthS: 36px;
     --textWordWidthM: 88px;
     --textWordWidthL: 184px;
-    --lineHeight: var(--themeSizeIntervalXXL);
-    --marginTop: 11px;
-    --marginBottom: 10px; }
+    --lineHeight: var(--themeSizeIntervalXXL); }
   .text_type_h1 {
     margin: 13px 0 24px; }
   .text_type_h2 {
-    margin: 48px 0 20px; }
+    margin: 47px 0 20px; }
   .text_type_h3 {
     margin: 43px 0 0; }
   .text_type_p {

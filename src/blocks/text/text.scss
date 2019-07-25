@@ -14,8 +14,8 @@
       --textWordWidthM: 48px;
       --textWordWidthL: 100px;
       --lineHeight: var(--themeSizeIntervalS);
-      --marginTop: 5px;
-      --marginBottom: 6px;
+      //--marginTop: 5px;
+      //--marginBottom: 6px;
     }
 
     &_m {
@@ -24,8 +24,8 @@
       --textWordWidthM: 56px;
       --textWordWidthL: 114px;
       --lineHeight: var(--themeSizeIntervalM);
-      --marginTop: 6px;
-      --marginBottom: 7px;
+      //--marginTop: 6px;
+      //--marginBottom: 7px;
     }
 
     &_l {
@@ -34,8 +34,8 @@
       --textWordWidthM: 68px;
       --textWordWidthL: 138px;
       --lineHeight: var(--themeSizeIntervalL);
-      --marginTop: 7px;
-      --marginBottom: 8px;
+      //--marginTop: 7px;
+      //--marginBottom: 8px;
     }
 
     &_xl {
@@ -44,8 +44,8 @@
       --textWordWidthM: 74px;
       --textWordWidthL: 154px;
       --lineHeight: var(--themeSizeIntervalXL);
-      --marginTop: 8px;
-      --marginBottom: 9px;
+      //--marginTop: 8px;
+      //--marginBottom: 9px;
     }
 
     &_xxl {
@@ -54,8 +54,8 @@
       --textWordWidthM: 88px;
       --textWordWidthL: 184px;
       --lineHeight: var(--themeSizeIntervalXXL);
-      --marginTop: 11px;
-      --marginBottom: 10px;
+      //--marginTop: 11px;
+      //--marginBottom: 10px;
     }
   }
 
@@ -66,8 +66,8 @@
     }
 
     &_h2 {
-      margin: 48px 0 20px; //В описании используется этот размер, но ни где он не совпал с макетом
-      //margin: 46px 0 23px;
+      //margin: 48px 0 20px; //В описании используется этот размер, но ни где он не совпал с макетом
+      margin: 47px 0 20px;
     }
 
     &_h3 {

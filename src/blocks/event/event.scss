@@ -3,6 +3,7 @@
   min-height: 333px;
   display: flex;
   flex-direction: column;
+  margin-top: -1px;
 }
 @import "./elements/preview.scss";
 @import "./elements/speaker.scss";

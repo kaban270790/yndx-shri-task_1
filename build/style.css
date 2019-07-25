@@ -550,7 +550,7 @@
   .text_type_h1 {
     margin: 13px 0 24px; }
   .text_type_h2 {
-    margin: 47px 0 20px; }
+    margin: 47px 0 22px; }
   .text_type_h3 {
     margin: 43px 0 0; }
   .text_type_p {
@@ -1023,7 +1023,8 @@
   box-sizing: border-box;
   min-height: 333px;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-top: -1px; }
 
 .event__preview {
   display: flex;

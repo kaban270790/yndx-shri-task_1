@@ -557,6 +557,8 @@
     margin: 43px 0 0; }
   .text_type_p {
     margin: 16px 0 20px; }
+  .text_type_h3 + .text_type_p {
+    margin: 17px 0 21px; }
   .text_view_primary {
     --wordColor: var(--themeTextColorDefault); }
   .text_view_secondary {

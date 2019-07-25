@@ -564,6 +564,9 @@
         margin-bottom: -2px; } }
   .text_type_h3 {
     margin: 43px 0 0; }
+    @media (max-width: 880px) {
+      .text_type_h3 {
+        margin: 44px 0 0; } }
   .text_type_p {
     margin: 16px 0 20px; }
   .text_type_h3 + .text_type_p {
@@ -574,7 +577,8 @@
       top: -1px; }
     .text_type_h2 + .text_type_p {
       position: relative;
-      top: 1px; } }
+      top: 1px;
+      margin-top: 23px; } }
   .text_view_primary {
     --wordColor: var(--themeTextColorDefault); }
   .text_view_secondary {

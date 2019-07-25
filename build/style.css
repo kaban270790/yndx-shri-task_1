@@ -502,6 +502,12 @@
   flex-grow: unset;
   width: 200px; }
 
+/**
+ * Created by Дмитрий
+ * User: Дмитрий
+ * Date: 015 15.06.19
+ * Time: 21:57:06
+**/
 .text {
   display: flex;
   flex-wrap: wrap; }
@@ -559,6 +565,13 @@
     margin: 16px 0 20px; }
   .text_type_h3 + .text_type_p {
     margin: 17px 0 21px; }
+  @media (max-width: 880px) {
+    .text_type_h1 + .text_type_p {
+      position: relative;
+      top: -1px; }
+    .text_type_h2 + .text_type_p {
+      position: relative;
+      top: 1px; } }
   .text_view_primary {
     --wordColor: var(--themeTextColorDefault); }
   .text_view_secondary {

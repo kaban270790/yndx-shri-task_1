@@ -1,3 +1,4 @@
+@import "../../tools.scss";
 .text {
   display: flex;
   flex-wrap: wrap;
@@ -83,6 +84,17 @@
     }
     &_h3 + &_p {
       margin: 17px 0 21px;
+    }
+
+    @media (max-width: $widthS) { //костыль потому что не проходит на 1пиксель по высоте на странице content в мобильной версии
+      &_h1 + &_p {
+        position: relative;
+        top: -1px;
+      }
+      &_h2 + &_p {
+        position: relative;
+        top: 1px;
+      }
     }
   }
 

@@ -942,6 +942,9 @@
 .collect__title {
   margin-bottom: var(--themeSpaceS); }
 
+.collect__text {
+  margin-bottom: calc(-1 * var(--themeSpaceXXXS)); }
+
 .collect__done {
   height: 100%;
   width: 0;

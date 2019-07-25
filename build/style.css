@@ -548,9 +548,11 @@
     --marginTop: 10px;
     --marginBottom: 11px; }
   .text_type_h1 {
-    margin: 13px 0 23px; }
+    margin: 14px 0 24px; }
   .text_type_h2 {
-    margin: 47px 0 20px; }
+    margin: 46px 0 22px; }
+    .text_type_h2 + .text {
+      margin-bottom: -2px; }
   .text_type_h3 {
     margin: 43px 0 0; }
   .text_type_p {

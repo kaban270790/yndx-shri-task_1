@@ -1,4 +1,5 @@
 .collect__progress {
   height: var(--themeSpaceXS);
   border-bottom: 3px solid var(--themeColorBorder);
+  box-sizing: content-box;
 }

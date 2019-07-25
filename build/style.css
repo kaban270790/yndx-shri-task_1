@@ -955,7 +955,8 @@
 
 .collect__progress {
   height: var(--themeSpaceXS);
-  border-bottom: 3px solid var(--themeColorBorder); }
+  border-bottom: 3px solid var(--themeColorBorder);
+  box-sizing: content-box; }
 
 .collect__footer {
   margin-top: auto; }

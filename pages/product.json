@@ -1239,6 +1239,12 @@
     "mix": [
       {
         "block": "layout"
+      },
+      {
+        "block": "section",
+        "mods": {
+          "space-v": "xxxxl"
+        }
       }
     ],
     "content": [

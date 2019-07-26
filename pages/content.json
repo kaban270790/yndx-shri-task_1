@@ -654,20 +654,26 @@
                             "elemMods": {
                               "vertical-align": "center",
                               "distribute": "center",
-                              "space-a": "m"
+                              "space-a": "xxl"
                             }
                           }
                         ],
                         "content": [
                           {
-                            "block": "card",
-                            "elem": "content",
+                            "block": "event",
+                            "elem": "preview",
                             "content": [
                               {
-                                "block": "avatar",
-                                "mods": {
-                                  "size": "m"
-                                }
+                                "block": "event",
+                                "elem": "speaker",
+                                "content": [
+                                  {
+                                    "block": "avatar",
+                                    "mods": {
+                                      "size": "m"
+                                    }
+                                  }
+                                ]
                               },
                               {
                                 "block": "brand-logo",
@@ -679,85 +685,97 @@
                             ]
                           },
                           {
-                            "block": "text",
-                            "mods": {
-                              "view": "primary",
-                              "size": "xxl",
-                              "align": "center"
-                            },
+                            "block": "event",
+                            "elem": "title",
                             "content": [
                               {
                                 "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
+                                "mods": {
+                                  "view": "primary",
+                                  "size": "xxl",
+                                  "align": "center"
+                                },
+                                "content": [
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  }
+                                ]
                               }
                             ]
                           },
                           {
-                            "block": "text",
-                            "mods": {
-                              "view": "primary",
-                              "size": "l",
-                              "align": "center"
-                            },
+                            "block": "event",
+                            "elem": "description",
                             "content": [
                               {
                                 "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
+                                "mods": {
+                                  "view": "primary",
+                                  "size": "l",
+                                  "align": "center"
+                                },
+                                "content": [
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  }
+                                ]
                               }
                             ]
                           }
@@ -773,7 +791,7 @@
                             "elemMods": {
                               "vertical-align": "center",
                               "distribute": "center",
-                              "space-a": "m"
+                              "space-a": "xxl"
                             }
                           }
                         ],
@@ -842,110 +860,128 @@
                             "elemMods": {
                               "vertical-align": "center",
                               "distribute": "center",
-                              "space-a": "m"
+                              "space-a": "xxl"
                             }
                           }
                         ],
                         "content": [
                           {
-                            "block": "card",
-                            "elem": "content",
+                            "block": "event",
+                            "elem": "preview",
                             "content": [
                               {
-                                "block": "avatar",
-                                "mods": {
-                                  "size": "m"
-                                }
+                                "block": "event",
+                                "elem": "speaker",
+                                "content": [
+                                  {
+                                    "block": "avatar",
+                                    "mods": {
+                                      "size": "m"
+                                    }
+                                  }
+                                ]
                               },
                               {
                                 "block": "brand-logo",
                                 "mods": {
-                                  "name": "yota",
+                                  "name": "mts",
                                   "size": "m"
                                 }
                               }
                             ]
                           },
                           {
-                            "block": "text",
-                            "mods": {
-                              "view": "primary",
-                              "size": "xxl",
-                              "align": "center"
-                            },
+                            "block": "event",
+                            "elem": "title",
                             "content": [
                               {
                                 "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
+                                "mods": {
+                                  "view": "primary",
+                                  "size": "xxl",
+                                  "align": "center"
+                                },
+                                "content": [
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  }
+                                ]
                               }
                             ]
                           },
                           {
-                            "block": "text",
-                            "mods": {
-                              "view": "primary",
-                              "size": "l",
-                              "align": "center"
-                            },
+                            "block": "event",
+                            "elem": "description",
                             "content": [
                               {
                                 "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
-                              },
-                              {
-                                "block": "text",
-                                "elem": "word",
-                                "elemMods": {
-                                  "width": "l"
-                                }
+                                "mods": {
+                                  "view": "primary",
+                                  "size": "l",
+                                  "align": "center"
+                                },
+                                "content": [
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  },
+                                  {
+                                    "block": "text",
+                                    "elem": "word",
+                                    "elemMods": {
+                                      "width": "l"
+                                    }
+                                  }
+                                ]
                               }
                             ]
                           }
@@ -961,7 +997,7 @@
                             "elemMods": {
                               "vertical-align": "center",
                               "distribute": "center",
-                              "space-a": "m"
+                              "space-a": "xxl"
                             }
                           }
                         ],
